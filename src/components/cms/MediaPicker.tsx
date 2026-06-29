@@ -145,10 +145,15 @@ export function MediaBrowser({ folder = "general", onSelect }: MediaBrowserProps
         toast.error(res.error);
         return;
       }
+      if (res.warning) {
+        toast.warning(res.warning);
+      }
       toast.success("Image uploaded");
       onSelect(res.path);
-    } catch {
-      toast.error("Upload failed. Please try again.");
+    } catch (error) {
+      const message = error instanceof Error ? error.message : "Unknown upload error";
+      console.error("[cms-media-upload] Upload action failed", { message });
+      toast.error(`Upload failed: ${message}`);
     } finally {
       setUploading(false);
       if (fileInput.current) fileInput.current.value = "";

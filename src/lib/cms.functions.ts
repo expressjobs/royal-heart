@@ -707,8 +707,15 @@ export const reorderCmsRecords = createServerFn({ method: "POST" })
   });
 
 export type UploadSiteMediaResult =
-  | { ok: true; path: string; width: number; height: number }
+  | { ok: true; path: string; width: number; height: number; warning?: string }
   | { ok: false; error: string };
+
+function describeSupabaseError(error: unknown): string {
+  if (error && typeof error === "object" && "message" in error) {
+    return String((error as { message: unknown }).message);
+  }
+  return error instanceof Error ? error.message : "Unknown Supabase error";
+}
 
 /**
  * Super-admin-only validated upload into the site-media bucket.
@@ -756,12 +763,24 @@ export const uploadSiteMedia = createServerFn({ method: "POST" })
     const cleanFolder = folder.replace(/[^a-z0-9-_]/gi, "").toLowerCase() || "general";
     const path = `${cleanFolder}/${crypto.randomUUID()}.${EXT_BY_FORMAT[info.format]}`;
     const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
-    const { error: uploadError } = await supabaseAdmin.storage.from(BUCKET).upload(path, file, {
+    const { error: uploadError } = await supabaseAdmin.storage.from(BUCKET).upload(path, bytes, {
       cacheControl: "31536000",
       upsert: false,
       contentType: `image/${info.format}`,
     });
-    if (uploadError) return { ok: false, error: "Upload failed. Please try again." };
+    if (uploadError) {
+      const message = describeSupabaseError(uploadError);
+      console.error("[cms-media-upload] Supabase Storage upload failed", {
+        bucket: BUCKET,
+        path,
+        userId: context.userId,
+        message,
+        name: uploadError.name,
+        status: "status" in uploadError ? uploadError.status : undefined,
+        statusCode: "statusCode" in uploadError ? uploadError.statusCode : undefined,
+      });
+      return { ok: false, error: `Storage upload failed: ${message}` };
+    }
 
     const { error: insertError } = await supabaseAdmin.from("media_library").insert({
       path,
@@ -776,10 +795,33 @@ export const uploadSiteMedia = createServerFn({ method: "POST" })
       uploaded_by: context.userId,
     });
     if (insertError) {
-      await supabaseAdmin.storage.from(BUCKET).remove([path]);
-      return { ok: false, error: "Could not register the upload. Please try again." };
+      const message = describeSupabaseError(insertError);
+      console.warn("[cms-media-upload] Media registry insert failed after storage upload", {
+        bucket: BUCKET,
+        path,
+        userId: context.userId,
+        message,
+        code: insertError.code,
+        details: insertError.details,
+        hint: insertError.hint,
+      });
+      return {
+        ok: true,
+        path,
+        width: info.width,
+        height: info.height,
+        warning: `Image uploaded, but the media library registry was not updated: ${message}`,
+      };
     }
 
-    await auditCms(supabaseAdmin, context.userId, "cms.media.upload", "media_library", path);
+    try {
+      await auditCms(supabaseAdmin, context.userId, "cms.media.upload", "media_library", path);
+    } catch (auditError) {
+      console.warn("[cms-media-upload] Audit write failed after storage upload", {
+        path,
+        userId: context.userId,
+        message: describeSupabaseError(auditError),
+      });
+    }
     return { ok: true, path, width: info.width, height: info.height };
   });
