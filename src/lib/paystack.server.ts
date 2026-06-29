@@ -39,6 +39,7 @@ interface PaymentRow {
   currency: string;
   customer_email: string | null;
   invoice_number: string | null;
+  reference: string | null;
   metadata: unknown;
 }
 
@@ -166,6 +167,108 @@ function invoiceNumber(): string {
   return `INV-${stamp}-${rand}`;
 }
 
+function safeRecord(value: unknown): Record<string, unknown> {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return {};
+  return value as Record<string, unknown>;
+}
+
+function safeReferenceTail(reference: string | null | undefined): string | null {
+  if (!reference) return null;
+  return reference.length <= 8 ? reference : reference.slice(-8);
+}
+
+function normalizedEmail(value: string | null | undefined): string | null {
+  const email = value?.trim().toLowerCase();
+  return email || null;
+}
+
+function normalizedCurrency(value: string | null | undefined): string | null {
+  const currency = value?.trim().toUpperCase();
+  return currency || null;
+}
+
+function metadataString(metadata: Record<string, unknown>, key: string): string | null {
+  const value = metadata[key];
+  return typeof value === "string" && value.trim() ? value.trim() : null;
+}
+
+function paymentLogContext(payment: PaymentRow | null, reference?: string | null) {
+  return {
+    paymentId: payment?.id ?? null,
+    referenceTail: safeReferenceTail(payment?.reference ?? reference),
+    userId: payment?.user_id ?? null,
+    planId: payment?.plan_id ?? null,
+    status: payment?.status ?? null,
+  };
+}
+
+function logPaymentEvent(
+  level: "warn" | "error" | "info",
+  message: string,
+  context: Record<string, unknown>,
+) {
+  const logger = level === "error" ? console.error : level === "warn" ? console.warn : console.log;
+  logger(`[paystack-fulfillment] ${message}`, context);
+}
+
+function validateVerifiedTransaction(payment: PaymentRow, data: PaystackVerifyData): string[] {
+  const errors: string[] = [];
+  const metadata = safeRecord(data.metadata);
+  const expectedCurrency = normalizedCurrency(payment.currency);
+  const actualCurrency = normalizedCurrency(data.currency);
+  const expectedEmail = normalizedEmail(payment.customer_email);
+  const actualEmail = normalizedEmail(data.customer?.email);
+  const metadataUserId = metadataString(metadata, "user_id");
+  const metadataPlanId = metadataString(metadata, "plan_id");
+
+  if (!payment.reference || data.reference !== payment.reference) {
+    errors.push("reference_mismatch");
+  }
+
+  if (!Number.isFinite(data.amount) || Number(data.amount) !== Number(payment.amount_cents)) {
+    errors.push("amount_mismatch");
+  }
+
+  if (!actualCurrency || !expectedCurrency || actualCurrency !== expectedCurrency) {
+    errors.push("currency_mismatch");
+  }
+
+  if (!metadataUserId || metadataUserId !== payment.user_id) {
+    errors.push("metadata_user_mismatch");
+  }
+
+  if (!payment.plan_id || !metadataPlanId || metadataPlanId !== payment.plan_id) {
+    errors.push("metadata_plan_mismatch");
+  }
+
+  if (expectedEmail && actualEmail && expectedEmail !== actualEmail) {
+    errors.push("customer_email_mismatch");
+  }
+
+  return errors;
+}
+
+async function markPaymentFailed(
+  payment: PaymentRow,
+  reason: string,
+  extraMetadata: Record<string, unknown> = {},
+) {
+  const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+  const { error } = await supabaseAdmin
+    .from("payments")
+    .update({
+      status: "failed",
+      metadata: {
+        ...safeRecord(payment.metadata),
+        ...extraMetadata,
+        failure_reason: reason,
+        failed_at: new Date().toISOString(),
+      },
+    })
+    .eq("id", payment.id);
+  if (error) throw error;
+}
+
 export interface FulfillResult {
   ok: boolean;
   status: "succeeded" | "failed" | "pending" | "already";
@@ -192,53 +295,85 @@ export async function fulfillTransaction(data: PaystackVerifyData): Promise<Fulf
     .maybeSingle();
 
   if (!payment) {
+    logPaymentEvent("warn", "verified transaction has no internal payment", {
+      referenceTail: safeReferenceTail(data.reference),
+      paystackStatus: data.status,
+    });
     // Unknown reference — nothing we created; ignore safely.
     return { ok: false, status: "failed" };
   }
 
+  const paymentRow = payment as PaymentRow;
+
   // Idempotency: already processed.
-  if (payment.status === "succeeded") {
+  if (paymentRow.status === "succeeded") {
     return {
       ok: true,
       status: "already",
       tier: undefined,
-      planName: payment.description ?? undefined,
-      periodEnd: payment.period_end,
-      paymentMethod: payment.payment_method ?? undefined,
+      planName: paymentRow.description ?? undefined,
+      periodEnd: paymentRow.period_end,
+      paymentMethod: paymentRow.payment_method ?? undefined,
     };
   }
 
   const method = mapPaymentMethod(data.channel ?? data.authorization?.channel);
-  const userId = payment.user_id as string;
+  const userId = paymentRow.user_id as string;
 
   // Handle non-success outcomes (failed / abandoned / cancelled).
   if (data.status !== "success") {
-    await supabaseAdmin
+    const { error } = await supabaseAdmin
       .from("payments")
       .update({
         status: data.status === "abandoned" ? "failed" : "failed",
         payment_method: method,
         provider_payment_id: data.id ? String(data.id) : null,
-        metadata: { ...(payment.metadata as object), paystack_status: data.status },
+        metadata: { ...safeRecord(paymentRow.metadata), paystack_status: data.status },
       })
-      .eq("id", payment.id);
+      .eq("id", paymentRow.id);
+    if (error) throw error;
+    return { ok: false, status: "failed", paymentMethod: method };
+  }
+
+  const validationErrors = validateVerifiedTransaction(paymentRow, data);
+  if (validationErrors.length > 0) {
+    await markPaymentFailed(paymentRow, "paystack_validation_failed", {
+      paystack_status: data.status,
+      fulfillment_validation_errors: validationErrors,
+      paystack_id: data.id ?? null,
+    });
+    logPaymentEvent("warn", "verified transaction failed internal validation", {
+      ...paymentLogContext(paymentRow),
+      validationErrors,
+    });
     return { ok: false, status: "failed", paymentMethod: method };
   }
 
   // Load the plan to size the membership period.
-  if (!payment.plan_id) return { ok: false, status: "failed" };
+  if (!paymentRow.plan_id) {
+    await markPaymentFailed(paymentRow, "missing_payment_plan");
+    return { ok: false, status: "failed" };
+  }
   const { data: plan } = await supabaseAdmin
     .from("subscription_plans")
     .select("*")
-    .eq("id", payment.plan_id)
+    .eq("id", paymentRow.plan_id)
     .maybeSingle();
-  if (!plan) return { ok: false, status: "failed" };
+  if (!plan) {
+    await markPaymentFailed(paymentRow, "payment_plan_not_found");
+    logPaymentEvent(
+      "warn",
+      "payment plan not found during fulfillment",
+      paymentLogContext(paymentRow),
+    );
+    return { ok: false, status: "failed" };
+  }
 
   const now = new Date();
 
   // ---- Installment payments (Gold Annual paid in 2 or 3 parts) ----
-  if (payment.installment_id) {
-    return fulfillInstallment(payment, plan, data, method, now);
+  if (paymentRow.installment_id) {
+    return fulfillInstallment(paymentRow, plan, data, method, now);
   }
 
   // ---- Standard one-off payment ----
@@ -251,11 +386,12 @@ export async function fulfillTransaction(data: PaystackVerifyData): Promise<Fulf
   const autoRenew = isCard && !!data.authorization?.reusable;
 
   // Cancel any previous live subscriptions for a clean switch.
-  await supabaseAdmin
+  const { error: cancelError } = await supabaseAdmin
     .from("subscriptions")
     .update({ status: "canceled", canceled_at: now.toISOString() })
     .eq("user_id", userId)
     .in("status", ["active", "trialing", "past_due"]);
+  if (cancelError) throw cancelError;
 
   const subMetadata = {
     ...brandMetadata(plan.name),
@@ -264,7 +400,7 @@ export async function fulfillTransaction(data: PaystackVerifyData): Promise<Fulf
     authorization_code: autoRenew ? (data.authorization?.authorization_code ?? null) : null,
   };
 
-  const { data: sub } = await supabaseAdmin
+  const { data: sub, error: insertSubscriptionError } = await supabaseAdmin
     .from("subscriptions")
     .insert({
       user_id: userId,
@@ -282,37 +418,45 @@ export async function fulfillTransaction(data: PaystackVerifyData): Promise<Fulf
     })
     .select("id")
     .single();
+  if (insertSubscriptionError || !sub) {
+    throw insertSubscriptionError ?? new Error("Subscription insert failed.");
+  }
 
   // Finalize the payment record with method + branding metadata.
-  await supabaseAdmin
+  const { error: updatePaymentError } = await supabaseAdmin
     .from("payments")
     .update({
       status: "succeeded",
-      subscription_id: sub?.id ?? payment.subscription_id,
+      subscription_id: sub.id ?? paymentRow.subscription_id,
       payment_method: method,
       gateway: "paystack",
       provider_payment_id: data.id ? String(data.id) : null,
-      customer_email: data.customer?.email ?? payment.customer_email,
-      invoice_number: payment.invoice_number ?? invoiceNumber(),
+      customer_email: data.customer?.email ?? paymentRow.customer_email,
+      invoice_number: paymentRow.invoice_number ?? invoiceNumber(),
       period_start: now.toISOString(),
       period_end: periodEnd.toISOString(),
       metadata: {
-        ...(payment.metadata as object),
+        ...safeRecord(paymentRow.metadata),
         payment_method: method,
         paystack_status: data.status,
         paystack_id: data.id ?? null,
       },
     })
-    .eq("id", payment.id);
+    .eq("id", paymentRow.id);
+  if (updatePaymentError) throw updatePaymentError;
 
   // Apply the membership tier.
-  await supabaseAdmin.from("profiles").update({ membership_tier: plan.tier }).eq("id", userId);
+  const { error: updateProfileError } = await supabaseAdmin
+    .from("profiles")
+    .update({ membership_tier: plan.tier })
+    .eq("id", userId);
+  if (updateProfileError) throw updateProfileError;
   const { createCommissionForPayment } = await import("@/lib/referrals.functions");
   await createCommissionForPayment({
-    paymentId: payment.id,
+    paymentId: paymentRow.id,
     userId,
-    grossAmount: Number(data.amount ?? payment.amount_cents) / 100,
-    currency: data.currency || payment.currency || "KES",
+    grossAmount: Number(data.amount ?? paymentRow.amount_cents) / 100,
+    currency: data.currency || paymentRow.currency || "KES",
     tier: plan.tier,
   });
 
@@ -376,7 +520,7 @@ async function fulfillInstallment(
 
   let subId: string | null = inst.subscription_id;
   if (subId) {
-    await supabaseAdmin
+    const { error: updateSubscriptionError } = await supabaseAdmin
       .from("subscriptions")
       .update({
         status: "active",
@@ -391,13 +535,15 @@ async function fulfillInstallment(
         metadata: subMetadata,
       })
       .eq("id", subId);
+    if (updateSubscriptionError) throw updateSubscriptionError;
   } else {
-    await supabaseAdmin
+    const { error: cancelError } = await supabaseAdmin
       .from("subscriptions")
       .update({ status: "canceled", canceled_at: now.toISOString() })
       .eq("user_id", userId)
       .in("status", ["active", "trialing", "past_due"]);
-    const { data: sub } = await supabaseAdmin
+    if (cancelError) throw cancelError;
+    const { data: sub, error: insertSubscriptionError } = await supabaseAdmin
       .from("subscriptions")
       .insert({
         user_id: userId,
@@ -415,10 +561,13 @@ async function fulfillInstallment(
       })
       .select("id")
       .single();
+    if (insertSubscriptionError || !sub) {
+      throw insertSubscriptionError ?? new Error("Installment subscription insert failed.");
+    }
     subId = sub?.id ?? null;
   }
 
-  await supabaseAdmin
+  const { error: updateInstallmentError } = await supabaseAdmin
     .from("payment_installments")
     .update({
       installments_paid: newPaid,
@@ -429,8 +578,9 @@ async function fulfillInstallment(
       subscription_id: subId,
     })
     .eq("id", inst.id);
+  if (updateInstallmentError) throw updateInstallmentError;
 
-  await supabaseAdmin
+  const { error: updatePaymentError } = await supabaseAdmin
     .from("payments")
     .update({
       status: "succeeded",
@@ -443,7 +593,7 @@ async function fulfillInstallment(
       period_start: now.toISOString(),
       period_end: periodEnd.toISOString(),
       metadata: {
-        ...(payment.metadata as object),
+        ...safeRecord(payment.metadata),
         payment_method: method,
         paystack_status: data.status,
         paystack_id: data.id ?? null,
@@ -452,8 +602,13 @@ async function fulfillInstallment(
       },
     })
     .eq("id", payment.id);
+  if (updatePaymentError) throw updatePaymentError;
 
-  await supabaseAdmin.from("profiles").update({ membership_tier: plan.tier }).eq("id", userId);
+  const { error: updateProfileError } = await supabaseAdmin
+    .from("profiles")
+    .update({ membership_tier: plan.tier })
+    .eq("id", userId);
+  if (updateProfileError) throw updateProfileError;
   const { createCommissionForPayment } = await import("@/lib/referrals.functions");
   await createCommissionForPayment({
     paymentId: payment.id,

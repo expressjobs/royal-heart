@@ -2,6 +2,20 @@ import { createFileRoute } from "@tanstack/react-router";
 import { createHmac, timingSafeEqual } from "crypto";
 import type { PaystackEvent } from "@/lib/paystack.server";
 
+function safeReferenceTail(event: PaystackEvent): string | null {
+  const reference =
+    event.data?.reference ??
+    event.data?.transaction?.reference ??
+    event.data?.transaction_reference ??
+    null;
+  if (!reference) return null;
+  return reference.length <= 8 ? reference : reference.slice(-8);
+}
+
+function safeErrorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : "Unknown webhook processing error.";
+}
+
 /**
  * Paystack webhook. Verifies the x-paystack-signature (HMAC SHA512 of the raw
  * body with the secret key) before processing, then idempotently fulfills the
@@ -39,12 +53,18 @@ export const Route = createFileRoute("/api/public/paystack-webhook")({
           // Signature is verified; dispatch to the matching event handler.
           // Charge/invoice payments are re-verified against Paystack inside.
           const result = await handleWebhookEvent(event);
-          console.log("[paystack-webhook]", event.event, result.status);
+          console.log("[paystack-webhook]", {
+            event: event.event,
+            status: result.status,
+            referenceTail: safeReferenceTail(event),
+          });
         } catch (err) {
-          console.error("[paystack-webhook]", event.event, err);
-          // Return 200 so Paystack does not hammer retries on transient errors;
-          // the verify-on-redirect path is a second safety net for charges.
-          return new Response("received");
+          console.error("[paystack-webhook] processing failed", {
+            event: event.event,
+            referenceTail: safeReferenceTail(event),
+            message: safeErrorMessage(err),
+          });
+          return new Response("Webhook processing failed", { status: 500 });
         }
 
         return new Response("ok");
