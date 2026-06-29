@@ -160,7 +160,7 @@ function normalizeSectionData(data: unknown): Json {
 }
 
 function cmsFailure(error: unknown, fallback = "CMS action failed."): CmsMutationResult {
-  const message = error instanceof Error ? error.message : fallback;
+  const message = describeSupabaseError(error, fallback);
   return { ok: false, error: message };
 }
 
@@ -410,24 +410,60 @@ export const saveSiteContentSection = createServerFn({ method: "POST" })
     return { section, data: normalizeSectionData(raw.data) };
   })
   .handler(async ({ data, context }): Promise<CmsMutationResult> => {
+    let supabaseAdmin:
+      | Awaited<typeof import("@/integrations/supabase/client.server")>["supabaseAdmin"]
+      | null = null;
+
     try {
       await assertSuperAdmin(context);
-      const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    } catch (error) {
+      return cmsFailure(error, "CMS save blocked: current user is not a super admin.");
+    }
+
+    try {
+      ({ supabaseAdmin } = await import("@/integrations/supabase/client.server"));
+    } catch (error) {
+      return cmsFailure(error, "CMS save blocked: server admin client is not configured.");
+    }
+
+    try {
       const { error } = await supabaseAdmin
         .from("site_content")
         .upsert({ section: data.section, data: data.data }, { onConflict: "section" });
-      if (error) throw error;
-      await auditCms(
-        supabaseAdmin,
-        context.userId,
-        "cms.section.save",
-        "site_content",
-        data.section,
-      );
-      return { ok: true };
+      if (error) {
+        console.error("[cms-save] site_content upsert failed", {
+          section: data.section,
+          ...supabaseErrorFields(error),
+        });
+        return {
+          ok: false,
+          error: `CMS save failed while writing site_content (${data.section}): ${describeSupabaseError(
+            error,
+            "Unknown Supabase write error.",
+          )}`,
+        };
+      }
     } catch (error) {
-      return cmsFailure(error, "Could not save content.");
+      console.error("[cms-save] site_content upsert threw", {
+        section: data.section,
+        error: describeSupabaseError(error, "Unknown site_content write error."),
+      });
+      return cmsFailure(
+        error,
+        `CMS save failed while writing site_content (${data.section}).`,
+      );
     }
+
+    try {
+      await auditCms(supabaseAdmin, context.userId, "cms.section.save", "site_content", data.section);
+    } catch (error) {
+      console.warn("[cms-save] audit failed after site_content save", {
+        section: data.section,
+        error: describeSupabaseError(error, "Unknown audit error."),
+      });
+    }
+
+    return { ok: true };
   });
 
 export const listSuperAdminMediaLibrary = createServerFn({ method: "GET" })
@@ -727,11 +763,41 @@ export type UploadSiteMediaResult =
   | { ok: true; path: string; width: number; height: number; warning?: string }
   | { ok: false; error: string };
 
-function describeSupabaseError(error: unknown): string {
+function supabaseErrorFields(error: unknown): {
+  code?: string;
+  message?: string;
+  details?: string;
+  hint?: string;
+} {
   if (error && typeof error === "object" && "message" in error) {
-    return String((error as { message: unknown }).message);
+    const err = error as {
+      code?: unknown;
+      message?: unknown;
+      details?: unknown;
+      hint?: unknown;
+    };
+    return {
+      code: typeof err.code === "string" ? err.code : undefined,
+      message: typeof err.message === "string" ? err.message : undefined,
+      details: typeof err.details === "string" ? err.details : undefined,
+      hint: typeof err.hint === "string" ? err.hint : undefined,
+    };
   }
-  return error instanceof Error ? error.message : "Unknown Supabase error";
+  return {};
+}
+
+function describeSupabaseError(error: unknown, fallback = "Unknown Supabase error"): string {
+  const fields = supabaseErrorFields(error);
+  if (fields.message) {
+    return [
+      fields.code ? `${fields.code}: ${fields.message}` : fields.message,
+      fields.details ? `Details: ${fields.details}` : null,
+      fields.hint ? `Hint: ${fields.hint}` : null,
+    ]
+      .filter(Boolean)
+      .join(" ");
+  }
+  return error instanceof Error ? error.message : fallback;
 }
 
 /**
