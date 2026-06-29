@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /auth
+Disallow: /discover
+Disallow: /likes
+Disallow: /messages
+Disallow: /profile
+Disallow: /settings
+Disallow: /admin
+Disallow: /onboarding
+Disallow: /report-abuse
+
+Sitemap: https://royal-heart.com/sitemap.xml

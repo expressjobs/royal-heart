@@ -1,0 +1,251 @@
+iso2,iso3,name,official_name,region,subregion,capital,latitude,longitude,population,languages,priority_market,source
+AR,ARG,Argentina,Argentine Republic,Americas,South America,Buenos Aires,-34,-64,,Guaraní|Spanish,yes,mledoze/countries
+AU,AUS,Australia,Commonwealth of Australia,Oceania,Australia and New Zealand,Canberra,-27,133,,English,yes,mledoze/countries
+BD,BGD,Bangladesh,People's Republic of Bangladesh,Asia,Southern Asia,Dhaka,24,90,,Bengali,yes,mledoze/countries
+BR,BRA,Brazil,Federative Republic of Brazil,Americas,South America,Brasília,-10,-55,,Portuguese,yes,mledoze/countries
+CA,CAN,Canada,Canada,Americas,North America,Ottawa,60,-95,,English|French,yes,mledoze/countries
+CN,CHN,China,People's Republic of China,Asia,Eastern Asia,Beijing,35,105,,Chinese,yes,mledoze/countries
+EG,EGY,Egypt,Arab Republic of Egypt,Africa,Northern Africa,Cairo,27,30,,Arabic,yes,mledoze/countries
+ET,ETH,Ethiopia,Federal Democratic Republic of Ethiopia,Africa,Eastern Africa,Addis Ababa,8,38,,Amharic,yes,mledoze/countries
+FI,FIN,Finland,Republic of Finland,Europe,Northern Europe,Helsinki,64,26,,Finnish|Swedish,yes,mledoze/countries
+FR,FRA,France,French Republic,Europe,Western Europe,Paris,46,2,,French,yes,mledoze/countries
+DE,DEU,Germany,Federal Republic of Germany,Europe,Western Europe,Berlin,51,9,,German,yes,mledoze/countries
+GH,GHA,Ghana,Republic of Ghana,Africa,Western Africa,Accra,8,-2,,English,yes,mledoze/countries
+IN,IND,India,Republic of India,Asia,Southern Asia,New Delhi,20,77,,English|Hindi|Tamil,yes,mledoze/countries
+ID,IDN,Indonesia,Republic of Indonesia,Asia,South-Eastern Asia,Jakarta,-5,120,,Indonesian,yes,mledoze/countries
+IE,IRL,Ireland,Republic of Ireland,Europe,Northern Europe,Dublin,53,-8,,English|Irish,yes,mledoze/countries
+IT,ITA,Italy,Italian Republic,Europe,Southern Europe,Rome,42.83333333,12.83333333,,Italian,yes,mledoze/countries
+JP,JPN,Japan,Japan,Asia,Eastern Asia,Tokyo,36,138,,Japanese,yes,mledoze/countries
+KE,KEN,Kenya,Republic of Kenya,Africa,Eastern Africa,Nairobi,1,38,,English|Swahili,yes,mledoze/countries
+MX,MEX,Mexico,United Mexican States,Americas,North America,Mexico City,23,-102,,Spanish,yes,mledoze/countries
+MA,MAR,Morocco,Kingdom of Morocco,Africa,Northern Africa,Rabat,32,-5,,Arabic|Berber,yes,mledoze/countries
+NL,NLD,Netherlands,Kingdom of the Netherlands,Europe,Western Europe,Amsterdam,52.5,5.75,,Dutch,yes,mledoze/countries
+NZ,NZL,New Zealand,New Zealand,Oceania,Australia and New Zealand,Wellington,-41,174,,English|Māori|New Zealand Sign Language,yes,mledoze/countries
+NG,NGA,Nigeria,Federal Republic of Nigeria,Africa,Western Africa,Abuja,10,8,,English,yes,mledoze/countries
+NO,NOR,Norway,Kingdom of Norway,Europe,Northern Europe,Oslo,62,10,,Norwegian Bokmål|Norwegian Nynorsk|Sami,yes,mledoze/countries
+PK,PAK,Pakistan,Islamic Republic of Pakistan,Asia,Southern Asia,Islamabad,30,70,,English|Urdu,yes,mledoze/countries
+PH,PHL,Philippines,Republic of the Philippines,Asia,South-Eastern Asia,Manila,13,122,,English|Filipino,yes,mledoze/countries
+PL,POL,Poland,Republic of Poland,Europe,Central Europe,Warsaw,52,20,,Polish,yes,mledoze/countries
+QA,QAT,Qatar,State of Qatar,Asia,Western Asia,Doha,25.5,51.25,,Arabic,yes,mledoze/countries
+RU,RUS,Russia,Russian Federation,Europe,Eastern Europe,Moscow,60,100,,Russian,yes,mledoze/countries
+RW,RWA,Rwanda,Republic of Rwanda,Africa,Eastern Africa,Kigali,-2,30,,English|French|Kinyarwanda,yes,mledoze/countries
+SA,SAU,Saudi Arabia,Kingdom of Saudi Arabia,Asia,Western Asia,Riyadh,25,45,,Arabic,yes,mledoze/countries
+ZA,ZAF,South Africa,Republic of South Africa,Africa,Southern Africa,Pretoria,-29,24,,Afrikaans|English|Northern Sotho|Southern Ndebele|Southern Sotho|Swazi|Tsonga|Tswana|Venda|Xhosa|Zulu,yes,mledoze/countries
+KR,KOR,South Korea,Republic of Korea,Asia,Eastern Asia,Seoul,37,127.5,,Korean,yes,mledoze/countries
+ES,ESP,Spain,Kingdom of Spain,Europe,Southern Europe,Madrid,40,-4,,Spanish,yes,mledoze/countries
+SE,SWE,Sweden,Kingdom of Sweden,Europe,Northern Europe,Stockholm,62,15,,Swedish,yes,mledoze/countries
+TZ,TZA,Tanzania,United Republic of Tanzania,Africa,Eastern Africa,Dodoma,-6,35,,English|Swahili,yes,mledoze/countries
+TR,TUR,Türkiye,Republic of Türkiye,Asia,Western Asia,Ankara,39,35,,Turkish,yes,mledoze/countries
+UG,UGA,Uganda,Republic of Uganda,Africa,Eastern Africa,Kampala,1,32,,English|Swahili,yes,mledoze/countries
+AE,ARE,United Arab Emirates,United Arab Emirates,Asia,Western Asia,Abu Dhabi,24,54,,Arabic,yes,mledoze/countries
+GB,GBR,United Kingdom,United Kingdom of Great Britain and Northern Ireland,Europe,Northern Europe,London,54,-2,,English,yes,mledoze/countries
+US,USA,United States,United States of America,Americas,North America,Washington D.C.,38,-97,,English,yes,mledoze/countries
+AF,AFG,Afghanistan,Islamic Republic of Afghanistan,Asia,Southern Asia,Kabul,33,65,,Dari|Pashto|Turkmen,no,mledoze/countries
+AX,ALA,Åland Islands,Åland Islands,Europe,Northern Europe,Mariehamn,60.116667,19.9,,Swedish,no,mledoze/countries
+AL,ALB,Albania,Republic of Albania,Europe,Southeast Europe,Tirana,41,20,,Albanian,no,mledoze/countries
+DZ,DZA,Algeria,People's Democratic Republic of Algeria,Africa,Northern Africa,Algiers,28,3,,Arabic,no,mledoze/countries
+AS,ASM,American Samoa,American Samoa,Oceania,Polynesia,Pago Pago,-14.33333333,-170,,English|Samoan,no,mledoze/countries
+AD,AND,Andorra,Principality of Andorra,Europe,Southern Europe,Andorra la Vella,42.5,1.5,,Catalan,no,mledoze/countries
+AO,AGO,Angola,Republic of Angola,Africa,Middle Africa,Luanda,-12.5,18.5,,Portuguese,no,mledoze/countries
+AI,AIA,Anguilla,Anguilla,Americas,Caribbean,The Valley,18.25,-63.16666666,,English,no,mledoze/countries
+AQ,ATA,Antarctica,Antarctica,Antarctic,,,-90,0,,,no,mledoze/countries
+AG,ATG,Antigua and Barbuda,Antigua and Barbuda,Americas,Caribbean,Saint John's,17.05,-61.8,,English,no,mledoze/countries
+AM,ARM,Armenia,Republic of Armenia,Asia,Western Asia,Yerevan,40,45,,Armenian,no,mledoze/countries
+AW,ABW,Aruba,Aruba,Americas,Caribbean,Oranjestad,12.5,-69.96666666,,Dutch|Papiamento,no,mledoze/countries
+AT,AUT,Austria,Republic of Austria,Europe,Central Europe,Vienna,47.33333333,13.33333333,,Austro-Bavarian German,no,mledoze/countries
+AZ,AZE,Azerbaijan,Republic of Azerbaijan,Asia,Western Asia,Baku,40.5,47.5,,Azerbaijani|Russian,no,mledoze/countries
+BS,BHS,Bahamas,Commonwealth of the Bahamas,Americas,Caribbean,Nassau,24.25,-76,,English,no,mledoze/countries
+BH,BHR,Bahrain,Kingdom of Bahrain,Asia,Western Asia,Manama,26,50.55,,Arabic,no,mledoze/countries
+BB,BRB,Barbados,Barbados,Americas,Caribbean,Bridgetown,13.16666666,-59.53333333,,English,no,mledoze/countries
+BY,BLR,Belarus,Republic of Belarus,Europe,Eastern Europe,Minsk,53,28,,Belarusian|Russian,no,mledoze/countries
+BE,BEL,Belgium,Kingdom of Belgium,Europe,Western Europe,Brussels,50.83333333,4,,Dutch|French|German,no,mledoze/countries
+BZ,BLZ,Belize,Belize,Americas,Central America,Belmopan,17.25,-88.75,,Belizean Creole|English|Spanish,no,mledoze/countries
+BJ,BEN,Benin,Republic of Benin,Africa,Western Africa,Porto-Novo,9.5,2.25,,French,no,mledoze/countries
+BM,BMU,Bermuda,Bermuda,Americas,North America,Hamilton,32.33333333,-64.75,,English,no,mledoze/countries
+BT,BTN,Bhutan,Kingdom of Bhutan,Asia,Southern Asia,Thimphu,27.5,90.5,,Dzongkha,no,mledoze/countries
+BO,BOL,Bolivia,Plurinational State of Bolivia,Americas,South America,Sucre,-17,-65,,Aymara|Guaraní|Quechua|Spanish,no,mledoze/countries
+BA,BIH,Bosnia and Herzegovina,Bosnia and Herzegovina,Europe,Southeast Europe,Sarajevo,44,18,,Bosnian|Croatian|Serbian,no,mledoze/countries
+BW,BWA,Botswana,Republic of Botswana,Africa,Southern Africa,Gaborone,-22,24,,English|Tswana,no,mledoze/countries
+BV,BVT,Bouvet Island,Bouvet Island,Antarctic,,,-54.43333333,3.4,,Norwegian,no,mledoze/countries
+IO,IOT,British Indian Ocean Territory,British Indian Ocean Territory,Africa,Eastern Africa,Diego Garcia,-6,71.5,,English,no,mledoze/countries
+VG,VGB,British Virgin Islands,Virgin Islands,Americas,Caribbean,Road Town,18.431383,-64.62305,,English,no,mledoze/countries
+BN,BRN,Brunei,"Nation of Brunei, Abode of Peace",Asia,South-Eastern Asia,Bandar Seri Begawan,4.5,114.66666666,,Malay,no,mledoze/countries
+BG,BGR,Bulgaria,Republic of Bulgaria,Europe,Southeast Europe,Sofia,43,25,,Bulgarian,no,mledoze/countries
+BF,BFA,Burkina Faso,Burkina Faso,Africa,Western Africa,Ouagadougou,13,-2,,French,no,mledoze/countries
+BI,BDI,Burundi,Republic of Burundi,Africa,Eastern Africa,Gitega,-3.5,30,,French|Kirundi,no,mledoze/countries
+KH,KHM,Cambodia,Kingdom of Cambodia,Asia,South-Eastern Asia,Phnom Penh,13,105,,Khmer,no,mledoze/countries
+CM,CMR,Cameroon,Republic of Cameroon,Africa,Middle Africa,Yaoundé,6,12,,English|French,no,mledoze/countries
+CV,CPV,Cape Verde,Republic of Cabo Verde,Africa,Western Africa,Praia,16,-24,,Portuguese,no,mledoze/countries
+BQ,BES,Caribbean Netherlands,"Bonaire, Sint Eustatius and Saba",Americas,Caribbean,Kralendijk,12.18,-68.25,,Dutch|English|Papiamento,no,mledoze/countries
+KY,CYM,Cayman Islands,Cayman Islands,Americas,Caribbean,George Town,19.5,-80.5,,English,no,mledoze/countries
+CF,CAF,Central African Republic,Central African Republic,Africa,Middle Africa,Bangui,7,21,,French|Sango,no,mledoze/countries
+TD,TCD,Chad,Republic of Chad,Africa,Middle Africa,N'Djamena,15,19,,Arabic|French,no,mledoze/countries
+CL,CHL,Chile,Republic of Chile,Americas,South America,Santiago,-30,-71,,Spanish,no,mledoze/countries
+CX,CXR,Christmas Island,Territory of Christmas Island,Oceania,Australia and New Zealand,Flying Fish Cove,-10.5,105.66666666,,English,no,mledoze/countries
+CC,CCK,Cocos (Keeling) Islands,Territory of the Cocos (Keeling) Islands,Oceania,Australia and New Zealand,West Island,-12.5,96.83333333,,English,no,mledoze/countries
+CO,COL,Colombia,Republic of Colombia,Americas,South America,Bogotá,4,-72,,Spanish,no,mledoze/countries
+KM,COM,Comoros,Union of the Comoros,Africa,Eastern Africa,Moroni,-12.16666666,44.25,,Arabic|Comorian|French,no,mledoze/countries
+CG,COG,Congo,Republic of the Congo,Africa,Middle Africa,Brazzaville,-1,15,,French|Kikongo|Lingala,no,mledoze/countries
+CK,COK,Cook Islands,Cook Islands,Oceania,Polynesia,Avarua,-21.23333333,-159.76666666,,Cook Islands Māori|English,no,mledoze/countries
+CR,CRI,Costa Rica,Republic of Costa Rica,Americas,Central America,San José,10,-84,,Spanish,no,mledoze/countries
+HR,HRV,Croatia,Republic of Croatia,Europe,Southeast Europe,Zagreb,45.16666666,15.5,,Croatian,no,mledoze/countries
+CU,CUB,Cuba,Republic of Cuba,Americas,Caribbean,Havana,21.5,-80,,Spanish,no,mledoze/countries
+CW,CUW,Curaçao,Country of Curaçao,Americas,Caribbean,Willemstad,12.116667,-68.933333,,Dutch|English|Papiamento,no,mledoze/countries
+CY,CYP,Cyprus,Republic of Cyprus,Europe,Southern Europe,Nicosia,35,33,,Greek|Turkish,no,mledoze/countries
+CZ,CZE,Czechia,Czech Republic,Europe,Central Europe,Prague,49.75,15.5,,Czech|Slovak,no,mledoze/countries
+DK,DNK,Denmark,Kingdom of Denmark,Europe,Northern Europe,Copenhagen,56,10,,Danish,no,mledoze/countries
+DJ,DJI,Djibouti,Republic of Djibouti,Africa,Eastern Africa,Djibouti,11.5,43,,Arabic|French,no,mledoze/countries
+DM,DMA,Dominica,Commonwealth of Dominica,Americas,Caribbean,Roseau,15.41666666,-61.33333333,,English,no,mledoze/countries
+DO,DOM,Dominican Republic,Dominican Republic,Americas,Caribbean,Santo Domingo,19,-70.66666666,,Spanish,no,mledoze/countries
+CD,COD,DR Congo,Democratic Republic of the Congo,Africa,Middle Africa,Kinshasa,0,25,,French|Kikongo|Lingala|Swahili|Tshiluba,no,mledoze/countries
+EC,ECU,Ecuador,Republic of Ecuador,Americas,South America,Quito,-2,-77.5,,Spanish,no,mledoze/countries
+SV,SLV,El Salvador,Republic of El Salvador,Americas,Central America,San Salvador,13.83333333,-88.91666666,,Spanish,no,mledoze/countries
+GQ,GNQ,Equatorial Guinea,Republic of Equatorial Guinea,Africa,Middle Africa,Malabo,2,10,,French|Portuguese|Spanish,no,mledoze/countries
+ER,ERI,Eritrea,State of Eritrea,Africa,Eastern Africa,Asmara,15,39,,Arabic|English|Tigrinya,no,mledoze/countries
+EE,EST,Estonia,Republic of Estonia,Europe,Northern Europe,Tallinn,59,26,,Estonian,no,mledoze/countries
+SZ,SWZ,Eswatini,Kingdom of Eswatini,Africa,Southern Africa,Lobamba,-26.5,31.5,,English|Swazi,no,mledoze/countries
+FK,FLK,Falkland Islands,Falkland Islands,Americas,South America,Stanley,-51.75,-59,,English,no,mledoze/countries
+FO,FRO,Faroe Islands,Faroe Islands,Europe,Northern Europe,Tórshavn,62,-7,,Danish|Faroese,no,mledoze/countries
+FJ,FJI,Fiji,Republic of Fiji,Oceania,Melanesia,Suva,-18,175,,English|Fiji Hindi|Fijian,no,mledoze/countries
+GF,GUF,French Guiana,Guiana,Americas,South America,Cayenne,4,-53,,French,no,mledoze/countries
+PF,PYF,French Polynesia,French Polynesia,Oceania,Polynesia,Papeetē,-15,-140,,French,no,mledoze/countries
+TF,ATF,French Southern and Antarctic Lands,Territory of the French Southern and Antarctic Lands,Antarctic,,Port-aux-Français,-49.25,69.167,,French,no,mledoze/countries
+GA,GAB,Gabon,Gabonese Republic,Africa,Middle Africa,Libreville,-1,11.75,,French,no,mledoze/countries
+GM,GMB,Gambia,Republic of the Gambia,Africa,Western Africa,Banjul,13.46666666,-16.56666666,,English,no,mledoze/countries
+GE,GEO,Georgia,Georgia,Asia,Western Asia,Tbilisi,42,43.5,,Georgian,no,mledoze/countries
+GI,GIB,Gibraltar,Gibraltar,Europe,Southern Europe,Gibraltar,36.13333333,-5.35,,English,no,mledoze/countries
+GR,GRC,Greece,Hellenic Republic,Europe,Southern Europe,Athens,39,22,,Greek,no,mledoze/countries
+GL,GRL,Greenland,Greenland,Americas,North America,Nuuk,72,-40,,Greenlandic,no,mledoze/countries
+GD,GRD,Grenada,Grenada,Americas,Caribbean,St. George's,12.11666666,-61.66666666,,English,no,mledoze/countries
+GP,GLP,Guadeloupe,Guadeloupe,Americas,Caribbean,Basse-Terre,16.25,-61.583333,,French,no,mledoze/countries
+GU,GUM,Guam,Guam,Oceania,Micronesia,Hagåtña,13.46666666,144.78333333,,Chamorro|English|Spanish,no,mledoze/countries
+GT,GTM,Guatemala,Republic of Guatemala,Americas,Central America,Guatemala City,15.5,-90.25,,Spanish,no,mledoze/countries
+GG,GGY,Guernsey,Bailiwick of Guernsey,Europe,Northern Europe,St. Peter Port,49.46666666,-2.58333333,,English|French|Guernésiais,no,mledoze/countries
+GN,GIN,Guinea,Republic of Guinea,Africa,Western Africa,Conakry,11,-10,,French,no,mledoze/countries
+GW,GNB,Guinea-Bissau,Republic of Guinea-Bissau,Africa,Western Africa,Bissau,12,-15,,Portuguese|Upper Guinea Creole,no,mledoze/countries
+GY,GUY,Guyana,Co-operative Republic of Guyana,Americas,South America,Georgetown,5,-59,,English,no,mledoze/countries
+HT,HTI,Haiti,Republic of Haiti,Americas,Caribbean,Port-au-Prince,19,-72.41666666,,French|Haitian Creole,no,mledoze/countries
+HM,HMD,Heard Island and McDonald Islands,Heard Island and McDonald Islands,Antarctic,,,-53.1,72.51666666,,English,no,mledoze/countries
+HN,HND,Honduras,Republic of Honduras,Americas,Central America,Tegucigalpa,15,-86.5,,Spanish,no,mledoze/countries
+HK,HKG,Hong Kong,Hong Kong Special Administrative Region of the People's Republic of China,Asia,Eastern Asia,City of Victoria,22.267,114.188,,Chinese|English,no,mledoze/countries
+HU,HUN,Hungary,Hungary,Europe,Central Europe,Budapest,47,20,,Hungarian,no,mledoze/countries
+IS,ISL,Iceland,Iceland,Europe,Northern Europe,Reykjavik,65,-18,,Icelandic,no,mledoze/countries
+IR,IRN,Iran,Islamic Republic of Iran,Asia,Southern Asia,Tehran,32,53,,Persian (Farsi),no,mledoze/countries
+IQ,IRQ,Iraq,Republic of Iraq,Asia,Western Asia,Baghdad,33,44,,Arabic|Aramaic|Sorani,no,mledoze/countries
+IM,IMN,Isle of Man,Isle of Man,Europe,Northern Europe,Douglas,54.25,-4.5,,English|Manx,no,mledoze/countries
+IL,ISR,Israel,State of Israel,Asia,Western Asia,Jerusalem,31.47,35.13,,Arabic|Hebrew,no,mledoze/countries
+CI,CIV,Ivory Coast,Republic of Côte d'Ivoire,Africa,Western Africa,Yamoussoukro,8,-5,,French,no,mledoze/countries
+JM,JAM,Jamaica,Jamaica,Americas,Caribbean,Kingston,18.25,-77.5,,English|Jamaican Patois,no,mledoze/countries
+JE,JEY,Jersey,Bailiwick of Jersey,Europe,Northern Europe,Saint Helier,49.25,-2.16666666,,English|French|Jèrriais,no,mledoze/countries
+JO,JOR,Jordan,Hashemite Kingdom of Jordan,Asia,Western Asia,Amman,31,36,,Arabic,no,mledoze/countries
+KZ,KAZ,Kazakhstan,Republic of Kazakhstan,Asia,Central Asia,Astana,48,68,,Kazakh|Russian,no,mledoze/countries
+KI,KIR,Kiribati,Independent and Sovereign Republic of Kiribati,Oceania,Micronesia,South Tarawa,1.41666666,173,,English|Gilbertese,no,mledoze/countries
+XK,UNK,Kosovo,Republic of Kosovo,Europe,Southeast Europe,Pristina,42.666667,21.166667,,Albanian|Serbian,no,mledoze/countries
+KW,KWT,Kuwait,State of Kuwait,Asia,Western Asia,Kuwait City,29.5,45.75,,Arabic,no,mledoze/countries
+KG,KGZ,Kyrgyzstan,Kyrgyz Republic,Asia,Central Asia,Bishkek,41,75,,Kyrgyz|Russian,no,mledoze/countries
+LA,LAO,Laos,Lao People's Democratic Republic,Asia,South-Eastern Asia,Vientiane,18,105,,Lao,no,mledoze/countries
+LV,LVA,Latvia,Republic of Latvia,Europe,Northern Europe,Riga,57,25,,Latvian,no,mledoze/countries
+LB,LBN,Lebanon,Lebanese Republic,Asia,Western Asia,Beirut,33.83333333,35.83333333,,Arabic|French,no,mledoze/countries
+LS,LSO,Lesotho,Kingdom of Lesotho,Africa,Southern Africa,Maseru,-29.5,28.5,,English|Sotho,no,mledoze/countries
+LR,LBR,Liberia,Republic of Liberia,Africa,Western Africa,Monrovia,6.5,-9.5,,English,no,mledoze/countries
+LY,LBY,Libya,State of Libya,Africa,Northern Africa,Tripoli,25,17,,Arabic,no,mledoze/countries
+LI,LIE,Liechtenstein,Principality of Liechtenstein,Europe,Western Europe,Vaduz,47.26666666,9.53333333,,German,no,mledoze/countries
+LT,LTU,Lithuania,Republic of Lithuania,Europe,Northern Europe,Vilnius,56,24,,Lithuanian,no,mledoze/countries
+LU,LUX,Luxembourg,Grand Duchy of Luxembourg,Europe,Western Europe,Luxembourg,49.75,6.16666666,,French|German|Luxembourgish,no,mledoze/countries
+MO,MAC,Macau,Macao Special Administrative Region of the People's Republic of China,Asia,Eastern Asia,,22.16666666,113.55,,Chinese|Portuguese,no,mledoze/countries
+MG,MDG,Madagascar,Republic of Madagascar,Africa,Eastern Africa,Antananarivo,-20,47,,French|Malagasy,no,mledoze/countries
+MW,MWI,Malawi,Republic of Malawi,Africa,Eastern Africa,Lilongwe,-13.5,34,,Chewa|English,no,mledoze/countries
+MY,MYS,Malaysia,Malaysia,Asia,South-Eastern Asia,Kuala Lumpur,2.5,112.5,,English|Malay,no,mledoze/countries
+MV,MDV,Maldives,Republic of the Maldives,Asia,Southern Asia,Malé,3.25,73,,Maldivian,no,mledoze/countries
+ML,MLI,Mali,Republic of Mali,Africa,Western Africa,Bamako,17,-4,,French,no,mledoze/countries
+MT,MLT,Malta,Republic of Malta,Europe,Southern Europe,Valletta,35.83333333,14.58333333,,English|Maltese,no,mledoze/countries
+MH,MHL,Marshall Islands,Republic of the Marshall Islands,Oceania,Micronesia,Majuro,9,168,,English|Marshallese,no,mledoze/countries
+MQ,MTQ,Martinique,Martinique,Americas,Caribbean,Fort-de-France,14.666667,-61,,French,no,mledoze/countries
+MR,MRT,Mauritania,Islamic Republic of Mauritania,Africa,Western Africa,Nouakchott,20,-12,,Arabic,no,mledoze/countries
+MU,MUS,Mauritius,Republic of Mauritius,Africa,Eastern Africa,Port Louis,-20.28333333,57.55,,English|French|Mauritian Creole,no,mledoze/countries
+YT,MYT,Mayotte,Department of Mayotte,Africa,Eastern Africa,Mamoudzou,-12.83333333,45.16666666,,French,no,mledoze/countries
+FM,FSM,Micronesia,Federated States of Micronesia,Oceania,Micronesia,Palikir,6.91666666,158.25,,English,no,mledoze/countries
+MD,MDA,Moldova,Republic of Moldova,Europe,Eastern Europe,Chișinău,47,29,,Moldavian,no,mledoze/countries
+MC,MCO,Monaco,Principality of Monaco,Europe,Western Europe,Monaco,43.73333333,7.4,,French,no,mledoze/countries
+MN,MNG,Mongolia,Mongolia,Asia,Eastern Asia,Ulan Bator,46,105,,Mongolian,no,mledoze/countries
+ME,MNE,Montenegro,Montenegro,Europe,Southeast Europe,Podgorica,42.5,19.3,,Montenegrin,no,mledoze/countries
+MS,MSR,Montserrat,Montserrat,Americas,Caribbean,Plymouth,16.75,-62.2,,English,no,mledoze/countries
+MZ,MOZ,Mozambique,Republic of Mozambique,Africa,Eastern Africa,Maputo,-18.25,35,,Portuguese,no,mledoze/countries
+MM,MMR,Myanmar,Republic of the Union of Myanmar,Asia,South-Eastern Asia,Naypyidaw,22,98,,Burmese,no,mledoze/countries
+NA,NAM,Namibia,Republic of Namibia,Africa,Southern Africa,Windhoek,-22,17,,Afrikaans|English|German|Herero|Khoekhoe|Kwangali|Lozi|Ndonga|Tswana,no,mledoze/countries
+NR,NRU,Nauru,Republic of Nauru,Oceania,Micronesia,Yaren,-0.53333333,166.91666666,,English|Nauru,no,mledoze/countries
+NP,NPL,Nepal,Federal Democratic Republic of Nepal,Asia,Southern Asia,Kathmandu,28,84,,Nepali,no,mledoze/countries
+NC,NCL,New Caledonia,New Caledonia,Oceania,Melanesia,Nouméa,-21.5,165.5,,French,no,mledoze/countries
+NI,NIC,Nicaragua,Republic of Nicaragua,Americas,Central America,Managua,13,-85,,Spanish,no,mledoze/countries
+NE,NER,Niger,Republic of Niger,Africa,Western Africa,Niamey,16,8,,French,no,mledoze/countries
+NU,NIU,Niue,Niue,Oceania,Polynesia,Alofi,-19.03333333,-169.86666666,,English|Niuean,no,mledoze/countries
+NF,NFK,Norfolk Island,Territory of Norfolk Island,Oceania,Australia and New Zealand,Kingston,-29.03333333,167.95,,English|Norfuk,no,mledoze/countries
+KP,PRK,North Korea,Democratic People's Republic of Korea,Asia,Eastern Asia,Pyongyang,40,127,,Korean,no,mledoze/countries
+MK,MKD,North Macedonia,Republic of North Macedonia,Europe,Southeast Europe,Skopje,41.83333333,22,,Macedonian,no,mledoze/countries
+MP,MNP,Northern Mariana Islands,Commonwealth of the Northern Mariana Islands,Oceania,Micronesia,Saipan,15.2,145.75,,Carolinian|Chamorro|English,no,mledoze/countries
+OM,OMN,Oman,Sultanate of Oman,Asia,Western Asia,Muscat,21,57,,Arabic,no,mledoze/countries
+PW,PLW,Palau,Republic of Palau,Oceania,Micronesia,Ngerulmud,7.5,134.5,,English|Palauan,no,mledoze/countries
+PS,PSE,Palestine,State of Palestine,Asia,Western Asia,Ramallah,31.9,35.2,,Arabic,no,mledoze/countries
+PA,PAN,Panama,Republic of Panama,Americas,Central America,Panama City,9,-80,,Spanish,no,mledoze/countries
+PG,PNG,Papua New Guinea,Independent State of Papua New Guinea,Oceania,Melanesia,Port Moresby,-6,147,,English|Hiri Motu|Tok Pisin,no,mledoze/countries
+PY,PRY,Paraguay,Republic of Paraguay,Americas,South America,Asunción,-23,-58,,Guaraní|Spanish,no,mledoze/countries
+PE,PER,Peru,Republic of Peru,Americas,South America,Lima,-10,-76,,Aymara|Quechua|Spanish,no,mledoze/countries
+PN,PCN,Pitcairn Islands,Pitcairn Group of Islands,Oceania,Polynesia,Adamstown,-25.06666666,-130.1,,English,no,mledoze/countries
+PT,PRT,Portugal,Portuguese Republic,Europe,Southern Europe,Lisbon,39.5,-8,,Portuguese,no,mledoze/countries
+PR,PRI,Puerto Rico,Commonwealth of Puerto Rico,Americas,Caribbean,San Juan,18.25,-66.5,,English|Spanish,no,mledoze/countries
+RE,REU,Réunion,Réunion Island,Africa,Eastern Africa,Saint-Denis,-21.15,55.5,,French,no,mledoze/countries
+RO,ROU,Romania,Romania,Europe,Southeast Europe,Bucharest,46,25,,Romanian,no,mledoze/countries
+BL,BLM,Saint Barthélemy,Collectivity of Saint Barthélemy,Americas,Caribbean,Gustavia,18.5,-63.41666666,,French,no,mledoze/countries
+SH,SHN,"Saint Helena, Ascension and Tristan da Cunha","Saint Helena, Ascension and Tristan da Cunha",Africa,Western Africa,Jamestown,-15.95,-5.72,,English,no,mledoze/countries
+KN,KNA,Saint Kitts and Nevis,Federation of Saint Christopher and Nevis,Americas,Caribbean,Basseterre,17.33333333,-62.75,,English,no,mledoze/countries
+LC,LCA,Saint Lucia,Saint Lucia,Americas,Caribbean,Castries,13.88333333,-60.96666666,,English,no,mledoze/countries
+MF,MAF,Saint Martin,Saint Martin,Americas,Caribbean,Marigot,18.08333333,-63.95,,French,no,mledoze/countries
+PM,SPM,Saint Pierre and Miquelon,Saint Pierre and Miquelon,Americas,North America,Saint-Pierre,46.83333333,-56.33333333,,French,no,mledoze/countries
+VC,VCT,Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,Americas,Caribbean,Kingstown,13.25,-61.2,,English,no,mledoze/countries
+WS,WSM,Samoa,Independent State of Samoa,Oceania,Polynesia,Apia,-13.58333333,-172.33333333,,English|Samoan,no,mledoze/countries
+SM,SMR,San Marino,Most Serene Republic of San Marino,Europe,Southern Europe,City of San Marino,43.76666666,12.41666666,,Italian,no,mledoze/countries
+ST,STP,São Tomé and Príncipe,Democratic Republic of São Tomé and Príncipe,Africa,Middle Africa,São Tomé,1,7,,Portuguese,no,mledoze/countries
+SN,SEN,Senegal,Republic of Senegal,Africa,Western Africa,Dakar,14,-14,,French,no,mledoze/countries
+RS,SRB,Serbia,Republic of Serbia,Europe,Southeast Europe,Belgrade,44,21,,Serbian,no,mledoze/countries
+SC,SYC,Seychelles,Republic of Seychelles,Africa,Eastern Africa,Victoria,-4.58333333,55.66666666,,English|French|Seychellois Creole,no,mledoze/countries
+SL,SLE,Sierra Leone,Republic of Sierra Leone,Africa,Western Africa,Freetown,8.5,-11.5,,English,no,mledoze/countries
+SG,SGP,Singapore,Republic of Singapore,Asia,South-Eastern Asia,Singapore,1.36666666,103.8,,Chinese|English|Malay|Tamil,no,mledoze/countries
+SX,SXM,Sint Maarten,Sint Maarten,Americas,Caribbean,Philipsburg,18.033333,-63.05,,Dutch|English|French,no,mledoze/countries
+SK,SVK,Slovakia,Slovak Republic,Europe,Central Europe,Bratislava,48.66666666,19.5,,Slovak,no,mledoze/countries
+SI,SVN,Slovenia,Republic of Slovenia,Europe,Central Europe,Ljubljana,46.11666666,14.81666666,,Slovene,no,mledoze/countries
+SB,SLB,Solomon Islands,Solomon Islands,Oceania,Melanesia,Honiara,-8,159,,English,no,mledoze/countries
+SO,SOM,Somalia,Federal Republic of Somalia,Africa,Eastern Africa,Mogadishu,10,49,,Arabic|Somali,no,mledoze/countries
+GS,SGS,South Georgia,South Georgia and the South Sandwich Islands,Antarctic,,King Edward Point,-54.5,-37,,English,no,mledoze/countries
+SS,SSD,South Sudan,Republic of South Sudan,Africa,Middle Africa,Juba,7,30,,English,no,mledoze/countries
+LK,LKA,Sri Lanka,Democratic Socialist Republic of Sri Lanka,Asia,Southern Asia,Colombo,7,81,,Sinhala|Tamil,no,mledoze/countries
+SD,SDN,Sudan,Republic of the Sudan,Africa,Northern Africa,Khartoum,15,30,,Arabic|English,no,mledoze/countries
+SR,SUR,Suriname,Republic of Suriname,Americas,South America,Paramaribo,4,-56,,Dutch,no,mledoze/countries
+SJ,SJM,Svalbard and Jan Mayen,Svalbard og Jan Mayen,Europe,Northern Europe,Longyearbyen,78,20,,Norwegian,no,mledoze/countries
+CH,CHE,Switzerland,Swiss Confederation,Europe,Western Europe,Bern,47,8,,French|Italian|Romansh|Swiss German,no,mledoze/countries
+SY,SYR,Syria,Syrian Arab Republic,Asia,Western Asia,Damascus,35,38,,Arabic,no,mledoze/countries
+TW,TWN,Taiwan,Republic of China (Taiwan),Asia,Eastern Asia,Taipei,23.5,121,,Chinese,no,mledoze/countries
+TJ,TJK,Tajikistan,Republic of Tajikistan,Asia,Central Asia,Dushanbe,39,71,,Russian|Tajik,no,mledoze/countries
+TH,THA,Thailand,Kingdom of Thailand,Asia,South-Eastern Asia,Bangkok,15,100,,Thai,no,mledoze/countries
+TL,TLS,Timor-Leste,Democratic Republic of Timor-Leste,Asia,South-Eastern Asia,Dili,-8.83333333,125.91666666,,Portuguese|Tetum,no,mledoze/countries
+TG,TGO,Togo,Togolese Republic,Africa,Western Africa,Lomé,8,1.16666666,,French,no,mledoze/countries
+TK,TKL,Tokelau,Tokelau,Oceania,Polynesia,Fakaofo,-9,-172,,English|Samoan|Tokelauan,no,mledoze/countries
+TO,TON,Tonga,Kingdom of Tonga,Oceania,Polynesia,Nuku'alofa,-20,-175,,English|Tongan,no,mledoze/countries
+TT,TTO,Trinidad and Tobago,Republic of Trinidad and Tobago,Americas,Caribbean,Port of Spain,11,-61,,English,no,mledoze/countries
+TN,TUN,Tunisia,Tunisian Republic,Africa,Northern Africa,Tunis,34,9,,Arabic,no,mledoze/countries
+TM,TKM,Turkmenistan,Turkmenistan,Asia,Central Asia,Ashgabat,40,60,,Russian|Turkmen,no,mledoze/countries
+TC,TCA,Turks and Caicos Islands,Turks and Caicos Islands,Americas,Caribbean,Cockburn Town,21.75,-71.58333333,,English,no,mledoze/countries
+TV,TUV,Tuvalu,Tuvalu,Oceania,Polynesia,Funafuti,-8,178,,English|Tuvaluan,no,mledoze/countries
+UA,UKR,Ukraine,Ukraine,Europe,Eastern Europe,Kyiv,49,32,,Ukrainian,no,mledoze/countries
+UM,UMI,United States Minor Outlying Islands,United States Minor Outlying Islands,Americas,North America,,19.3,166.633333,,English,no,mledoze/countries
+VI,VIR,United States Virgin Islands,Virgin Islands of the United States,Americas,Caribbean,Charlotte Amalie,18.35,-64.933333,,English,no,mledoze/countries
+UY,URY,Uruguay,Oriental Republic of Uruguay,Americas,South America,Montevideo,-33,-56,,Spanish,no,mledoze/countries
+UZ,UZB,Uzbekistan,Republic of Uzbekistan,Asia,Central Asia,Tashkent,41,64,,Russian|Uzbek,no,mledoze/countries
+VU,VUT,Vanuatu,Republic of Vanuatu,Oceania,Melanesia,Port Vila,-16,167,,Bislama|English|French,no,mledoze/countries
+VA,VAT,Vatican City,Vatican City State,Europe,Southern Europe,Vatican City,41.9,12.45,,Italian|Latin,no,mledoze/countries
+VE,VEN,Venezuela,Bolivarian Republic of Venezuela,Americas,South America,Caracas,8,-66,,Spanish,no,mledoze/countries
+VN,VNM,Vietnam,Socialist Republic of Vietnam,Asia,South-Eastern Asia,Hanoi,16.16666666,107.83333333,,Vietnamese,no,mledoze/countries
+WF,WLF,Wallis and Futuna,Territory of the Wallis and Futuna Islands,Oceania,Polynesia,Mata-Utu,-13.3,-176.2,,French,no,mledoze/countries
+EH,ESH,Western Sahara,Sahrawi Arab Democratic Republic,Africa,Northern Africa,El Aaiún,24.5,-13,,Berber|Hassaniya|Spanish,no,mledoze/countries
+YE,YEM,Yemen,Republic of Yemen,Asia,Western Asia,Sana'a,15,48,,Arabic,no,mledoze/countries
+ZM,ZMB,Zambia,Republic of Zambia,Africa,Eastern Africa,Lusaka,-15,30,,English,no,mledoze/countries
+ZW,ZWE,Zimbabwe,Republic of Zimbabwe,Africa,Eastern Africa,Harare,-20,30,,Chewa|Chibarwe|English|Kalanga|Khoisan|Ndau|Northern Ndebele|Shona|Sotho|Tonga|Tsonga|Tswana|Venda|Xhosa|Zimbabwean Sign Language,no,mledoze/countries

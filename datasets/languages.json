@@ -1,0 +1,4265 @@
+[
+  {
+    "name": "Abkhazian",
+    "iso6391": "ab",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Achinese",
+    "iso6391": "",
+    "iso6392": "ace",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Acoli",
+    "iso6391": "",
+    "iso6392": "ach",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Adangme",
+    "iso6391": "",
+    "iso6392": "ada",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Adyghe",
+    "iso6391": "",
+    "iso6392": "ady",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Afar",
+    "iso6391": "aa",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Afrihili",
+    "iso6391": "",
+    "iso6392": "afh",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Afrikaans",
+    "iso6391": "af",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Aghem",
+    "iso6391": "",
+    "iso6392": "agq",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ainu",
+    "iso6391": "",
+    "iso6392": "ain",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Akan",
+    "iso6391": "ak",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Akkadian",
+    "iso6391": "",
+    "iso6392": "akk",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Akoose",
+    "iso6391": "",
+    "iso6392": "bss",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Alabama",
+    "iso6391": "",
+    "iso6392": "akz",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Albanian",
+    "iso6391": "sq",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Aleut",
+    "iso6391": "",
+    "iso6392": "ale",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Algerian Arabic",
+    "iso6391": "",
+    "iso6392": "arq",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "American English",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "American Sign Language",
+    "iso6391": "",
+    "iso6392": "ase",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Amharic",
+    "iso6391": "am",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ancient Egyptian",
+    "iso6391": "",
+    "iso6392": "egy",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ancient Greek",
+    "iso6391": "",
+    "iso6392": "grc",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Angika",
+    "iso6391": "",
+    "iso6392": "anp",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ao Naga",
+    "iso6391": "",
+    "iso6392": "njo",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Arabic",
+    "iso6391": "ar",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Aragonese",
+    "iso6391": "an",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Aramaic",
+    "iso6391": "",
+    "iso6392": "arc",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Araona",
+    "iso6391": "",
+    "iso6392": "aro",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Arapaho",
+    "iso6391": "",
+    "iso6392": "arp",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Arawak",
+    "iso6391": "",
+    "iso6392": "arw",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Armenian",
+    "iso6391": "hy",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Aromanian",
+    "iso6391": "",
+    "iso6392": "rup",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Arpitan",
+    "iso6391": "",
+    "iso6392": "frp",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Assamese",
+    "iso6391": "as",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Asturian",
+    "iso6391": "",
+    "iso6392": "ast",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Asu",
+    "iso6391": "",
+    "iso6392": "asa",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Atsam",
+    "iso6391": "",
+    "iso6392": "cch",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Australian English",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Austrian German",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Avaric",
+    "iso6391": "av",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Avestan",
+    "iso6391": "ae",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Awadhi",
+    "iso6391": "",
+    "iso6392": "awa",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Aymara",
+    "iso6391": "ay",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Azerbaijani",
+    "iso6391": "az",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Badaga",
+    "iso6391": "",
+    "iso6392": "bfq",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bafia",
+    "iso6391": "",
+    "iso6392": "ksf",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bafut",
+    "iso6391": "",
+    "iso6392": "bfd",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bakhtiari",
+    "iso6391": "",
+    "iso6392": "bqi",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Balinese",
+    "iso6391": "",
+    "iso6392": "ban",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Baluchi",
+    "iso6391": "",
+    "iso6392": "bal",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bambara",
+    "iso6391": "bm",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bamun",
+    "iso6391": "",
+    "iso6392": "bax",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Banjar",
+    "iso6391": "",
+    "iso6392": "bjn",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Basaa",
+    "iso6391": "",
+    "iso6392": "bas",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bashkir",
+    "iso6391": "ba",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Basque",
+    "iso6391": "eu",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Batak Toba",
+    "iso6391": "",
+    "iso6392": "bbc",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bavarian",
+    "iso6391": "",
+    "iso6392": "bar",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Beja",
+    "iso6391": "",
+    "iso6392": "bej",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Belarusian",
+    "iso6391": "be",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bemba",
+    "iso6391": "",
+    "iso6392": "bem",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bena",
+    "iso6391": "",
+    "iso6392": "bez",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bengali",
+    "iso6391": "bn",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Betawi",
+    "iso6391": "",
+    "iso6392": "bew",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bhojpuri",
+    "iso6391": "",
+    "iso6392": "bho",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bikol",
+    "iso6391": "",
+    "iso6392": "bik",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bini",
+    "iso6391": "",
+    "iso6392": "bin",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bishnupriya",
+    "iso6391": "",
+    "iso6392": "bpy",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bislama",
+    "iso6391": "bi",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Blin",
+    "iso6391": "",
+    "iso6392": "byn",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Blissymbols",
+    "iso6391": "",
+    "iso6392": "zbl",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bodo",
+    "iso6391": "",
+    "iso6392": "brx",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bosnian",
+    "iso6391": "bs",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Brahui",
+    "iso6391": "",
+    "iso6392": "brh",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Braj",
+    "iso6391": "",
+    "iso6392": "bra",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Brazilian Portuguese",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Breton",
+    "iso6391": "br",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "British English",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Buginese",
+    "iso6391": "",
+    "iso6392": "bug",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bulgarian",
+    "iso6391": "bg",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Bulu",
+    "iso6391": "",
+    "iso6392": "bum",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Buriat",
+    "iso6391": "",
+    "iso6392": "bua",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Burmese",
+    "iso6391": "my",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Caddo",
+    "iso6391": "",
+    "iso6392": "cad",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Cajun French",
+    "iso6391": "",
+    "iso6392": "frc",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Canadian English",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Canadian French",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Cantonese",
+    "iso6391": "",
+    "iso6392": "yue",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Capiznon",
+    "iso6391": "",
+    "iso6392": "cps",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Carib",
+    "iso6391": "",
+    "iso6392": "car",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Catalan",
+    "iso6391": "ca",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Cayuga",
+    "iso6391": "",
+    "iso6392": "cay",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Cebuano",
+    "iso6391": "",
+    "iso6392": "ceb",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Central Atlas Tamazight",
+    "iso6391": "",
+    "iso6392": "tzm",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Central Dusun",
+    "iso6391": "",
+    "iso6392": "dtp",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Central Kurdish",
+    "iso6391": "",
+    "iso6392": "ckb",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Central Yupik",
+    "iso6391": "",
+    "iso6392": "esu",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Chadian Arabic",
+    "iso6391": "",
+    "iso6392": "shu",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Chagatai",
+    "iso6391": "",
+    "iso6392": "chg",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Chamorro",
+    "iso6391": "ch",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Chechen",
+    "iso6391": "ce",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Cherokee",
+    "iso6391": "",
+    "iso6392": "chr",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Cheyenne",
+    "iso6391": "",
+    "iso6392": "chy",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Chibcha",
+    "iso6391": "",
+    "iso6392": "chb",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Chiga",
+    "iso6391": "",
+    "iso6392": "cgg",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Chimborazo Highland Quichua",
+    "iso6391": "",
+    "iso6392": "qug",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Chinese",
+    "iso6391": "zh",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Chinook Jargon",
+    "iso6391": "",
+    "iso6392": "chn",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Chipewyan",
+    "iso6391": "",
+    "iso6392": "chp",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Choctaw",
+    "iso6391": "",
+    "iso6392": "cho",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Church Slavic",
+    "iso6391": "cu",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Chuukese",
+    "iso6391": "",
+    "iso6392": "chk",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Chuvash",
+    "iso6391": "cv",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Classical Newari",
+    "iso6391": "",
+    "iso6392": "nwc",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Classical Syriac",
+    "iso6391": "",
+    "iso6392": "syc",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Colognian",
+    "iso6391": "",
+    "iso6392": "ksh",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Comorian",
+    "iso6391": "",
+    "iso6392": "swb",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Congo Swahili",
+    "iso6391": "",
+    "iso6392": "swc",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Coptic",
+    "iso6391": "",
+    "iso6392": "cop",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Cornish",
+    "iso6391": "kw",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Corsican",
+    "iso6391": "co",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Cree",
+    "iso6391": "cr",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Creek",
+    "iso6391": "",
+    "iso6392": "mus",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Crimean Turkish",
+    "iso6391": "",
+    "iso6392": "crh",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Croatian",
+    "iso6391": "hr",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Czech",
+    "iso6391": "cs",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Dakota",
+    "iso6391": "",
+    "iso6392": "dak",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Danish",
+    "iso6391": "da",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Dargwa",
+    "iso6391": "",
+    "iso6392": "dar",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Dazaga",
+    "iso6391": "",
+    "iso6392": "dzg",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Delaware",
+    "iso6391": "",
+    "iso6392": "del",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Dinka",
+    "iso6391": "",
+    "iso6392": "din",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Divehi",
+    "iso6391": "dv",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Dogri",
+    "iso6391": "",
+    "iso6392": "doi",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Dogrib",
+    "iso6391": "",
+    "iso6392": "dgr",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Duala",
+    "iso6391": "",
+    "iso6392": "dua",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Dutch",
+    "iso6391": "nl",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Dyula",
+    "iso6391": "",
+    "iso6392": "dyu",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Dzongkha",
+    "iso6391": "dz",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Eastern Frisian",
+    "iso6391": "",
+    "iso6392": "frs",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Efik",
+    "iso6391": "",
+    "iso6392": "efi",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Egyptian Arabic",
+    "iso6391": "",
+    "iso6392": "arz",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ekajuk",
+    "iso6391": "",
+    "iso6392": "eka",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Elamite",
+    "iso6391": "",
+    "iso6392": "elx",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Embu",
+    "iso6391": "",
+    "iso6392": "ebu",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Emilian",
+    "iso6391": "",
+    "iso6392": "egl",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "English",
+    "iso6391": "en",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Erzya",
+    "iso6391": "",
+    "iso6392": "myv",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Esperanto",
+    "iso6391": "eo",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Estonian",
+    "iso6391": "et",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "European Portuguese",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "European Spanish",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ewe",
+    "iso6391": "ee",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ewondo",
+    "iso6391": "",
+    "iso6392": "ewo",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Extremaduran",
+    "iso6391": "",
+    "iso6392": "ext",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Fang",
+    "iso6391": "",
+    "iso6392": "fan",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Fanti",
+    "iso6391": "",
+    "iso6392": "fat",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Faroese",
+    "iso6391": "fo",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Fiji Hindi",
+    "iso6391": "",
+    "iso6392": "hif",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Fijian",
+    "iso6391": "fj",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Filipino",
+    "iso6391": "",
+    "iso6392": "fil",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Finnish",
+    "iso6391": "fi",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Flemish",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Fon",
+    "iso6391": "",
+    "iso6392": "fon",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Frafra",
+    "iso6391": "",
+    "iso6392": "gur",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "French",
+    "iso6391": "fr",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Friulian",
+    "iso6391": "",
+    "iso6392": "fur",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Fulah",
+    "iso6391": "ff",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ga",
+    "iso6391": "",
+    "iso6392": "gaa",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Gagauz",
+    "iso6391": "",
+    "iso6392": "gag",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Galician",
+    "iso6391": "gl",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Gan Chinese",
+    "iso6391": "",
+    "iso6392": "gan",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ganda",
+    "iso6391": "lg",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Gayo",
+    "iso6391": "",
+    "iso6392": "gay",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Gbaya",
+    "iso6391": "",
+    "iso6392": "gba",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Geez",
+    "iso6391": "",
+    "iso6392": "gez",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Georgian",
+    "iso6391": "ka",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "German",
+    "iso6391": "de",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Gheg Albanian",
+    "iso6391": "",
+    "iso6392": "aln",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ghomala",
+    "iso6391": "",
+    "iso6392": "bbj",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Gilaki",
+    "iso6391": "",
+    "iso6392": "glk",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Gilbertese",
+    "iso6391": "",
+    "iso6392": "gil",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Goan Konkani",
+    "iso6391": "",
+    "iso6392": "gom",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Gondi",
+    "iso6391": "",
+    "iso6392": "gon",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Gorontalo",
+    "iso6391": "",
+    "iso6392": "gor",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Gothic",
+    "iso6391": "",
+    "iso6392": "got",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Grebo",
+    "iso6391": "",
+    "iso6392": "grb",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Greek",
+    "iso6391": "el",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Guarani",
+    "iso6391": "gn",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Gujarati",
+    "iso6391": "gu",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Gusii",
+    "iso6391": "",
+    "iso6392": "guz",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "GwichʼIn",
+    "iso6391": "",
+    "iso6392": "gwi",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Haida",
+    "iso6391": "",
+    "iso6392": "hai",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Haitian",
+    "iso6391": "ht",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Hakka Chinese",
+    "iso6391": "",
+    "iso6392": "hak",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Hausa",
+    "iso6391": "ha",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Hawaiian",
+    "iso6391": "",
+    "iso6392": "haw",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Hebrew",
+    "iso6391": "he",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Herero",
+    "iso6391": "hz",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Hiligaynon",
+    "iso6391": "",
+    "iso6392": "hil",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Hindi",
+    "iso6391": "hi",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Hiri Motu",
+    "iso6391": "ho",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Hittite",
+    "iso6391": "",
+    "iso6392": "hit",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Hmong",
+    "iso6391": "",
+    "iso6392": "hmn",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Hungarian",
+    "iso6391": "hu",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Hupa",
+    "iso6391": "",
+    "iso6392": "hup",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Iban",
+    "iso6391": "",
+    "iso6392": "iba",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ibibio",
+    "iso6391": "",
+    "iso6392": "ibb",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Icelandic",
+    "iso6391": "is",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ido",
+    "iso6391": "io",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Igbo",
+    "iso6391": "ig",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Iloko",
+    "iso6391": "",
+    "iso6392": "ilo",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Inari Sami",
+    "iso6391": "",
+    "iso6392": "smn",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Indonesian",
+    "iso6391": "id",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ingrian",
+    "iso6391": "",
+    "iso6392": "izh",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ingush",
+    "iso6391": "",
+    "iso6392": "inh",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Interlingua",
+    "iso6391": "ia",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Interlingue",
+    "iso6391": "ie",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Inuktitut",
+    "iso6391": "iu",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Inupiaq",
+    "iso6391": "ik",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Irish",
+    "iso6391": "ga",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Italian",
+    "iso6391": "it",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Jamaican Creole English",
+    "iso6391": "",
+    "iso6392": "jam",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Japanese",
+    "iso6391": "ja",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Javanese",
+    "iso6391": "jv",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Jju",
+    "iso6391": "",
+    "iso6392": "kaj",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Jola-Fonyi",
+    "iso6391": "",
+    "iso6392": "dyo",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Judeo-Arabic",
+    "iso6391": "",
+    "iso6392": "jrb",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Judeo-Persian",
+    "iso6391": "",
+    "iso6392": "jpr",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Jutish",
+    "iso6391": "",
+    "iso6392": "jut",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kabardian",
+    "iso6391": "",
+    "iso6392": "kbd",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kabuverdianu",
+    "iso6391": "",
+    "iso6392": "kea",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kabyle",
+    "iso6391": "",
+    "iso6392": "kab",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kachin",
+    "iso6391": "",
+    "iso6392": "kac",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kaingang",
+    "iso6391": "",
+    "iso6392": "kgp",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kako",
+    "iso6391": "",
+    "iso6392": "kkj",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kalaallisut",
+    "iso6391": "kl",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kalenjin",
+    "iso6391": "",
+    "iso6392": "kln",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kalmyk",
+    "iso6391": "",
+    "iso6392": "xal",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kamba",
+    "iso6391": "",
+    "iso6392": "kam",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kanembu",
+    "iso6391": "",
+    "iso6392": "kbl",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kannada",
+    "iso6391": "kn",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kanuri",
+    "iso6391": "kr",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kara-Kalpak",
+    "iso6391": "",
+    "iso6392": "kaa",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Karachay-Balkar",
+    "iso6391": "",
+    "iso6392": "krc",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Karelian",
+    "iso6391": "",
+    "iso6392": "krl",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kashmiri",
+    "iso6391": "ks",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kashubian",
+    "iso6391": "",
+    "iso6392": "csb",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kawi",
+    "iso6391": "",
+    "iso6392": "kaw",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kazakh",
+    "iso6391": "kk",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kenyang",
+    "iso6391": "",
+    "iso6392": "ken",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Khasi",
+    "iso6391": "",
+    "iso6392": "kha",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Khmer",
+    "iso6391": "km",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Khotanese",
+    "iso6391": "",
+    "iso6392": "kho",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Khowar",
+    "iso6391": "",
+    "iso6392": "khw",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kikuyu",
+    "iso6391": "ki",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kimbundu",
+    "iso6391": "",
+    "iso6392": "kmb",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kinaray-A",
+    "iso6391": "",
+    "iso6392": "krj",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kinyarwanda",
+    "iso6391": "rw",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kirmanjki",
+    "iso6391": "",
+    "iso6392": "kiu",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Klingon",
+    "iso6391": "",
+    "iso6392": "tlh",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kom",
+    "iso6391": "",
+    "iso6392": "bkm",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Komi",
+    "iso6391": "kv",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Komi-Permyak",
+    "iso6391": "",
+    "iso6392": "koi",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kongo",
+    "iso6391": "kg",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Konkani",
+    "iso6391": "",
+    "iso6392": "kok",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Korean",
+    "iso6391": "ko",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Koro",
+    "iso6391": "",
+    "iso6392": "kfo",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kosraean",
+    "iso6391": "",
+    "iso6392": "kos",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kotava",
+    "iso6391": "",
+    "iso6392": "avk",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Koyra Chiini",
+    "iso6391": "",
+    "iso6392": "khq",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Koyraboro Senni",
+    "iso6391": "",
+    "iso6392": "ses",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kpelle",
+    "iso6391": "",
+    "iso6392": "kpe",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Krio",
+    "iso6391": "",
+    "iso6392": "kri",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kuanyama",
+    "iso6391": "kj",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kumyk",
+    "iso6391": "",
+    "iso6392": "kum",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kurdish",
+    "iso6391": "ku",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kurukh",
+    "iso6391": "",
+    "iso6392": "kru",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kutenai",
+    "iso6391": "",
+    "iso6392": "kut",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kwasio",
+    "iso6391": "",
+    "iso6392": "nmg",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Kyrgyz",
+    "iso6391": "ky",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "KʼIcheʼ",
+    "iso6391": "",
+    "iso6392": "quc",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ladino",
+    "iso6391": "",
+    "iso6392": "lad",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Lahnda",
+    "iso6391": "",
+    "iso6392": "lah",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Lakota",
+    "iso6391": "",
+    "iso6392": "lkt",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Lamba",
+    "iso6391": "",
+    "iso6392": "lam",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Langi",
+    "iso6391": "",
+    "iso6392": "lag",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Lao",
+    "iso6391": "lo",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Latgalian",
+    "iso6391": "",
+    "iso6392": "ltg",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Latin",
+    "iso6391": "la",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Latin American Spanish",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Latvian",
+    "iso6391": "lv",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Laz",
+    "iso6391": "",
+    "iso6392": "lzz",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Lezghian",
+    "iso6391": "",
+    "iso6392": "lez",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ligurian",
+    "iso6391": "",
+    "iso6392": "lij",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Limburgish",
+    "iso6391": "li",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Lingala",
+    "iso6391": "ln",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Lingua Franca Nova",
+    "iso6391": "",
+    "iso6392": "lfn",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Literary Chinese",
+    "iso6391": "",
+    "iso6392": "lzh",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Lithuanian",
+    "iso6391": "lt",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Livonian",
+    "iso6391": "",
+    "iso6392": "liv",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Lojban",
+    "iso6391": "",
+    "iso6392": "jbo",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Lombard",
+    "iso6391": "",
+    "iso6392": "lmo",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Low German",
+    "iso6391": "",
+    "iso6392": "nds",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Lower Silesian",
+    "iso6391": "",
+    "iso6392": "sli",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Lower Sorbian",
+    "iso6391": "",
+    "iso6392": "dsb",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Lozi",
+    "iso6391": "",
+    "iso6392": "loz",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Luba-Katanga",
+    "iso6391": "lu",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Luba-Lulua",
+    "iso6391": "",
+    "iso6392": "lua",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Luiseno",
+    "iso6391": "",
+    "iso6392": "lui",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Lule Sami",
+    "iso6391": "",
+    "iso6392": "smj",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Lunda",
+    "iso6391": "",
+    "iso6392": "lun",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Luo",
+    "iso6391": "",
+    "iso6392": "luo",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Luxembourgish",
+    "iso6391": "lb",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Luyia",
+    "iso6391": "",
+    "iso6392": "luy",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Maba",
+    "iso6391": "",
+    "iso6392": "mde",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Macedonian",
+    "iso6391": "mk",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Machame",
+    "iso6391": "",
+    "iso6392": "jmc",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Madurese",
+    "iso6391": "",
+    "iso6392": "mad",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Mafa",
+    "iso6391": "",
+    "iso6392": "maf",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Magahi",
+    "iso6391": "",
+    "iso6392": "mag",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Main-Franconian",
+    "iso6391": "",
+    "iso6392": "vmf",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Maithili",
+    "iso6391": "",
+    "iso6392": "mai",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Makasar",
+    "iso6391": "",
+    "iso6392": "mak",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Makhuwa-Meetto",
+    "iso6391": "",
+    "iso6392": "mgh",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Makonde",
+    "iso6391": "",
+    "iso6392": "kde",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Malagasy",
+    "iso6391": "mg",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Malay",
+    "iso6391": "ms",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Malayalam",
+    "iso6391": "ml",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Maltese",
+    "iso6391": "mt",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Manchu",
+    "iso6391": "",
+    "iso6392": "mnc",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Mandar",
+    "iso6391": "",
+    "iso6392": "mdr",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Mandingo",
+    "iso6391": "",
+    "iso6392": "man",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Manipuri",
+    "iso6391": "",
+    "iso6392": "mni",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Manx",
+    "iso6391": "gv",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Maori",
+    "iso6391": "mi",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Mapuche",
+    "iso6391": "",
+    "iso6392": "arn",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Marathi",
+    "iso6391": "mr",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Mari",
+    "iso6391": "",
+    "iso6392": "chm",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Marshallese",
+    "iso6391": "mh",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Marwari",
+    "iso6391": "",
+    "iso6392": "mwr",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Masai",
+    "iso6391": "",
+    "iso6392": "mas",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Mazanderani",
+    "iso6391": "",
+    "iso6392": "mzn",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Medumba",
+    "iso6391": "",
+    "iso6392": "byv",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Mende",
+    "iso6391": "",
+    "iso6392": "men",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Mentawai",
+    "iso6391": "",
+    "iso6392": "mwv",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Meru",
+    "iso6391": "",
+    "iso6392": "mer",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Metaʼ",
+    "iso6391": "",
+    "iso6392": "mgo",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Mexican Spanish",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Micmac",
+    "iso6391": "",
+    "iso6392": "mic",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Middle Dutch",
+    "iso6391": "",
+    "iso6392": "dum",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Middle English",
+    "iso6391": "",
+    "iso6392": "enm",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Middle French",
+    "iso6391": "",
+    "iso6392": "frm",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Middle High German",
+    "iso6391": "",
+    "iso6392": "gmh",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Middle Irish",
+    "iso6391": "",
+    "iso6392": "mga",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Min Nan Chinese",
+    "iso6391": "",
+    "iso6392": "nan",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Minangkabau",
+    "iso6391": "",
+    "iso6392": "min",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Mingrelian",
+    "iso6391": "",
+    "iso6392": "xmf",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Mirandese",
+    "iso6391": "",
+    "iso6392": "mwl",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Mizo",
+    "iso6391": "",
+    "iso6392": "lus",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Modern Standard Arabic",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Mohawk",
+    "iso6391": "",
+    "iso6392": "moh",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Moksha",
+    "iso6391": "",
+    "iso6392": "mdf",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Moldavian",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Mongo",
+    "iso6391": "",
+    "iso6392": "lol",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Mongolian",
+    "iso6391": "mn",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Morisyen",
+    "iso6391": "",
+    "iso6392": "mfe",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Moroccan Arabic",
+    "iso6391": "",
+    "iso6392": "ary",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Mossi",
+    "iso6391": "",
+    "iso6392": "mos",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Multiple Languages",
+    "iso6391": "",
+    "iso6392": "mul",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Mundang",
+    "iso6391": "",
+    "iso6392": "mua",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Muslim Tat",
+    "iso6391": "",
+    "iso6392": "ttt",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Myene",
+    "iso6391": "",
+    "iso6392": "mye",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Nama",
+    "iso6391": "",
+    "iso6392": "naq",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Nauru",
+    "iso6391": "na",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Navajo",
+    "iso6391": "nv",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ndonga",
+    "iso6391": "ng",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Neapolitan",
+    "iso6391": "",
+    "iso6392": "nap",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Nepali",
+    "iso6391": "ne",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Newari",
+    "iso6391": "",
+    "iso6392": "new",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ngambay",
+    "iso6391": "",
+    "iso6392": "sba",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ngiemboon",
+    "iso6391": "",
+    "iso6392": "nnh",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ngomba",
+    "iso6391": "",
+    "iso6392": "jgo",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Nheengatu",
+    "iso6391": "",
+    "iso6392": "yrl",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Nias",
+    "iso6391": "",
+    "iso6392": "nia",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Niuean",
+    "iso6391": "",
+    "iso6392": "niu",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "No Linguistic Content",
+    "iso6391": "",
+    "iso6392": "zxx",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Nogai",
+    "iso6391": "",
+    "iso6392": "nog",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "North Ndebele",
+    "iso6391": "nd",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Northern Frisian",
+    "iso6391": "",
+    "iso6392": "frr",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Northern Sami",
+    "iso6391": "se",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Northern Sotho",
+    "iso6391": "",
+    "iso6392": "nso",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Norwegian",
+    "iso6391": "no",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Norwegian BokmÅL",
+    "iso6391": "nb",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Norwegian Nynorsk",
+    "iso6391": "nn",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Novial",
+    "iso6391": "",
+    "iso6392": "nov",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Nuer",
+    "iso6391": "",
+    "iso6392": "nus",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Nyamwezi",
+    "iso6391": "",
+    "iso6392": "nym",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Nyanja",
+    "iso6391": "ny",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Nyankole",
+    "iso6391": "",
+    "iso6392": "nyn",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Nyasa Tonga",
+    "iso6391": "",
+    "iso6392": "tog",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Nyoro",
+    "iso6391": "",
+    "iso6392": "nyo",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Nzima",
+    "iso6391": "",
+    "iso6392": "nzi",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "NʼKo",
+    "iso6391": "",
+    "iso6392": "nqo",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Occitan",
+    "iso6391": "oc",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ojibwa",
+    "iso6391": "oj",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Old English",
+    "iso6391": "",
+    "iso6392": "ang",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Old French",
+    "iso6391": "",
+    "iso6392": "fro",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Old High German",
+    "iso6391": "",
+    "iso6392": "goh",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Old Irish",
+    "iso6391": "",
+    "iso6392": "sga",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Old Norse",
+    "iso6391": "",
+    "iso6392": "non",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Old Persian",
+    "iso6391": "",
+    "iso6392": "peo",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Old ProvenÇAl",
+    "iso6391": "",
+    "iso6392": "pro",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Oriya",
+    "iso6391": "or",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Oromo",
+    "iso6391": "om",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Osage",
+    "iso6391": "",
+    "iso6392": "osa",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ossetic",
+    "iso6391": "os",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ottoman Turkish",
+    "iso6391": "",
+    "iso6392": "ota",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Pahlavi",
+    "iso6391": "",
+    "iso6392": "pal",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Palatine German",
+    "iso6391": "",
+    "iso6392": "pfl",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Palauan",
+    "iso6391": "",
+    "iso6392": "pau",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Pali",
+    "iso6391": "pi",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Pampanga",
+    "iso6391": "",
+    "iso6392": "pam",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Pangasinan",
+    "iso6391": "",
+    "iso6392": "pag",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Papiamento",
+    "iso6391": "",
+    "iso6392": "pap",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Pashto",
+    "iso6391": "ps",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Pennsylvania German",
+    "iso6391": "",
+    "iso6392": "pdc",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Persian",
+    "iso6391": "fa",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Phoenician",
+    "iso6391": "",
+    "iso6392": "phn",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Picard",
+    "iso6391": "",
+    "iso6392": "pcd",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Piedmontese",
+    "iso6391": "",
+    "iso6392": "pms",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Plautdietsch",
+    "iso6391": "",
+    "iso6392": "pdt",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Pohnpeian",
+    "iso6391": "",
+    "iso6392": "pon",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Polish",
+    "iso6391": "pl",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Pontic",
+    "iso6391": "",
+    "iso6392": "pnt",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Portuguese",
+    "iso6391": "pt",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Prussian",
+    "iso6391": "",
+    "iso6392": "prg",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Punjabi",
+    "iso6391": "pa",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Quechua",
+    "iso6391": "qu",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Rajasthani",
+    "iso6391": "",
+    "iso6392": "raj",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Rapanui",
+    "iso6391": "",
+    "iso6392": "rap",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Rarotongan",
+    "iso6391": "",
+    "iso6392": "rar",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Riffian",
+    "iso6391": "",
+    "iso6392": "rif",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Romagnol",
+    "iso6391": "",
+    "iso6392": "rgn",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Romanian",
+    "iso6391": "ro",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Romansh",
+    "iso6391": "rm",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Romany",
+    "iso6391": "",
+    "iso6392": "rom",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Rombo",
+    "iso6391": "",
+    "iso6392": "rof",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Root",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Rotuman",
+    "iso6391": "",
+    "iso6392": "rtm",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Roviana",
+    "iso6391": "",
+    "iso6392": "rug",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Rundi",
+    "iso6391": "rn",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Russian",
+    "iso6391": "ru",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Rusyn",
+    "iso6391": "",
+    "iso6392": "rue",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Rwa",
+    "iso6391": "",
+    "iso6392": "rwk",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Saho",
+    "iso6391": "",
+    "iso6392": "ssy",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sakha",
+    "iso6391": "",
+    "iso6392": "sah",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Samaritan Aramaic",
+    "iso6391": "",
+    "iso6392": "sam",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Samburu",
+    "iso6391": "",
+    "iso6392": "saq",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Samoan",
+    "iso6391": "sm",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Samogitian",
+    "iso6391": "",
+    "iso6392": "sgs",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sandawe",
+    "iso6391": "",
+    "iso6392": "sad",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sango",
+    "iso6391": "sg",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sangu",
+    "iso6391": "",
+    "iso6392": "sbp",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sanskrit",
+    "iso6391": "sa",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Santali",
+    "iso6391": "",
+    "iso6392": "sat",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sardinian",
+    "iso6391": "sc",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sasak",
+    "iso6391": "",
+    "iso6392": "sas",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sassarese Sardinian",
+    "iso6391": "",
+    "iso6392": "sdc",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Saterland Frisian",
+    "iso6391": "",
+    "iso6392": "stq",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Saurashtra",
+    "iso6391": "",
+    "iso6392": "saz",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Scots",
+    "iso6391": "",
+    "iso6392": "sco",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Scottish Gaelic",
+    "iso6391": "gd",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Selayar",
+    "iso6391": "",
+    "iso6392": "sly",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Selkup",
+    "iso6391": "",
+    "iso6392": "sel",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sena",
+    "iso6391": "",
+    "iso6392": "seh",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Seneca",
+    "iso6391": "",
+    "iso6392": "see",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Serbian",
+    "iso6391": "sr",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Serbo-Croatian",
+    "iso6391": "sh",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Serer",
+    "iso6391": "",
+    "iso6392": "srr",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Seri",
+    "iso6391": "",
+    "iso6392": "sei",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Shambala",
+    "iso6391": "",
+    "iso6392": "ksb",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Shan",
+    "iso6391": "",
+    "iso6392": "shn",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Shona",
+    "iso6391": "sn",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sichuan Yi",
+    "iso6391": "ii",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sicilian",
+    "iso6391": "",
+    "iso6392": "scn",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sidamo",
+    "iso6391": "",
+    "iso6392": "sid",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Siksika",
+    "iso6391": "",
+    "iso6392": "bla",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Silesian",
+    "iso6391": "",
+    "iso6392": "szl",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Simplified Chinese",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sindhi",
+    "iso6391": "sd",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sinhala",
+    "iso6391": "si",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Skolt Sami",
+    "iso6391": "",
+    "iso6392": "sms",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Slave",
+    "iso6391": "",
+    "iso6392": "den",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Slovak",
+    "iso6391": "sk",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Slovenian",
+    "iso6391": "sl",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Soga",
+    "iso6391": "",
+    "iso6392": "xog",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sogdien",
+    "iso6391": "",
+    "iso6392": "sog",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Somali",
+    "iso6391": "so",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Soninke",
+    "iso6391": "",
+    "iso6392": "snk",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "South Azerbaijani",
+    "iso6391": "",
+    "iso6392": "azb",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "South Ndebele",
+    "iso6391": "nr",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Southern Altai",
+    "iso6391": "",
+    "iso6392": "alt",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Southern Sami",
+    "iso6391": "",
+    "iso6392": "sma",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Southern Sotho",
+    "iso6391": "st",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Spanish",
+    "iso6391": "es",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sranan Tongo",
+    "iso6391": "",
+    "iso6392": "srn",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Standard Moroccan Tamazight",
+    "iso6391": "",
+    "iso6392": "zgh",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sukuma",
+    "iso6391": "",
+    "iso6392": "suk",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sumerian",
+    "iso6391": "",
+    "iso6392": "sux",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Sundanese",
+    "iso6391": "su",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Susu",
+    "iso6391": "",
+    "iso6392": "sus",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Swahili",
+    "iso6391": "sw",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Swati",
+    "iso6391": "ss",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Swedish",
+    "iso6391": "sv",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Swiss French",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Swiss German",
+    "iso6391": "",
+    "iso6392": "gsw",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Swiss High German",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Syriac",
+    "iso6391": "",
+    "iso6392": "syr",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tachelhit",
+    "iso6391": "",
+    "iso6392": "shi",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tagalog",
+    "iso6391": "tl",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tahitian",
+    "iso6391": "ty",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Taita",
+    "iso6391": "",
+    "iso6392": "dav",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tajik",
+    "iso6391": "tg",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Talysh",
+    "iso6391": "",
+    "iso6392": "tly",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tamashek",
+    "iso6391": "",
+    "iso6392": "tmh",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tamil",
+    "iso6391": "ta",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Taroko",
+    "iso6391": "",
+    "iso6392": "trv",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tasawaq",
+    "iso6391": "",
+    "iso6392": "twq",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tatar",
+    "iso6391": "tt",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Telugu",
+    "iso6391": "te",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tereno",
+    "iso6391": "",
+    "iso6392": "ter",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Teso",
+    "iso6391": "",
+    "iso6392": "teo",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tetum",
+    "iso6391": "",
+    "iso6392": "tet",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Thai",
+    "iso6391": "th",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tibetan",
+    "iso6391": "bo",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tigre",
+    "iso6391": "",
+    "iso6392": "tig",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tigrinya",
+    "iso6391": "ti",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Timne",
+    "iso6391": "",
+    "iso6392": "tem",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tiv",
+    "iso6391": "",
+    "iso6392": "tiv",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tlingit",
+    "iso6391": "",
+    "iso6392": "tli",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tok Pisin",
+    "iso6391": "",
+    "iso6392": "tpi",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tokelau",
+    "iso6391": "",
+    "iso6392": "tkl",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tongan",
+    "iso6391": "to",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tornedalen Finnish",
+    "iso6391": "",
+    "iso6392": "fit",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Traditional Chinese",
+    "iso6391": "",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tsakhur",
+    "iso6391": "",
+    "iso6392": "tkr",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tsakonian",
+    "iso6391": "",
+    "iso6392": "tsd",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tsimshian",
+    "iso6391": "",
+    "iso6392": "tsi",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tsonga",
+    "iso6391": "ts",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tswana",
+    "iso6391": "tn",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tulu",
+    "iso6391": "",
+    "iso6392": "tcy",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tumbuka",
+    "iso6391": "",
+    "iso6392": "tum",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tunisian Arabic",
+    "iso6391": "",
+    "iso6392": "aeb",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Turkish",
+    "iso6391": "tr",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Turkmen",
+    "iso6391": "tk",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Turoyo",
+    "iso6391": "",
+    "iso6392": "tru",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tuvalu",
+    "iso6391": "",
+    "iso6392": "tvl",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tuvinian",
+    "iso6391": "",
+    "iso6392": "tyv",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Twi",
+    "iso6391": "tw",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Tyap",
+    "iso6391": "",
+    "iso6392": "kcg",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Udmurt",
+    "iso6391": "",
+    "iso6392": "udm",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ugaritic",
+    "iso6391": "",
+    "iso6392": "uga",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Ukrainian",
+    "iso6391": "uk",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Umbundu",
+    "iso6391": "",
+    "iso6392": "umb",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Unknown Language",
+    "iso6391": "",
+    "iso6392": "und",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Upper Sorbian",
+    "iso6391": "",
+    "iso6392": "hsb",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Urdu",
+    "iso6391": "ur",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Uyghur",
+    "iso6391": "ug",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Uzbek",
+    "iso6391": "uz",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Vai",
+    "iso6391": "",
+    "iso6392": "vai",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Venda",
+    "iso6391": "ve",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Venetian",
+    "iso6391": "",
+    "iso6392": "vec",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Veps",
+    "iso6391": "",
+    "iso6392": "vep",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Vietnamese",
+    "iso6391": "vi",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "VolapÜK",
+    "iso6391": "vo",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "VÕRo",
+    "iso6391": "",
+    "iso6392": "vro",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Votic",
+    "iso6391": "",
+    "iso6392": "vot",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Vunjo",
+    "iso6391": "",
+    "iso6392": "vun",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Walloon",
+    "iso6391": "wa",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Walser",
+    "iso6391": "",
+    "iso6392": "wae",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Waray",
+    "iso6391": "",
+    "iso6392": "war",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Warlpiri",
+    "iso6391": "",
+    "iso6392": "wbp",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Washo",
+    "iso6391": "",
+    "iso6392": "was",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Wayuu",
+    "iso6391": "",
+    "iso6392": "guc",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Welsh",
+    "iso6391": "cy",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "West Flemish",
+    "iso6391": "",
+    "iso6392": "vls",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Western Frisian",
+    "iso6391": "fy",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Western Mari",
+    "iso6391": "",
+    "iso6392": "mrj",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Wolaytta",
+    "iso6391": "",
+    "iso6392": "wal",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Wolof",
+    "iso6391": "wo",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Wu Chinese",
+    "iso6391": "",
+    "iso6392": "wuu",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Xhosa",
+    "iso6391": "xh",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Xiang Chinese",
+    "iso6391": "",
+    "iso6392": "hsn",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Yangben",
+    "iso6391": "",
+    "iso6392": "yav",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Yao",
+    "iso6391": "",
+    "iso6392": "yao",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Yapese",
+    "iso6391": "",
+    "iso6392": "yap",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Yemba",
+    "iso6391": "",
+    "iso6392": "ybb",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Yiddish",
+    "iso6391": "yi",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Yoruba",
+    "iso6391": "yo",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Zapotec",
+    "iso6391": "",
+    "iso6392": "zap",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Zarma",
+    "iso6391": "",
+    "iso6392": "dje",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Zaza",
+    "iso6391": "",
+    "iso6392": "zza",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Zeelandic",
+    "iso6391": "",
+    "iso6392": "zea",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Zenaga",
+    "iso6391": "",
+    "iso6392": "zen",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Zhuang",
+    "iso6391": "za",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Zoroastrian Dari",
+    "iso6391": "",
+    "iso6392": "gbz",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Zulu",
+    "iso6391": "zu",
+    "iso6392": "",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  },
+  {
+    "name": "Zuni",
+    "iso6391": "",
+    "iso6392": "zun",
+    "source_item": "",
+    "source": "umpirsky/language-list"
+  }
+]

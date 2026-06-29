@@ -1,0 +1,898 @@
+[
+  {
+    "template_id": "bio_0001",
+    "template": "Coffee lover, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a serious relationship with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0002",
+    "template": "Coffee lover, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a lasting partnership with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0003",
+    "template": "Coffee lover, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a thoughtful connection with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0004",
+    "template": "Coffee lover, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for someone ready to build intentionally with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0005",
+    "template": "Coffee lover, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a relationship rooted in trust with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0006",
+    "template": "Coffee lover, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a calm, loyal kind of love with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0007",
+    "template": "Weekend explorer, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a serious relationship with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0008",
+    "template": "Weekend explorer, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a lasting partnership with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0009",
+    "template": "Weekend explorer, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a thoughtful connection with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0010",
+    "template": "Weekend explorer, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for someone ready to build intentionally with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0011",
+    "template": "Weekend explorer, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a relationship rooted in trust with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0012",
+    "template": "Weekend explorer, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a calm, loyal kind of love with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0013",
+    "template": "Grounded optimist, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a serious relationship with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0014",
+    "template": "Grounded optimist, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a lasting partnership with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0015",
+    "template": "Grounded optimist, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a thoughtful connection with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0016",
+    "template": "Grounded optimist, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for someone ready to build intentionally with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0017",
+    "template": "Grounded optimist, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a relationship rooted in trust with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0018",
+    "template": "Grounded optimist, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a calm, loyal kind of love with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0019",
+    "template": "Curious traveler, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a serious relationship with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0020",
+    "template": "Curious traveler, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a lasting partnership with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0021",
+    "template": "Curious traveler, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a thoughtful connection with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0022",
+    "template": "Curious traveler, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for someone ready to build intentionally with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0023",
+    "template": "Curious traveler, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a relationship rooted in trust with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0024",
+    "template": "Curious traveler, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a calm, loyal kind of love with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0025",
+    "template": "Family-oriented professional, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a serious relationship with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0026",
+    "template": "Family-oriented professional, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a lasting partnership with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0027",
+    "template": "Family-oriented professional, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a thoughtful connection with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0028",
+    "template": "Family-oriented professional, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for someone ready to build intentionally with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0029",
+    "template": "Family-oriented professional, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a relationship rooted in trust with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0030",
+    "template": "Family-oriented professional, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a calm, loyal kind of love with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0031",
+    "template": "Quietly ambitious, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a serious relationship with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0032",
+    "template": "Quietly ambitious, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a lasting partnership with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0033",
+    "template": "Quietly ambitious, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a thoughtful connection with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0034",
+    "template": "Quietly ambitious, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for someone ready to build intentionally with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0035",
+    "template": "Quietly ambitious, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a relationship rooted in trust with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0036",
+    "template": "Quietly ambitious, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a calm, loyal kind of love with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0037",
+    "template": "Kind-hearted creative, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a serious relationship with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0038",
+    "template": "Kind-hearted creative, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a lasting partnership with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0039",
+    "template": "Kind-hearted creative, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a thoughtful connection with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0040",
+    "template": "Kind-hearted creative, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for someone ready to build intentionally with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0041",
+    "template": "Kind-hearted creative, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a relationship rooted in trust with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0042",
+    "template": "Kind-hearted creative, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a calm, loyal kind of love with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0043",
+    "template": "Active and easygoing, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a serious relationship with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0044",
+    "template": "Active and easygoing, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a lasting partnership with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0045",
+    "template": "Active and easygoing, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a thoughtful connection with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0046",
+    "template": "Active and easygoing, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for someone ready to build intentionally with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0047",
+    "template": "Active and easygoing, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a relationship rooted in trust with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0048",
+    "template": "Active and easygoing, {occupation}, and happiest around {interest_one}, {interest_two}, and {travel}. Looking for a calm, loyal kind of love with someone who values {value_one} and {value_two}.",
+    "variables": "occupation|interest_one|interest_two|travel|value_one|value_two",
+    "tone": "warm",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0049",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0050",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0051",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0052",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0053",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0054",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0055",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0056",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0057",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0058",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0059",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0060",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0061",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0062",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0063",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0064",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0065",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0066",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0067",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0068",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0069",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0070",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0071",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0072",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0073",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0074",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0075",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0076",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0077",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0078",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0079",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0080",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0081",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0082",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0083",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0084",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0085",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0086",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0087",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0088",
+    "template": "I work in {occupation} and make time for {interest_one}, {interest_two}, and good conversation. Here to meet someone intentional, kind, and ready for {goal}.",
+    "variables": "interest_one|interest_two|goal",
+    "tone": "direct",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0089",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0090",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0091",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0092",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0093",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0094",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0095",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0096",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0097",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0098",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0099",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0100",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0101",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0102",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0103",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0104",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0105",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0106",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0107",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0108",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0109",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0110",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0111",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0112",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0113",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0114",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0115",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0116",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0117",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0118",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0119",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0120",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0121",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0122",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0123",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0124",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0125",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0126",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0127",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  },
+  {
+    "template_id": "bio_0128",
+    "template": "Usually planning my week around {interest_one}, {travel}, and time with people I care about. I appreciate {value_one}, {value_two}, and relationships that grow with patience.",
+    "variables": "travel|value_one|value_two",
+    "tone": "reflective",
+    "source": "HeartConnect generated template grammar"
+  }
+]

@@ -1,0 +1,4882 @@
+[
+  {
+    "name": "Accountant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Actor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Actuary",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Adhesive Bonding Machine Tender",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Adjudicator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Administrative Assistant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Administrative Services Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Adult Education Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Advertising Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Advertising Sales Agent",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Aerobics Instructor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Aerospace Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Aerospace Engineering Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Agent",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Agricultural Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Agricultural Equipment Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Agricultural Grader",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Agricultural Inspector",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Agricultural Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Agricultural Sciences Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Agricultural Sorter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Agricultural Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Agricultural Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Air Conditioning Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Air Conditioning Mechanic",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Air Traffic Controller",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Aircraft Cargo Handling Supervisor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Aircraft Mechanic",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Aircraft Service Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Airline Copilot",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Airline Pilot",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Ambulance Dispatcher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Ambulance Driver",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Amusement Machine Servicer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Anesthesiologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Animal Breeder",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Animal Control Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Animal Scientist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Animal Trainer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Animator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Answering Service Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Anthropologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Apparel Patternmaker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Apparel Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Arbitrator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Archeologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Architect",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Architectural Drafter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Architectural Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Archivist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Art Director",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Art Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Artist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Assembler",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Astronomer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Athlete",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Athletic Trainer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Atm Machine Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Atmospheric Scientist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Attendant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Audio And Video Equipment Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Audio-Visual And Multimedia Collections Specialist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Audiologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Auditor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Author",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Auto Damage Insurance Appraiser",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Automotive And Watercraft Service Attendant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Automotive Glass Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Automotive Mechanic",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Avionics Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Back-End Developer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Baggage Porter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Bailiff",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Baker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Barback",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Barber",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Bartender",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Basic Education Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Behavioral Disorder Counselor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Bellhop",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Bench Carpenter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Bicycle Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Bill And Account Collector",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Billing And Posting Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Biochemist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Biological Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Biomedical Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Biophysicist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Blaster",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Blending Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Blockmason",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Boiler Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Boilermaker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Bookkeeper",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Boring Machine Tool Tender",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Brazer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Brickmason",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Bridge And Lock Tender",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Broadcast News Analyst",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Broadcast Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Brokerage Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Budget Analyst",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Building Inspector",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Bus Mechanic",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Butcher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Buyer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Cabinetmaker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Cafeteria Attendant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Cafeteria Cook",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Camera Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Camera Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Cardiovascular Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Cargo Agent",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Carpenter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Carpet Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Cartographer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Cashier",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Caster",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Ceiling Tile Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Cellular Equipment Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Cement Mason",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Channeling Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Chauffeur",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Checker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Chef",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Chemical Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Chemical Plant Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Chemist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Chemistry Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Chief Executive",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Child Social Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Childcare Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Chiropractor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Choreographer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Civil Drafter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Civil Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Civil Engineering Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Claims Adjuster",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Claims Examiner",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Claims Investigator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Cleaner",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Clinical Laboratory Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Clinical Laboratory Technologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Clinical Psychologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Coating Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Coatroom Attendant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Coil Finisher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Coil Taper",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Coil Winder",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Coin Machine Servicer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Commercial Diver",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Commercial Pilot",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Commodities Sales Agent",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Communications Equipment Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Communications Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Community Association Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Community Service Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Compensation And Benefits Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Compliance Officer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Composer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Computer Hardware Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Computer Network Architect",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Computer Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Computer Programmer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Computer Science Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Computer Support Specialist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Computer Systems Administrator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Computer Systems Analyst",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Concierge",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Conciliator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Concrete Finisher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Conservation Science Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Conservation Scientist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Conservation Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Conservator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Construction Inspector",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Construction Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Construction Painter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Construction Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Continuous Mining Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Convention Planner",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Conveyor Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Cook",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Cooling Equipment Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Copy Marker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Correctional Officer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Correctional Treatment Specialist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Correspondence Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Correspondent",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Cosmetologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Cost Estimator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Costume Attendant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Counseling Psychologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Counselor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Courier",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Court Reporter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Craft Artist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Crane Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Credit Analyst",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Credit Checker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Credit Counselor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Criminal Investigator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Criminal Justice Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Crossing Guard",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Curator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Custom Sewer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Customer Service Representative",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Cutter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Cutting Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dancer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Data Entry Keyer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Database Administrator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Decorating Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Delivery Services Driver",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Demonstrator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dental Assistant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dental Hygienist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dental Laboratory Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dentist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dermatologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Derrick Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Designer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Desktop Publisher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Detective",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Developer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Diagnostic Medical Sonographer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Die Maker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Diesel Engine Specialist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dietetic Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dietitian",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dinkey Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Director",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dishwasher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dispatcher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dj",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Doctor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Door-To-Door Sales Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Drafter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dragline Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Drama Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dredge Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dressing Room Attendant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dressmaker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Drier Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Drilling Machine Tool Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dry-Cleaning Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Drywall Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Dyeing Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Earth Driller",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Economics Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Economist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Editor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Education Administrator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Electric Motor Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Electrical Electronics Drafter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Electrical Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Electrical Equipment Assembler",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Electrical Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Electrical Power-Line Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Electrician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Electro-Mechanical Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Elementary School Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Elevator Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Elevator Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Embalmer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Emergency Management Director",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Emergency Medical Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Engine Assembler",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Engineering Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Engineering Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "English Language Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Engraver",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Entertainment Attendant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Environmental Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Environmental Science Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Environmental Scientist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Epidemiologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Escort",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Etcher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Event Planner",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Excavating Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Executive Administrative Assistant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Executive Secretary",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Exhibit Designer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Expediting Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Explosives Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Extraction Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fabric Mender",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fabric Patternmaker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fabricator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Faller",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Family Practitioner",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Family Social Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Family Therapist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Farm Advisor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Farm Equipment Mechanic",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Farm Labor Contractor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Farmer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Farmworker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fashion Designer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fast Food Cook",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fence Erector",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fiberglass Fabricator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fiberglass Laminator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "File Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Filling Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Film And Video Editor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Financial Analyst",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Financial Examiner",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Financial Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Financial Services Sales Agent",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fine Artist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fire Alarm System Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fire Dispatcher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fire Inspector",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fire Investigator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Firefighter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fish And Game Warden",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fish Cutter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fish Trimmer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fisher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fitness Studies Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fitness Trainer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Flight Attendant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Floor Finisher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Floor Layer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Floor Sander",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Floral Designer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Food Batchmaker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Food Cooking Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Food Preparation Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Food Science Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Food Scientist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Food Server",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Food Service Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Food Technologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Foreign Language Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Foreign Literature Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Forensic Science Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Forest Fire Inspector",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Forest Fire Prevention Specialist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Forest Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Forester",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Forestry Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Forging Machine Setter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Foundry Coremaker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Freight Agent",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Freight Mover",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Front-End Developer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Fundraising Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Funeral Attendant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Funeral Director",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Funeral Service Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Furnace Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Furnishings Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Furniture Finisher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Gaming Booth Cashier",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Gaming Cage Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Gaming Change Person",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Gaming Dealer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Gaming Investigator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Gaming Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Gaming Surveillance Officer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Garment Mender",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Garment Presser",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Gas Compressor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Gas Plant Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Gas Pumping Station Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "General Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "General Practitioner",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Geographer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Geography Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Geological Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Geological Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Geoscientist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Glazier",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Government Program Eligibility Interviewer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Graduate Teaching Assistant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Graphic Designer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Groundskeeper",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Groundskeeping Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Gynecologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Hairdresser",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Hairstylist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Hand Grinding Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Hand Laborer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Hand Packager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Hand Packer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Hand Polishing Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Hand Sewer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Hazardous Materials Removal Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Head Cook",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Health And Safety Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Health Educator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Health Information Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Health Services Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Health Specialties Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Healthcare Social Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Hearing Officer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Heat Treating Equipment Setter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Heating Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Heating Mechanic",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Heavy Truck Driver",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Highway Maintenance Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Historian",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "History Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Hoist And Winch Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Home Appliance Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Home Economics Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Home Entertainment Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Home Health Aide",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Home Management Advisor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Host",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Hostess",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Hostler",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Hotel Desk Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Housekeeping Cleaner",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Human Resources Assistant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Human Resources Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Human Service Assistant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Hunter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Hydrologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Illustrator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Industrial Designer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Industrial Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Industrial Engineering Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Industrial Machinery Mechanic",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Industrial Production Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Industrial Truck Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Industrial-Organizational Psychologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Information Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Information Research Scientist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Information Security Analyst",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Information Systems Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Inspector",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Instructional Coordinator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Instructor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Insulation Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Insurance Claims Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Insurance Sales Agent",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Insurance Underwriter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Intercity Bus Driver",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Interior Designer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Internist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Interpreter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Interviewer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Investigator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Jailer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Janitor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Jeweler",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Judge",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Judicial Law Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Kettle Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Kiln Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Kindergarten Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Laboratory Animal Caretaker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Landscape Architect",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Landscaping Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Lathe Setter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Laundry Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Law Enforcement Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Law Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Lawyer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Layout Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Leather Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Legal Assistant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Legal Secretary",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Legislator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Librarian",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Library Assistant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Library Science Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Library Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Licensed Practical Nurse",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Licensed Vocational Nurse",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Life Scientist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Lifeguard",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Light Truck Driver",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Line Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Literacy Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Literature Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Loading Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Loan Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Loan Interviewer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Loan Officer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Lobby Attendant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Locker Room Attendant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Locksmith",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Locomotive Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Locomotive Firer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Lodging Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Log Grader",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Logging Equipment Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Logistician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Machine Feeder",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Machinist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Magistrate Judge",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Magistrate",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Maid",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mail Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mail Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mail Superintendent",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Maintenance Painter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Maintenance Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Makeup Artist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Management Analyst",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Manicurist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Manufactured Building Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mapping Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Marble Setter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Marine Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Marine Oiler",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Market Research Analyst",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Marketing Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Marketing Specialist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Marriage Therapist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Massage Therapist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Material Mover",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Materials Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Materials Scientist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mathematical Science Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mathematical Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mathematician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Maxillofacial Surgeon",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Measurer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Meat Cutter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Meat Packer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Meat Trimmer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mechanical Door Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mechanical Drafter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mechanical Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mechanical Engineering Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mediator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Medical Appliance Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Medical Assistant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Medical Equipment Preparer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Medical Equipment Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Medical Laboratory Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Medical Laboratory Technologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Medical Records Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Medical Scientist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Medical Secretary",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Medical Services Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Medical Transcriptionist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Meeting Planner",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mental Health Counselor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mental Health Social Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Merchandise Displayer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Messenger",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Metal Caster",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Metal Patternmaker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Metal Pickling Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Metal Pourer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Metal Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Metal-Refining Furnace Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Metal-Refining Furnace Tender",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Meter Reader",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Microbiologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Middle School Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Milling Machine Setter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Millwright",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mine Cutting Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mine Shuttle Car Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mining Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mining Safety Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mining Safety Inspector",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mining Service Unit Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mixing Machine Setter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mobile Heavy Equipment Mechanic",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mobile Home Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Model Maker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Model",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Molder",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Mortician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Motel Desk Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Motion Picture Projectionist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Motorboat Mechanic",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Motorboat Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Motorboat Service Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Motorcycle Mechanic",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Movers",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Multimedia Artist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Museum Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Music Director",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Music Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Musical Instrument Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Musician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Natural Sciences Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Naval Architect",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Network Systems Administrator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "New Accounts Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "News Vendor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Nonfarm Animal Caretaker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Nuclear Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Nuclear Medicine Technologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Nuclear Power Reactor Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Nuclear Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Nursing Aide",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Nursing Instructor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Nursing Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Nutritionist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Obstetrician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Occupational Health And Safety Specialist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Occupational Health And Safety Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Occupational Therapist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Occupational Therapy Aide",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Occupational Therapy Assistant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Offbearer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Office Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Office Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Operating Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Operations Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Operations Research Analyst",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Ophthalmic Laboratory Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Optician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Optometrist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Oral Surgeon",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Order Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Order Filler",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Orderly",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Ordnance Handling Expert",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Orthodontist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Orthotist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Outdoor Power Equipment Mechanic",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Oven Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Packaging Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Painter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Painting Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Paper Goods Machine Setter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Paperhanger",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Paralegal",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Paramedic",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Parking Enforcement Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Parking Lot Attendant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Parts Salesperson",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Paving Equipment Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Payroll Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Pediatrician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Pedicurist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Personal Care Aide",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Personal Chef",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Personal Financial Advisor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Personal Trainer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Pest Control Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Pesticide Applicator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Pesticide Handler",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Pesticide Sprayer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Petroleum Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Petroleum Gauger",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Petroleum Pump System Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Petroleum Refinery Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Petroleum Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Pharmacist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Pharmacy Aide",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Pharmacy Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Philosophy Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Photogrammetrist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Photographer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Photographic Process Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Photographic Processing Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Physical Therapist Aide",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Physical Therapist Assistant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Physical Therapist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Physician Assistant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Physician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Physicist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Physics Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Pile-Driver Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Pipefitter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Pipelayer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Planing Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Planning Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Plant Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Plant Scientist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Plasterer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Plastic Patternmaker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Plastic Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Plumber",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Podiatrist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Police Dispatcher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Police Officer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Policy Processing Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Political Science Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Political Scientist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Postal Service Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Postal Service Mail Carrier",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Postal Service Mail Processing Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Postal Service Mail Processor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Postal Service Mail Sorter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Postmaster",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Postsecondary Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Poultry Cutter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Poultry Trimmer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Power Dispatcher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Power Distributor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Power Plant Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Power Tool Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Precious Stone Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Precision Instrument Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Prepress Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Preschool Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Priest",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Print Binding Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Printing Press Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Private Detective",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Probation Officer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Procurement Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Producer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Product Promoter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Product Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Production Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Production Occupation",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Proofreader",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Property Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Prosthetist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Prosthodontist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Psychiatric Aide",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Psychiatric Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Psychiatrist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Psychologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Psychology Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Public Relations Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Public Relations Specialist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Pump Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Purchasing Agent",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Purchasing Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Radiation Therapist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Radio Announcer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Radio Equipment Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Radio Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Radiologic Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Radiologic Technologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Rail Car Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Rail Transportation Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Rail Yard Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Rail-Track Laying Equipment Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Railroad Brake Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Railroad Conductor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Railroad Police",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Rancher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Real Estate Appraiser",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Real Estate Broker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Real Estate Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Real Estate Sales Agent",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Receiving Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Receptionist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Record Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Recreation Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Recreation Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Recreational Therapist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Recreational Vehicle Service Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Recyclable Material Collector",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Referee",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Refractory Materials Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Refrigeration Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Refrigeration Mechanic",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Refuse Collector",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Regional Planner",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Registered Nurse",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Rehabilitation Counselor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Reinforcing Iron Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Reinforcing Rebar Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Religion Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Religious Activities Director",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Religious Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Rental Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Repair Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Reporter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Residential Advisor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Resort Desk Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Respiratory Therapist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Respiratory Therapy Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Retail Buyer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Retail Salesperson",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Revenue Agent",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Rigger",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Rock Splitter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Rolling Machine Tender",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Roof Bolter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Roofer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Rotary Drill Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Roustabout",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Safe Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sailor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sales Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sales Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sales Representative",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sampler",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sawing Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Scaler",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "School Bus Driver",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "School Psychologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "School Social Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Scout Leader",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sculptor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Secondary Education Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Secondary School Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Secretary",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Securities Sales Agent",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Security Guard",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Security System Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Segmental Paver",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Self-Enrichment Education Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Semiconductor Processor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Septic Tank Servicer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Set Designer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sewer Pipe Cleaner",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sewing Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Shampooer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Shaper",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sheet Metal Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sheriff'S Patrol Officer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Ship Captain",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Ship Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Ship Loader",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Shipmate",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Shipping Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Shoe Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Shoe Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Short Order Cook",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Signal Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Signal Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Singer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Ski Patrol",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Skincare Specialist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Slaughterer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Slicing Machine Tender",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Slot Supervisor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Social Science Research Assistant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Social Sciences Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Social Scientist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Social Service Assistant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Social Service Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Social Work Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Social Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sociologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sociology Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Software Developer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Software Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Soil Scientist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Solderer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sorter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sound Engineering Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Space Scientist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Special Education Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Speech-Language Pathologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sports Book Runner",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sports Entertainer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Sports Performer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Stationary Engineer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Statistical Assistant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Statistician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Steamfitter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Stock Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Stock Mover",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Stonemason",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Street Vendor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Streetcar Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Structural Iron Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Structural Metal Fabricator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Structural Metal Fitter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Structural Steel Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Stucco Mason",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Substance Abuse Counselor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Substance Abuse Social Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Subway Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Surfacing Equipment Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Surgeon",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Surgical Technologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Survey Researcher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Surveying Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Surveyor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Switch Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Switchboard Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tailor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tamping Equipment Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tank Car Loader",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Taper",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tax Collector",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tax Examiner",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tax Preparer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Taxi Driver",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Teacher Assistant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Team Assembler",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Technical Writer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Telecommunications Equipment Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Telemarketer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Telephone Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Television Announcer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Teller",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Terrazzo Finisher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Terrazzo Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tester",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Textile Bleaching Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Textile Cutting Machine Setter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Textile Knitting Machine Setter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Textile Presser",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Textile Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Therapist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Ticket Agent",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Ticket Taker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tile Setter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Timekeeping Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Timing Device Assembler",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tire Builder",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tire Changer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tire Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Title Abstractor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Title Examiner",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Title Searcher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tobacco Roasting Machine Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tool Filer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tool Grinder",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tool Maker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tool Sharpener",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tour Guide",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tower Equipment Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tower Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Track Switch Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tractor Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tractor-Trailer Truck Driver",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Traffic Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Traffic Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Training And Development Manager",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Training And Development Specialist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Transit Police",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Translator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Transportation Equipment Painter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Transportation Inspector",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Transportation Security Screener",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Transportation Worker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Trapper",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Travel Agent",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Travel Clerk",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Travel Guide",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tree Pruner",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tree Trimmer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Trimmer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Truck Loader",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Truck Mechanic",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tuner",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Turning Machine Tool Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Tutor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Typist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Umpire",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Undertaker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Upholsterer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Urban Planner",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Usher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Ux Designer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Valve Installer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Vending Machine Servicer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Veterinarian",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Veterinary Assistant",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Veterinary Technician",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Vocational Counselor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Vocational Education Teacher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Waiter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Waitress",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Watch Repairer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Water Treatment Plant Operator",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Weaving Machine Setter",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Web Developer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Weigher",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Welder",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Wellhead Pumper",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Wholesale Buyer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Wildlife Biologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Window Trimmer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Wood Patternmaker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Woodworker",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Word Processor",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Writer",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Yardmaster",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  },
+  {
+    "name": "Zoologist",
+    "source_item": "",
+    "source": "dariusk/corpora occupations"
+  }
+]

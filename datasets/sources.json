@@ -1,0 +1,96 @@
+[
+  {
+    "name": "mledoze/countries",
+    "url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
+    "license": "Open Database License",
+    "files": [
+      "countries.csv",
+      "countries.json"
+    ]
+  },
+  {
+    "name": "GeoNames cities5000",
+    "url": "https://download.geonames.org/export/dump/cities5000.zip",
+    "license": "Creative Commons Attribution 4.0",
+    "attribution": "Contains geographical data from GeoNames.org.",
+    "files": [
+      "cities.csv",
+      "cities.json"
+    ]
+  },
+  {
+    "name": "sigpwned popular-names-by-country-dataset",
+    "url": "https://raw.githubusercontent.com/sigpwned/popular-names-by-country-dataset/main/common-forenames-by-country.csv",
+    "license": "Creative Commons CC0 public domain dedication",
+    "files": [
+      "male_names.csv",
+      "female_names.csv"
+    ]
+  },
+  {
+    "name": "US Social Security Administration baby names",
+    "url": "https://www.ssa.gov/oact/babynames/names.zip",
+    "license": "Public government data",
+    "files": [
+      "male_names.csv",
+      "female_names.csv"
+    ]
+  },
+  {
+    "name": "Wikidata Query Service",
+    "url": "https://query.wikidata.org/sparql",
+    "license": "Creative Commons CC0 public domain dedication",
+    "files": [
+      "male_names.csv",
+      "female_names.csv",
+      "occupations.csv",
+      "interests.csv",
+      "universities.csv",
+      "companies.csv",
+      "religions.csv",
+      "languages.csv"
+    ]
+  },
+  {
+    "name": "dariusk/corpora",
+    "url": "https://github.com/dariusk/corpora",
+    "license": "Creative Commons CC0 public domain dedication",
+    "files": [
+      "occupations.csv",
+      "interests.csv",
+      "religions.csv"
+    ]
+  },
+  {
+    "name": "umpirsky/language-list",
+    "url": "https://raw.githubusercontent.com/umpirsky/language-list/master/data/en/language.json",
+    "license": "MIT",
+    "files": [
+      "languages.csv"
+    ]
+  },
+  {
+    "name": "Hipo university-domains-list",
+    "url": "https://raw.githubusercontent.com/Hipo/university-domains-list/master/world_universities_and_domains.json",
+    "license": "MIT",
+    "files": [
+      "universities.csv"
+    ]
+  },
+  {
+    "name": "DataHub S&P 500 and Nasdaq listings",
+    "url": "https://datahub.io/core/nasdaq-listings",
+    "license": "Open Data Commons Public Domain Dedication and License",
+    "files": [
+      "companies.csv"
+    ]
+  },
+  {
+    "name": "HeartConnect template grammar",
+    "license": "Project-authored generator grammar; not a third-party dataset",
+    "files": [
+      "bio_templates.csv",
+      "demo_profiles.csv when requested"
+    ]
+  }
+]

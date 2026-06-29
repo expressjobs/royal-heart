@@ -1,0 +1,49 @@
+name: Security re-scan
+
+# Runs the targeted database security checks whenever a migration changes,
+# plus on demand and on a weekly schedule. Fails the build (and posts a job
+# summary) when any new finding is detected.
+#
+# Requires a repository secret named SUPABASE_DB_URL containing the Postgres
+# connection string for the project's database.
+
+on:
+  push:
+    paths:
+      - "supabase/migrations/**"
+      - "scripts/security-scan.mjs"
+      - ".github/workflows/security-scan.yml"
+  pull_request:
+    paths:
+      - "supabase/migrations/**"
+      - "scripts/security-scan.mjs"
+      - ".github/workflows/security-scan.yml"
+  schedule:
+    - cron: "0 6 * * 1" # every Monday 06:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Verify database secret is configured
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: |
+          if [ -z "$SUPABASE_DB_URL" ]; then
+            echo "::error::SUPABASE_DB_URL repository secret is not set. Add it under Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+
+      - name: Run targeted security re-scan
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: node scripts/security-scan.mjs

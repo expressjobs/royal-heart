@@ -1,0 +1,2587 @@
+[
+  {
+    "name": "Azali",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "BahÁ'íS Under The Provisions Of The Covenant",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Orthodox BahÁ'í Faith",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Anabaptists",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Anglicanism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Baptists",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Calvinism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Congregational Churches",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Lutheranism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Members Church Of God International",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Methodism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Moravians",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Nonconformism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Pentecostalism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Pietism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Presbyterianism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Quakerism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Shakers",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Waldensians",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Greek Orthodox",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Serbian Orthodox",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Russian Orthodox",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Romanian Orthodox",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Bulgarian Orthodox",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Armenian Orthodox",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Coptic Orthodox",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ethiopian Orthodox",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Syriac Orthodox",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Arianism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Christadelphians",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Christian Gnosticism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Christian Identity",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Christian Science",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Christian Universalism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "The Church Of Jesus Christ Of Latter-Day Saints",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Iglesia Ni Cristo",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ebionites",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Jehovah'S Witnesses",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Jesuism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Latter Day Saint Movement",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Millerites",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Nontrinitarianism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Messianic Judaism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Marcionism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Rastafarianism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Seventh-Day Adventist Church",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Spiritual Baptists",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Swedenborgianism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "The Aquarian Church",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Unification Church",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Unitarianism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Universal Church Of The Kingdom Of God",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Mandaeism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Manichaeism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Bagnolians",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sethianism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Basilideans",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Valentinianism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Bardaisan",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ecclesia Gnostica",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ash'Ari",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Maturidi",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Murji'Ah",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Mu'Tazila",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ibadi",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Azraqi",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Haruriyyah",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sufri",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Isma'Ilism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Mustaali / Dawoodi Bohra",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Nizari",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ja'Fari Jurisprudence",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Twelver",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Akhbari",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Shaykhism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Usuli",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Alawites",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Alevism / Bektashi Order",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Zaidiyyah",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Bektashi Order",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Chishti Order",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Mevlevi Order",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Mujaddidiyah",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Naqshbandi",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Jahriyya",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Khufiyya",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ni'MatullĀHĪ",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Tariqa",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Qadiriyya",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sufi Order International",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sufism Reoriented",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Suhrawardiyya",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Tijaniyyah",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Universal Sufism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Dances Of Universal Peace",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Hanafi",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Barelvi",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Deobandi",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Gedimu",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Yihewani",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Xidaotang",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Hanbali",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Maliki",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Shafi'I",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ahl Al-Hadith",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Salafi Movement",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Wahhabism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Muwahhidism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ghair Muqallidism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Quranism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Tolu-E-Islam",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "United Submitters International",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "American Society Of Muslims",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Five-Percent Nation",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Moorish Orthodox Church Of America",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Moorish Science Temple Of America",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Nation Of Islam",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "United Nation Of Islam",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ahmadiyya Muslim Community",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Lahore Ahmadiyya Movement For The Propagation Of Islam",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Yarsanism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Al-Fatiha Foundation",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Canadian Muslim Union",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "European Islam",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ittifaq Al-Muslimin",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Jamaat Al Muslimeen",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Jadid",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Liberal Movements Within Islam",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Muslim Canadian Congress",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Riaz Ahmed Gohar Shahi",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Messiah Foundation International",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Progressive British Muslims",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Progressive Muslim Union",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Mahdaviav",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Alevism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Orthodox Judaism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Haredi Judaism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Hasidic Judaism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Modern Orthodox Judaism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Conservative Judaism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Masorti",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Conservadox Judaism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Union For Traditional Judaism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Reform Judaism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Progressive Judaism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Liberal Judaism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Alternative Judaism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Humanistic Judaism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Jewish Renewal",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Reconstructionist Judaism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Second Temple Judaism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Essenes",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Pharisees (Ancestor Of Rabbinic Judaism)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sadducees (Possible Ancestor Of Karaite Judaism)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Zealots (Judea)S",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sicarii",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sects That Believed Jesus Was A Prophet",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Elcesaites",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Nazarenes",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sabbateans",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Frankism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sabians",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Mandaean Nasaraean Sabeans",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sabians Of Harran",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Kabir Panth",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ravidassia Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sant Mat",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sri Lankan Amarapura Nikaya",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sri Lankan Siam Nikaya",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sri Lankan RamaÑñA Nikaya",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Bangladeshi Sangharaj Nikaya",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Bangladeshi Mahasthabir Nikaya",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Burmese Thudhamma Nikaya",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Vipassana Tradition Of Mahasi Sayadaw And Disciples",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Burmese Shwegyin Nikaya",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Burmese Dwara Nikaya",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Thai Maha Nikaya",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Dhammakaya Movement",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Thai Dhammayuttika Nikaya",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Thai Forest Tradition",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Tradition Of Ajahn Chah",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "PrasaṄGika",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Svatantrika",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "East Asian MĀDhyamaka (Three Treatise School)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Jonang",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Nichiren ShŪ",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Nichiren ShŌShŪ",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Soka Gakkai",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "JŌDo-ShŪ",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "JŌDo ShinshŪ",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "DaŚAbhŪMikĀ (Absorbed Into Huayan)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Huayan School (AvataṂSaka)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Hwaeom",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Kegon",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Tendai",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Cheontae",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "East Asian YogĀCĀRa",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "SŌTŌ",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Keizan Line",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Jakuen Line",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Giin Line",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Rinzai School",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "ōBaku",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Fuke-ShŪ",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Won Buddhism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Dagpo Kagyu",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Karma Kagyu",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Barom Kagyu",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Drukpa Lineage",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Shangpa Kagyu",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Shambhala Buddhism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Diamond Way Buddhism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Triratna Buddhist Community",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "New Kadampa Tradition",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Share International",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "True Buddha School",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Nipponzan-MyŌHŌJi-Daisanga",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "The Osho Or Rajneesh Movement",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ananda Marga",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Gaudiya Vaishnavism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "International Society For Krishna Consciousness",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Arya Samaj",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Brahmo Samaj",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ramakrishna Mission",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Satya Dharma",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Satsang Of Thakur Anukulchandra",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Matua Mahasangha",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Hinduism In Indonesia",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Advaita Vedanta",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Integral Yoga",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Vishishtadvaita",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Dvaita Vedanta",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ashtanga Yoga",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Bhakti Yoga",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Raja Yoga",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Karma Yoga",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Jnana Yoga",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Kundalini Yoga",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Hatha Yoga",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Siddha Yoga",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Surat Shabd Yoga",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Tantric Yoga",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sahaja Yoga",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Bispanthi",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Digambar Terapanth",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Kanji Panth",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Panth Of Kanji Swami",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Murtipujaka (Deravasi)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "SthĀNakavĀSĪ",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Svetambar Terapanth",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Khalsa",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Nihang",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Namdhari (\"Kuka Sikhs\")",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sahajdhari",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Zurvanism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Mazdakism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Khurramites (Syncretism With Shi'A Islam)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Behafaridians",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Mithraism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "BÁBism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "BahÁ'í Faith",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Alevi",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Yarsani",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Yazidi",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Neo-Confucianism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "New Confucianism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "KoshintŌ",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "ShugendŌ",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Yoshida ShintŌ",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Konkokyo",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Oomoto",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Seicho-No-Ie",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Shinmeiaishinkai",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Tenrikyo",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Zenrinkyo",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Way Of The Five Pecks Of Rice",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Way Of The Celestial Masters",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Zhengyi Dao (\"Way Of The Right Oneness\")",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Taipingjing-Based Movements",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Shangqing School (\"School Of The Highest Clarity\")",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Lingbao School (\"School Of The Numinous Treasure\")",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Quanzhen School (\"Way Of The Fulfilled Virtue\")",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Dragon Gate Taoism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Wuliupai (\"School Of Wu-Liu\")",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Yao Taoism (Meishanism)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Faism (Redhead Taoism)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Xuanxue (Neo-Taoism)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Yiguandao",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Dudeism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Zenarchy (Kerry Wendell Thornley)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Chan Buddhism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Chinese Folk Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Falun Gong",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Yiguandao (I Kuan-Tao)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Mohism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Xiantiandao",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Cheondoism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Daejongism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Daesun Jinrihoe",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Gasin Faith",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Jeung San Do",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Juche",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Korean Shamanism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Suwunism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Cao đàI",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "đạO BỬU SƠN KỲ HƯơNg",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "đạO DỪA",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "đạO MẪU",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "HÒA HẢO",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Batuque",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "CandomblÉ",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Dahomey Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Haitian Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Kumina",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Macumba",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Mami Wata",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Obeah",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Oyotunji",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Palo",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Quimbanda",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "SanterÍA (Lukumi)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Umbanda",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Vodou",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Akan Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ashanti Mythology (Ghana)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Dahomey (Fon) Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Efik Mythology (Nigeria, Cameroon)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Igbo Mythology (Nigeria, Cameroon)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Isoko Mythology (Nigeria)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Yoruba Mythology (Nigeria, Benin)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Bushongo Mythology (Congo)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Bambuti (Pygmy) Mythology (Congo)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Lugbara Mythology (Congo)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Akamba Mythology (East Kenya)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Dinka Mythology (Sudan)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Lotuko Mythology (Sudan)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Masai Mythology (Kenya, Tanzania)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Khoisan Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Lozi Mythology (Zambia)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Tumbuka Mythology (Malawi)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Zulu Mythology (South Africa)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Abenaki Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Anishinaabe",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Aztec Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Blackfoot Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Cherokee Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Chickasaw Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Choctaw Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Creek Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Crow Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ghost Dance",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Guarani Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Haida Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ho-Chunk Mythology (Aka: Winnebago)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Hopi Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Inca Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Indian Shaker Church",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Inuit Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Iroquois Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Keetoowah Nighthawk Society",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Kuksu",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Kwakiutl Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Lakota Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Leni Lenape Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Longhouse Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Mapuche Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Maya Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Midewiwin",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Miwok",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Native American Church",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Navajo Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Nootka Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ohlone Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Olmec Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Pomo Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Pawnee Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Salish Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Selk'Nam Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Seneca Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Southeastern Ceremonial Complex",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sun Dance",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Tsimshian Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Urarina",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ute Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Wyandot Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Zuni Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Benzhuism (Indigenous Religion Of The Bai People)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Bimoism (Indigenous Religion Of The Yi People)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Bon (Indigenous Religion Of Tibet)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Chinese Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Japanese Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Manchu Shamanism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Mun (Lepcha)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Siberian Shamanism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Tengrism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ua Dab (Indigenous Religion Of The Hmong People)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Vietnamese Folk Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Asatru",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Estonian Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Eskimo Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Finnish Mythology And Finnish Paganism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Marla Faith",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Odinism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Romuva",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Hungarian Folk Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sami Religion (Including The Noaidi)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Wotanism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Modekngei",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Nauruan Indigenous Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Anito",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "GabÂ",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Kulam",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "MĀOri Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Moai",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Tangata Manu",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "John Frum",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Prince Philip Movement",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Vailala Madness",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Canaanite Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Canaanite Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Arabian Mythology (Pre-Islamic)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Babylonian And Assyrian Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Babylonian Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Chaldean Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Sumerian Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Historical Vedic Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Iranian Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Brythonic Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Gaelic Mythology",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Anglo-Saxon Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Continental Germanic Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Norse Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Eleusinian Mysteries",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Orphism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Estonian Polytheism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Finnish Polytheism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Hungarian Polytheism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Tantra",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Vaastu Shastra",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Neopythagoreanism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Hermeticism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Builders Of The Adytum",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Fraternitas Saturni",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Fraternity Of The Inner Light",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Hermetic Order Of The Golden Dawn",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "The Open Source Order Of The Golden Dawn",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ordo Aurum Solis",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Rosicrucian",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ancient Mystical Order Rosae Crucis",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Rosicrucian Fellowship",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Servants Of The Light",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "A∴A∴",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ordo Templi Orientis",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ecclesia Gnostica Catholica (The Ecclesiastical Arm Of O.T.O.)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Typhonian Order",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Main Articles: Christian Mysticism And Esoteric Christianity",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Anthroposophy",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Archeosophical Society",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Behmenism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Christian Kabbalah",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Martinism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Enochian Magic",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Goetic Magic",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Illuminates Of Thanateros",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Thee Temple Ov Psychick Youth",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "New Orleans Voodoo",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Reformed Druids Of North America",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Gardnerian Wicca",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Alexandrian Wicca",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Central Valley Wicca",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Algard Wicca",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Chthonioi Alexandrian Wicca",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Blue Star Wicca",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Eclectic Wicca",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Covenant Of The Goddess",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Armenian Neopaganism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Baltic Neopaganism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Celtic Neopaganism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Finnish Neopaganism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Germanic Neopaganism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Hellenismos",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Kemetism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Roman Neopaganism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Semitic Neopaganism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Slavic Neopaganism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Taaraism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Zalmoxianism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Church Universal And Triumphant",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Divine Science",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Religious Science",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Unity Church",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Jewish Science",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Church Of World Messianity",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Happy Science",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Pl Kyodan",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Laveyan Satanism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Theistic Satanism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Our Lady Of Endor Coven (Or Ophite Cultus Satanas)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Discordianism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Ethical Culture",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Some Forms Of Freethought (E.G. North Texas Church Of Freethought)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Jesusism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Naturalistic Pantheism (E.G. World Pantheist Movement)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Yoism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Cult Of The Supreme Being",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Deism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Eckankar",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Fourth Way",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Goddess Movement",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Humanism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "The New Message From God",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Nuwaubian Nation",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Open-Source Religion",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Plurationalism",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Spiritism (Spiritualism)",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Subud",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  },
+  {
+    "name": "Universal Life Church",
+    "source_item": "",
+    "source": "dariusk/corpora religions"
+  }
+]
