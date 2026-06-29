@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { User } from "lucide-react";
-import { getSignedUrl } from "@/lib/storage";
+import { getCachedSignedUrl, getSignedUrl } from "@/lib/storage";
 import { cn } from "@/lib/utils";
 
 /** Displays a single stored photo path as a signed image. */
@@ -9,13 +9,15 @@ export function ProfilePhoto({
   alt,
   className,
   rounded = "rounded-2xl",
+  loading = "lazy",
 }: {
   path: string | null | undefined;
   alt: string;
   className?: string;
   rounded?: string;
+  loading?: "eager" | "lazy";
 }) {
-  const [url, setUrl] = useState<string | null>(null);
+  const [url, setUrl] = useState<string | null>(() => getCachedSignedUrl(path));
 
   useEffect(() => {
     let active = true;
@@ -23,6 +25,12 @@ export function ProfilePhoto({
       setUrl(null);
       return;
     }
+    const cached = getCachedSignedUrl(path);
+    if (cached) {
+      setUrl(cached);
+      return;
+    }
+    setUrl(null);
     getSignedUrl(path).then((u) => active && setUrl(u));
     return () => {
       active = false;
@@ -51,7 +59,8 @@ export function ProfilePhoto({
     <img
       src={url}
       alt={alt}
-      loading="lazy"
+      loading={loading}
+      fetchPriority={loading === "eager" ? "high" : "auto"}
       className={cn("h-full w-full object-cover", rounded, className)}
     />
   );

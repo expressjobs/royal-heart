@@ -9,13 +9,25 @@ function isDirectAssetPath(path: string): boolean {
   return path.startsWith("/") || path.startsWith("http://") || path.startsWith("https://");
 }
 
+/** Returns a usable URL synchronously when it is already direct or cached. */
+export function getCachedSignedUrl(path: string | null | undefined): string | null {
+  if (!path) return null;
+  if (isDirectAssetPath(path)) return path;
+  const hit = cache.get(path);
+  if (!hit) return null;
+  if (hit.expires <= Date.now()) {
+    cache.delete(path);
+    return null;
+  }
+  return hit.url;
+}
+
 /** Returns a signed URL for a stored photo path, cached in-memory. */
 export async function getSignedUrl(path: string): Promise<string | null> {
   if (!path) return null;
-  if (isDirectAssetPath(path)) return path;
+  const cached = getCachedSignedUrl(path);
+  if (cached) return cached;
   const now = Date.now();
-  const hit = cache.get(path);
-  if (hit && hit.expires > now) return hit.url;
 
   const { data, error } = await supabase.storage.from(BUCKET).createSignedUrl(path, EXPIRY);
   if (error || !data?.signedUrl) return null;

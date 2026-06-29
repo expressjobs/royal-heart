@@ -111,7 +111,6 @@ function Discover() {
     advance,
   } = useDiscoverQueue({
     userId: user?.id,
-    viewerCountry: profile?.location_country,
     filters,
   });
 

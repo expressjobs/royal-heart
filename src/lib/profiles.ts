@@ -18,6 +18,12 @@ export type ProfileWithPhotos = Profile & {
 
 export type PhotoSource = Pick<PhotoRow, "url" | "storage_path" | "is_primary">;
 
+const DISCOVER_CACHE_TTL_MS = 45_000;
+const discoverCache = new Map<
+  string,
+  { expiresAt: number; promise: Promise<ProfileWithPhotos[]> }
+>();
+
 export function photoPath(photo: Pick<PhotoRow, "url" | "storage_path"> | null | undefined) {
   return photo?.storage_path || photo?.url || null;
 }
@@ -40,6 +46,7 @@ async function attachPhotos(profiles: Profile[]): Promise<ProfileWithPhotos[]> {
     .from("profile_photos")
     .select("user_id, url, storage_path, is_primary, position")
     .in("user_id", ids)
+    .eq("is_private", false)
     .order("is_primary", { ascending: false })
     .order("position", { ascending: true });
 
@@ -175,24 +182,40 @@ async function hydrateRanked(
  * (with photos) ordered by relevance and distance, each carrying `distance_m`.
  */
 export async function fetchDiscoverDeck(
-  _myId: string,
+  myId: string,
   _viewer?: ViewerPrefs | null,
   filters?: DiscoverFilters,
   limit = 240,
 ): Promise<ProfileWithPhotos[]> {
-  const [{ data: ranked, error }, { data: reports }] = await Promise.all([
-    supabase.rpc("discover_profiles", {
-      ...rpcFilterArgs(filters),
-      _limit: limit,
-    }),
-    supabase.from("reports").select("reported_id").not("reported_id", "is", null),
-  ]);
-  if (error || !ranked) return [];
-  const reported = new Set((reports ?? []).map((row) => row.reported_id).filter(Boolean));
-  const safeRanked = (ranked as { id: string; distance_m: number | null }[]).filter(
-    (row) => !reported.has(row.id),
-  );
-  return hydrateRanked(safeRanked);
+  const cacheKey = `${myId}:${limit}:${JSON.stringify(rpcFilterArgs(filters))}`;
+  const now = Date.now();
+  const cached = discoverCache.get(cacheKey);
+  if (cached && cached.expiresAt > now) return cached.promise;
+
+  const promise = (async () => {
+    const [{ data: ranked, error }, { data: reports }] = await Promise.all([
+      supabase.rpc("discover_profiles", {
+        ...rpcFilterArgs(filters),
+        _limit: limit,
+      }),
+      supabase.from("reports").select("reported_id").not("reported_id", "is", null),
+    ]);
+    if (error || !ranked) return [];
+    const reported = new Set((reports ?? []).map((row) => row.reported_id).filter(Boolean));
+    const safeRanked = (ranked as { id: string; distance_m: number | null }[]).filter(
+      (row) => !reported.has(row.id),
+    );
+    return hydrateRanked(safeRanked);
+  })();
+
+  discoverCache.set(cacheKey, { expiresAt: now + DISCOVER_CACHE_TTL_MS, promise });
+  return promise;
+}
+
+export function invalidateDiscoverCache(userId: string) {
+  for (const key of discoverCache.keys()) {
+    if (key.startsWith(`${userId}:`)) discoverCache.delete(key);
+  }
 }
 
 export interface SearchPage {

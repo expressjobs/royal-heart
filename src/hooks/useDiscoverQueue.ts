@@ -1,11 +1,14 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import {
   fetchDiscoverDeck,
+  invalidateDiscoverCache,
+  primaryPhotoPath,
   primaryPhotoFromRows,
   type DiscoverFilters,
   type ProfileWithPhotos,
 } from "@/lib/profiles";
+import { getSignedUrls } from "@/lib/storage";
 import {
   loadDiscoverAccessSettings,
   normalizeDiscoverAccessSettings,
@@ -15,22 +18,11 @@ import {
 const DISCOVER_BATCH_SIZE = 240;
 const LOW_QUEUE_WATERMARK = 8;
 
-function shuffleDeck<T>(items: T[]) {
-  const next = [...items];
-  for (let i = next.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [next[i], next[j]] = [next[j], next[i]];
-  }
-  return next;
-}
-
 export function useDiscoverQueue({
   userId,
-  viewerCountry,
   filters,
 }: {
   userId: string | null | undefined;
-  viewerCountry?: string | null;
   filters: DiscoverFilters;
 }) {
   const [deck, setDeck] = useState<ProfileWithPhotos[]>([]);
@@ -41,11 +33,7 @@ export function useDiscoverQueue({
     normalizeDiscoverAccessSettings(null),
   );
 
-  const effectiveFilters = useMemo(() => {
-    if (settings.discover_global_mode) return filters;
-    if (filters.country || !viewerCountry) return filters;
-    return { ...filters, country: viewerCountry };
-  }, [filters, settings.discover_global_mode, viewerCountry]);
+  const effectiveFilters = filters;
 
   const load = useCallback(async () => {
     if (!userId) return;
@@ -60,8 +48,13 @@ export function useDiscoverQueue({
         .order("is_primary", { ascending: false })
         .order("position", { ascending: true }),
     ]);
+    const nearbyPhotoPaths = list
+      .slice(0, 5)
+      .map(primaryPhotoPath)
+      .filter((path): path is string => Boolean(path));
+    if (nearbyPhotoPaths.length) await getSignedUrls(nearbyPhotoPaths);
     setSettings(nextSettings);
-    setDeck(shuffleDeck(list));
+    setDeck(list);
     setMyPhoto(primaryPhotoFromRows(myPhotos.data));
     setLoading(false);
   }, [effectiveFilters, userId]);
@@ -71,8 +64,9 @@ export function useDiscoverQueue({
   }, [load]);
 
   const advance = useCallback(() => {
+    if (userId) invalidateDiscoverCache(userId);
     setDeck((current) => current.slice(1));
-  }, []);
+  }, [userId]);
 
   const topUp = useCallback(async () => {
     if (!userId || loading || loadingMore || deck.length > LOW_QUEUE_WATERMARK) return;

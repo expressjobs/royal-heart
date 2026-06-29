@@ -74,6 +74,7 @@ export function SwipeCard({
           path={photo}
           alt={profile.display_name ?? "Profile"}
           rounded="rounded-none"
+          loading={active ? "eager" : "lazy"}
           className="absolute inset-0 h-full w-full"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/88 via-black/20 to-black/5" />
