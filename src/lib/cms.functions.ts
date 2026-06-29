@@ -10,8 +10,10 @@ import {
   DEFAULT_ABOUT,
   DEFAULT_FEATURES,
   DEFAULT_FOOTER,
+  DEFAULT_HEADER,
   DEFAULT_HERO,
   DEFAULT_INFO_PAGES,
+  DEFAULT_SITE_SETTINGS,
   DEFAULT_STATS,
   DEFAULT_STORIES,
   DEFAULT_TESTIMONIALS,
@@ -20,10 +22,12 @@ import type {
   AboutContent,
   FeaturesContent,
   FooterContent,
+  HeaderContent,
   HeroContent,
   HeroSlide,
   HomepageContent,
   InfoPageContent,
+  SiteSettingsContent,
   StatsContent,
   SuccessStory,
   Testimonial,
@@ -45,6 +49,8 @@ export interface CmsMutationResult {
 
 export interface AdminCmsSnapshot {
   sections: {
+    header: HeaderContent;
+    siteSettings: SiteSettingsContent;
     hero: HeroContent;
     stats: StatsContent;
     about: AboutContent;
@@ -69,6 +75,55 @@ function publicClient() {
   return createClient<Database>(process.env.SUPABASE_URL!, key!, {
     auth: { storage: undefined, persistSession: false, autoRefreshToken: false },
   });
+}
+
+function isDirectAssetUrl(value: string | null | undefined): boolean {
+  return Boolean(
+    value &&
+      (value.startsWith("/") ||
+        value.startsWith("http://") ||
+        value.startsWith("https://") ||
+        value.startsWith("data:")),
+  );
+}
+
+async function resolveSiteMediaPath(
+  supabase: ReturnType<typeof publicClient>,
+  path: string | null | undefined,
+): Promise<string | null> {
+  if (!path) return null;
+  if (isDirectAssetUrl(path)) return path;
+  const { data } = await supabase.storage.from(BUCKET).createSignedUrl(path, SIGN_EXPIRY);
+  return data?.signedUrl ?? null;
+}
+
+async function resolveHeaderMedia(
+  supabase: ReturnType<typeof publicClient>,
+  header: HeaderContent,
+): Promise<HeaderContent> {
+  return {
+    ...header,
+    logoImagePath: (await resolveSiteMediaPath(supabase, header.logoImagePath)) ?? header.logoImagePath,
+  };
+}
+
+async function resolveSiteSettingsMedia(
+  supabase: ReturnType<typeof publicClient>,
+  settings: SiteSettingsContent,
+): Promise<SiteSettingsContent> {
+  const logoUrl = await resolveSiteMediaPath(supabase, settings.brand.logoImagePath);
+  const ogUrl = await resolveSiteMediaPath(supabase, settings.seo.ogImagePath);
+  return {
+    ...settings,
+    seo: {
+      ...settings.seo,
+      ogImageUrl: ogUrl ?? settings.seo.ogImageUrl,
+    },
+    brand: {
+      ...settings.brand,
+      logoImagePath: logoUrl ?? settings.brand.logoImagePath,
+    },
+  };
 }
 
 function asObject(value: unknown): JsonObject {
@@ -102,6 +157,34 @@ function mergeFeatures(value: unknown): FeaturesContent {
   };
 }
 
+function sortLinks<T extends { order?: number; label: string }>(links: T[]): T[] {
+  return [...links].sort((a, b) => (a.order ?? 0) - (b.order ?? 0) || a.label.localeCompare(b.label));
+}
+
+function mergeHeader(value: unknown): HeaderContent {
+  const merged = mergeSection(
+    DEFAULT_HEADER as unknown as JsonObject,
+    value,
+  ) as unknown as HeaderContent;
+  return {
+    ...DEFAULT_HEADER,
+    ...merged,
+    logoText: merged.logoText?.trim() || DEFAULT_HEADER.logoText,
+    links:
+      Array.isArray(merged.links) && merged.links.length > 0
+        ? sortLinks(merged.links)
+        : DEFAULT_HEADER.links,
+    mobileLinks:
+      Array.isArray(merged.mobileLinks) && merged.mobileLinks.length > 0
+        ? sortLinks(merged.mobileLinks)
+        : DEFAULT_HEADER.mobileLinks,
+    announcement:
+      merged.announcement && typeof merged.announcement === "object"
+        ? { ...DEFAULT_HEADER.announcement, ...merged.announcement }
+        : DEFAULT_HEADER.announcement,
+  };
+}
+
 function mergeFooter(value: unknown): FooterContent {
   const merged = mergeSection(
     DEFAULT_FOOTER as unknown as JsonObject,
@@ -114,6 +197,37 @@ function mergeFooter(value: unknown): FooterContent {
       Array.isArray(merged.columns) && merged.columns.length > 0
         ? merged.columns
         : DEFAULT_FOOTER.columns,
+    socialLinks:
+      Array.isArray(merged.socialLinks) && merged.socialLinks.length > 0
+        ? sortLinks(merged.socialLinks)
+        : DEFAULT_FOOTER.socialLinks,
+  };
+}
+
+function mergeSiteSettings(value: unknown): SiteSettingsContent {
+  const merged = mergeSection(
+    DEFAULT_SITE_SETTINGS as unknown as JsonObject,
+    value,
+  ) as unknown as SiteSettingsContent;
+  return {
+    ...DEFAULT_SITE_SETTINGS,
+    ...merged,
+    seo:
+      merged.seo && typeof merged.seo === "object"
+        ? { ...DEFAULT_SITE_SETTINGS.seo, ...merged.seo }
+        : DEFAULT_SITE_SETTINGS.seo,
+    socialLinks:
+      Array.isArray(merged.socialLinks) && merged.socialLinks.length > 0
+        ? sortLinks(merged.socialLinks)
+        : DEFAULT_SITE_SETTINGS.socialLinks,
+    contact:
+      merged.contact && typeof merged.contact === "object"
+        ? { ...DEFAULT_SITE_SETTINGS.contact, ...merged.contact }
+        : DEFAULT_SITE_SETTINGS.contact,
+    brand:
+      merged.brand && typeof merged.brand === "object"
+        ? { ...DEFAULT_SITE_SETTINGS.brand, ...merged.brand }
+        : DEFAULT_SITE_SETTINGS.brand,
   };
 }
 
@@ -198,6 +312,7 @@ export const getHomepageContent = createServerFn({ method: "GET" }).handler(
       return await loadHomepageContent();
     } catch {
       return {
+        siteSettings: DEFAULT_SITE_SETTINGS,
         hero: DEFAULT_HERO,
         slides: [],
         stats: DEFAULT_STATS,
@@ -218,7 +333,7 @@ async function loadHomepageContent(): Promise<HomepageContent> {
     supabase
       .from("site_content")
       .select("section, data")
-      .in("section", ["hero", "stats", "about", "features"]),
+      .in("section", ["site_settings", "hero", "stats", "about", "features"]),
     supabase
       .from("hero_slides")
       .select("id, image_path, headline, subheadline, cta_label, cta_href")
@@ -254,6 +369,10 @@ async function loadHomepageContent(): Promise<HomepageContent> {
     sections.get("about"),
   ) as unknown as AboutContent;
   const features = mergeFeatures(sections.get("features"));
+  const siteSettings = await resolveSiteSettingsMedia(
+    supabase,
+    mergeSiteSettings(sections.get("site_settings")),
+  );
 
   const slides: HeroSlide[] = (slidesRes.data ?? []).map((slide) => ({
     id: slide.id,
@@ -299,8 +418,40 @@ async function loadHomepageContent(): Promise<HomepageContent> {
     }
   }
 
-  return { hero, slides, stats, about, features, testimonials, stories, media };
+  return { siteSettings, hero, slides, stats, about, features, testimonials, stories, media };
 }
+
+export const getHeaderContent = createServerFn({ method: "GET" }).handler(
+  async (): Promise<HeaderContent> => {
+    try {
+      const supabase = publicClient();
+      const { data } = await supabase
+        .from("site_content")
+        .select("data")
+        .eq("section", "header")
+        .maybeSingle();
+      return resolveHeaderMedia(supabase, mergeHeader(data?.data));
+    } catch {
+      return DEFAULT_HEADER;
+    }
+  },
+);
+
+export const getSiteSettingsContent = createServerFn({ method: "GET" }).handler(
+  async (): Promise<SiteSettingsContent> => {
+    try {
+      const supabase = publicClient();
+      const { data } = await supabase
+        .from("site_content")
+        .select("data")
+        .eq("section", "site_settings")
+        .maybeSingle();
+      return resolveSiteSettingsMedia(supabase, mergeSiteSettings(data?.data));
+    } catch {
+      return DEFAULT_SITE_SETTINGS;
+    }
+  },
+);
 
 export const getFooterContent = createServerFn({ method: "GET" }).handler(
   async (): Promise<FooterContent> => {
@@ -368,6 +519,8 @@ export const getSuperAdminCmsSnapshot = createServerFn({ method: "GET" })
 
     return {
       sections: {
+        header: mergeHeader(sections.get("header")),
+        siteSettings: mergeSiteSettings(sections.get("site_settings")),
         hero: mergeSection(
           DEFAULT_HERO as unknown as JsonObject,
           sections.get("hero"),
@@ -400,6 +553,8 @@ export const saveSiteContentSection = createServerFn({ method: "POST" })
     const section = typeof raw?.section === "string" ? raw.section : "";
     const allowed = new Set([
       "hero",
+      "header",
+      "site_settings",
       "stats",
       "about",
       "features",

@@ -1,4 +1,4 @@
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { QueryClient, QueryClientProvider, queryOptions } from "@tanstack/react-query";
 import {
   Outlet,
   Link,
@@ -18,8 +18,15 @@ import { AuthProvider } from "../contexts/AuthContext";
 import { ThemeProvider } from "../contexts/ThemeContext";
 import { Toaster } from "../components/ui/sonner";
 import { captureReferralVisit } from "@/lib/referrals.functions";
+import { DEFAULT_SITE_SETTINGS } from "@/lib/cms-defaults";
+import { getSiteSettingsContent } from "@/lib/cms.functions";
+import { absoluteUrl, pageSeo } from "@/lib/seo";
 
-const SITE_URL = "https://royal-heart.com";
+const siteSettingsQuery = queryOptions({
+  queryKey: ["site-settings"],
+  queryFn: () => getSiteSettingsContent(),
+  staleTime: 60 * 1000,
+});
 
 function NotFoundComponent() {
   return (
@@ -82,82 +89,62 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 }
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
-  head: () => ({
-    meta: [
-      { charSet: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "HeartConnect — Dating for Serious Relationships" },
-      {
-        name: "description",
-        content:
-          "HeartConnect is a modern dating platform for people seeking meaningful, lasting relationships. Create your profile, discover verified matches, and connect safely.",
-      },
-      { name: "author", content: "HeartConnect" },
-      { property: "og:site_name", content: "HeartConnect" },
-      { property: "og:title", content: "HeartConnect — Dating for Serious Relationships" },
-      {
-        property: "og:description",
-        content:
-          "Meet genuine, verified people looking for real connection. Smart matching, real-time chat, and safety-first design.",
-      },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: `${SITE_URL}/` },
-      { property: "og:image", content: `${SITE_URL}/og-image.png` },
-      { property: "og:image:width", content: "1200" },
-      { property: "og:image:height", content: "630" },
-      {
-        property: "og:image:alt",
-        content: "HeartConnect — Verified. Safe. Meaningful Relationships.",
-      },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@HeartConnect" },
-      { name: "twitter:title", content: "HeartConnect — Dating for Serious Relationships" },
-      {
-        name: "twitter:description",
-        content:
-          "Meet genuine, verified people looking for real connection. Smart matching, real-time chat, and safety-first design.",
-      },
-      { name: "twitter:image", content: `${SITE_URL}/og-image.png` },
-      { name: "theme-color", content: "#ec286e" },
-    ],
-    links: [
-      {
-        rel: "stylesheet",
-        href: appCss,
-      },
-      { rel: "icon", href: "/favicon.ico", sizes: "any" },
-      { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32.png" },
-      { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon-16.png" },
-      { rel: "icon", type: "image/png", sizes: "192x192", href: "/icon-192.png" },
-      { rel: "icon", type: "image/png", sizes: "512x512", href: "/icon-512.png" },
-      { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png" },
-      { rel: "manifest", href: "/site.webmanifest" },
-    ],
-    scripts: [
-      {
-        type: "application/ld+json",
-        children: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          name: "HeartConnect",
-          url: SITE_URL,
-          logo: `${SITE_URL}/icon-512.png`,
-          description:
-            "A modern dating platform for people seeking meaningful, lasting relationships.",
-          sameAs: ["https://twitter.com/HeartConnect"],
-        }),
-      },
-      {
-        type: "application/ld+json",
-        children: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          name: "HeartConnect",
-          url: SITE_URL,
-        }),
-      },
-    ],
-  }),
+  loader: ({ context }) => context.queryClient.ensureQueryData(siteSettingsQuery),
+  head: ({ loaderData }) => {
+    const settings = loaderData ?? DEFAULT_SITE_SETTINGS;
+    const seo = pageSeo({ settings, path: "/" });
+    const siteUrl = absoluteUrl("/", settings).replace(/\/$/, "");
+    const socialLinks = settings.socialLinks
+      .filter((link) => link.isEnabled !== false)
+      .map((link) => link.href)
+      .filter(Boolean);
+
+    return {
+      meta: [
+        { charSet: "utf-8" },
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        { name: "author", content: settings.brand.siteName },
+        ...seo.meta,
+        { property: "og:image:width", content: "1200" },
+        { property: "og:image:height", content: "630" },
+        { name: "theme-color", content: "#ec286e" },
+      ],
+      links: [
+        { rel: "stylesheet", href: appCss },
+        ...seo.links,
+        { rel: "icon", href: settings.brand.faviconPath, sizes: "any" },
+        { rel: "icon", type: "image/png", sizes: "32x32", href: settings.brand.favicon32Path },
+        { rel: "icon", type: "image/png", sizes: "16x16", href: settings.brand.favicon16Path },
+        { rel: "icon", type: "image/png", sizes: "192x192", href: settings.brand.icon192Path },
+        { rel: "icon", type: "image/png", sizes: "512x512", href: settings.brand.icon512Path },
+        { rel: "apple-touch-icon", sizes: "180x180", href: settings.brand.appleTouchIconPath },
+        { rel: "manifest", href: "/site.webmanifest" },
+      ],
+      scripts: [
+        {
+          type: "application/ld+json",
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: settings.brand.siteName,
+            url: siteUrl,
+            logo: absoluteUrl(settings.brand.icon512Path, settings),
+            description: settings.seo.description,
+            sameAs: socialLinks,
+          }),
+        },
+        {
+          type: "application/ld+json",
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: settings.brand.siteName,
+            url: siteUrl,
+          }),
+        },
+      ],
+    };
+  },
   shellComponent: RootShell,
   component: RootComponent,
   notFoundComponent: NotFoundComponent,
@@ -230,3 +217,4 @@ function RootComponent() {
     </QueryClientProvider>
   );
 }
+

@@ -1,11 +1,10 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
-import { ArrowLeft } from "lucide-react";
-import { Logo } from "@/components/Logo";
-import { ThemeToggle } from "@/components/ThemeToggle";
-import { Button } from "@/components/ui/button";
 import { SiteFooter } from "@/components/SiteFooter";
+import { SiteHeader } from "@/components/SiteHeader";
+import { getSiteSettingsContent } from "@/lib/cms.functions";
 import { listPublishedPosts } from "@/lib/blog.functions";
+import { pageSeo } from "@/lib/seo";
 
 const blogListQuery = queryOptions({
   queryKey: ["blog", "list"],
@@ -13,26 +12,28 @@ const blogListQuery = queryOptions({
   staleTime: 60 * 1000,
 });
 
+const siteSettingsQuery = queryOptions({
+  queryKey: ["site-settings"],
+  queryFn: () => getSiteSettingsContent(),
+  staleTime: 60 * 1000,
+});
+
 export const Route = createFileRoute("/blog")({
-  loader: ({ context }) => context.queryClient.ensureQueryData(blogListQuery),
-  head: () => ({
-    meta: [
-      { title: "Blog — HeartConnect" },
-      {
-        name: "description",
-        content:
-          "Dating tips, success stories, and relationship advice from the HeartConnect team.",
-      },
-      { property: "og:title", content: "Blog — HeartConnect" },
-      {
-        property: "og:description",
-        content:
-          "Dating tips, success stories, and relationship advice from the HeartConnect team.",
-      },
-      { property: "og:url", content: "https://royal-heart.com/blog" },
-    ],
-    links: [{ rel: "canonical", href: "https://royal-heart.com/blog" }],
+  loader: async ({ context }) => ({
+    posts: await context.queryClient.ensureQueryData(blogListQuery),
+    siteSettings: await context.queryClient.ensureQueryData(siteSettingsQuery),
   }),
+  head: ({ loaderData }) =>
+    pageSeo({
+      settings: loaderData?.siteSettings,
+      path: "/blog",
+      title: `Blog - ${loaderData?.siteSettings.brand.siteName ?? "HeartConnect"}`,
+      description:
+        "Dating tips, success stories, and relationship advice from the HeartConnect team.",
+      ogTitle: `Blog - ${loaderData?.siteSettings.brand.siteName ?? "HeartConnect"}`,
+      ogDescription:
+        "Dating tips, success stories, and relationship advice from the HeartConnect team.",
+    }),
   component: BlogIndex,
   errorComponent: () => (
     <BlogShell>
@@ -49,19 +50,7 @@ export const Route = createFileRoute("/blog")({
 function BlogShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-dvh bg-background">
-      <header className="border-b border-border/60">
-        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
-          <Logo />
-          <div className="flex items-center gap-2">
-            <ThemeToggle />
-            <Button asChild variant="ghost" className="rounded-full">
-              <Link to="/">
-                <ArrowLeft aria-hidden="true" className="h-4 w-4" /> Home
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </header>
+      <SiteHeader />
       <section className="bg-gradient-warm">
         <div className="mx-auto max-w-3xl px-4 py-16 text-center md:py-20">
           <span className="text-sm font-semibold uppercase tracking-wide text-primary">Blog</span>
@@ -77,7 +66,8 @@ function BlogShell({ children }: { children: React.ReactNode }) {
 }
 
 function BlogIndex() {
-  const { data: posts } = useSuspenseQuery(blogListQuery);
+  const { posts } = Route.useLoaderData();
+  useSuspenseQuery(blogListQuery);
 
   return (
     <BlogShell>
@@ -124,3 +114,4 @@ function BlogIndex() {
     </BlogShell>
   );
 }
+

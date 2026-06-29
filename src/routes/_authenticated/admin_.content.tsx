@@ -19,6 +19,7 @@ import { AppShell } from "@/components/AppShell";
 import { MediaBrowser, MediaPicker } from "@/components/cms/MediaPicker";
 import { SlidesEditor } from "@/components/cms/SlidesEditor";
 import { BlogManager } from "@/components/admin/BlogManager";
+import { BannerManager } from "@/components/admin/BannerManager";
 import {
   createCmsRecord,
   deleteCmsRecord,
@@ -36,9 +37,12 @@ import type {
   FeaturesContent,
   FooterColumn,
   FooterContent,
+  CmsLink,
   HeroContent,
+  HeaderContent,
   InfoPageContent,
   InfoPageSection,
+  SiteSettingsContent,
   StatsContent,
 } from "@/lib/cms-types";
 import type { Database } from "@/integrations/supabase/types";
@@ -156,9 +160,12 @@ function ContentManager() {
       <Tabs defaultValue="homepage">
         <TabsList className="flex h-auto flex-wrap justify-start gap-1">
           <TabsTrigger value="homepage">Homepage</TabsTrigger>
+          <TabsTrigger value="header">Header</TabsTrigger>
+          <TabsTrigger value="settings">SEO &amp; Brand</TabsTrigger>
           <TabsTrigger value="slider">Hero Slider</TabsTrigger>
           <TabsTrigger value="testimonials">Testimonials</TabsTrigger>
           <TabsTrigger value="stories">Success Stories</TabsTrigger>
+          <TabsTrigger value="banners">Banners</TabsTrigger>
           <TabsTrigger value="footer">Footer</TabsTrigger>
           <TabsTrigger value="pages">Pages</TabsTrigger>
           <TabsTrigger value="blog">Blog</TabsTrigger>
@@ -168,6 +175,12 @@ function ContentManager() {
         <TabsContent value="homepage" className="mt-6">
           <HomepageEditor snapshot={snapshot} onReload={load} />
         </TabsContent>
+        <TabsContent value="header" className="mt-6">
+          <HeaderEditor initial={snapshot.sections.header} />
+        </TabsContent>
+        <TabsContent value="settings" className="mt-6">
+          <SiteSettingsEditor initial={snapshot.sections.siteSettings} />
+        </TabsContent>
         <TabsContent value="slider" className="mt-6">
           <SlidesEditor />
         </TabsContent>
@@ -176,6 +189,9 @@ function ContentManager() {
         </TabsContent>
         <TabsContent value="stories" className="mt-6">
           <StoriesEditor rows={snapshot.stories} onReload={load} />
+        </TabsContent>
+        <TabsContent value="banners" className="mt-6">
+          <BannerManager />
         </TabsContent>
         <TabsContent value="footer" className="mt-6">
           <FooterEditor initial={snapshot.sections.footer} />
@@ -466,6 +482,282 @@ function FeaturesEditor({ initial }: { initial: FeaturesContent; onReload: () =>
   );
 }
 
+function HeaderEditor({ initial }: { initial: HeaderContent }) {
+  const [header, setHeader] = useState(initial);
+  const { saving, save } = useSaveSection("header");
+  const set = <K extends keyof HeaderContent>(key: K, value: HeaderContent[K]) =>
+    setHeader((prev) => ({ ...prev, [key]: value }));
+
+  return (
+    <Card className="space-y-4 p-5">
+      <SectionTitle title="Header and navigation" />
+      <label className="flex items-center justify-between rounded-lg border border-border p-3">
+        <span className="text-sm font-medium">Show public header</span>
+        <Switch checked={header.isVisible} onCheckedChange={(value) => set("isVisible", value)} />
+      </label>
+      <div className="grid gap-4 sm:grid-cols-2">
+        <Field label="Logo text">
+          <Input value={header.logoText} onChange={(e) => set("logoText", e.target.value)} />
+        </Field>
+        <MediaPicker
+          label="Logo image"
+          value={header.logoImagePath}
+          folder="brand"
+          onChange={(path) => set("logoImagePath", path)}
+        />
+      </div>
+      <div className="grid gap-4 sm:grid-cols-2">
+        <Field label="Login button label">
+          <Input value={header.loginLabel} onChange={(e) => set("loginLabel", e.target.value)} />
+        </Field>
+        <Field label="Login button link">
+          <Input value={header.loginHref} onChange={(e) => set("loginHref", e.target.value)} />
+        </Field>
+        <Field label="Join free button label">
+          <Input value={header.joinLabel} onChange={(e) => set("joinLabel", e.target.value)} />
+        </Field>
+        <Field label="Join free button link">
+          <Input value={header.joinHref} onChange={(e) => set("joinHref", e.target.value)} />
+        </Field>
+      </div>
+      <div className="space-y-3 rounded-lg border border-border p-4">
+        <label className="flex items-center justify-between">
+          <span className="text-sm font-medium">Announcement bar</span>
+          <Switch
+            checked={header.announcement.enabled}
+            onCheckedChange={(enabled) =>
+              set("announcement", { ...header.announcement, enabled })
+            }
+          />
+        </label>
+        <Field label="Announcement text">
+          <Input
+            value={header.announcement.text}
+            onChange={(e) =>
+              set("announcement", { ...header.announcement, text: e.target.value })
+            }
+          />
+        </Field>
+        <div className="grid gap-3 sm:grid-cols-2">
+          <Field label="Announcement link">
+            <Input
+              value={header.announcement.href}
+              onChange={(e) =>
+                set("announcement", { ...header.announcement, href: e.target.value })
+              }
+            />
+          </Field>
+          <Field label="Announcement link label">
+            <Input
+              value={header.announcement.linkLabel}
+              onChange={(e) =>
+                set("announcement", { ...header.announcement, linkLabel: e.target.value })
+              }
+            />
+          </Field>
+        </div>
+      </div>
+      <CmsLinksField
+        label="Desktop navigation links, one per line: Label|/path|enabled|order"
+        value={header.links}
+        onChange={(links) => set("links", links)}
+      />
+      <CmsLinksField
+        label="Mobile navigation links, one per line: Label|/path|enabled|order"
+        value={header.mobileLinks}
+        onChange={(mobileLinks) => set("mobileLinks", mobileLinks)}
+      />
+      <SaveBar saving={saving} onSave={() => void save(header)} />
+    </Card>
+  );
+}
+
+function SiteSettingsEditor({ initial }: { initial: SiteSettingsContent }) {
+  const [settings, setSettings] = useState(initial);
+  const { saving, save } = useSaveSection("site_settings");
+
+  return (
+    <Card className="space-y-5 p-5">
+      <SectionTitle title="SEO, brand, contact, and social settings" />
+      <div className="space-y-3 rounded-lg border border-border p-4">
+        <SectionTitle title="SEO defaults" />
+        <Field label="Default SEO title">
+          <Input
+            value={settings.seo.title}
+            onChange={(e) =>
+              setSettings((prev) => ({ ...prev, seo: { ...prev.seo, title: e.target.value } }))
+            }
+          />
+        </Field>
+        <Field label="Default SEO description">
+          <Textarea
+            value={settings.seo.description}
+            rows={3}
+            onChange={(e) =>
+              setSettings((prev) => ({
+                ...prev,
+                seo: { ...prev.seo, description: e.target.value },
+              }))
+            }
+          />
+        </Field>
+        <Field label="Canonical site URL">
+          <Input
+            value={settings.seo.canonicalUrl}
+            onChange={(e) =>
+              setSettings((prev) => ({
+                ...prev,
+                seo: { ...prev.seo, canonicalUrl: e.target.value },
+              }))
+            }
+          />
+        </Field>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <Field label="Open Graph title">
+            <Input
+              value={settings.seo.ogTitle}
+              onChange={(e) =>
+                setSettings((prev) => ({
+                  ...prev,
+                  seo: { ...prev.seo, ogTitle: e.target.value },
+                }))
+              }
+            />
+          </Field>
+          <Field label="Open Graph image URL fallback">
+            <Input
+              value={settings.seo.ogImageUrl}
+              onChange={(e) =>
+                setSettings((prev) => ({
+                  ...prev,
+                  seo: { ...prev.seo, ogImageUrl: e.target.value },
+                }))
+              }
+            />
+          </Field>
+        </div>
+        <Field label="Open Graph description">
+          <Textarea
+            value={settings.seo.ogDescription}
+            rows={3}
+            onChange={(e) =>
+              setSettings((prev) => ({
+                ...prev,
+                seo: { ...prev.seo, ogDescription: e.target.value },
+              }))
+            }
+          />
+        </Field>
+        <MediaPicker
+          label="Open Graph image"
+          value={settings.seo.ogImagePath}
+          folder="brand"
+          onChange={(ogImagePath) =>
+            setSettings((prev) => ({ ...prev, seo: { ...prev.seo, ogImagePath } }))
+          }
+        />
+      </div>
+
+      <div className="space-y-3 rounded-lg border border-border p-4">
+        <SectionTitle title="Brand and icons" />
+        <div className="grid gap-4 sm:grid-cols-2">
+          <Field label="Site name">
+            <Input
+              value={settings.brand.siteName}
+              onChange={(e) =>
+                setSettings((prev) => ({
+                  ...prev,
+                  brand: { ...prev.brand, siteName: e.target.value },
+                }))
+              }
+            />
+          </Field>
+          <Field label="Logo text">
+            <Input
+              value={settings.brand.logoText}
+              onChange={(e) =>
+                setSettings((prev) => ({
+                  ...prev,
+                  brand: { ...prev.brand, logoText: e.target.value },
+                }))
+              }
+            />
+          </Field>
+        </div>
+        <MediaPicker
+          label="Logo image"
+          value={settings.brand.logoImagePath}
+          folder="brand"
+          onChange={(logoImagePath) =>
+            setSettings((prev) => ({ ...prev, brand: { ...prev.brand, logoImagePath } }))
+          }
+        />
+        <div className="grid gap-4 sm:grid-cols-2">
+          {(
+            [
+              ["faviconPath", "Favicon path"],
+              ["favicon32Path", "32px icon path"],
+              ["favicon16Path", "16px icon path"],
+              ["appleTouchIconPath", "Apple touch icon path"],
+              ["icon192Path", "192px icon path"],
+              ["icon512Path", "512px icon path"],
+            ] as const
+          ).map(([key, label]) => (
+            <Field key={key} label={label}>
+              <Input
+                value={settings.brand[key]}
+                onChange={(e) =>
+                  setSettings((prev) => ({
+                    ...prev,
+                    brand: { ...prev.brand, [key]: e.target.value },
+                  }))
+                }
+              />
+            </Field>
+          ))}
+        </div>
+      </div>
+
+      <div className="grid gap-4 md:grid-cols-2">
+        <div className="space-y-3 rounded-lg border border-border p-4">
+          <SectionTitle title="Contact information" />
+          {(
+            [
+              ["supportEmail", "Support email"],
+              ["safetyEmail", "Safety email"],
+              ["pressEmail", "Press email"],
+              ["phone", "Phone"],
+              ["address", "Address"],
+            ] as const
+          ).map(([key, label]) => (
+            <Field key={key} label={label}>
+              <Input
+                value={settings.contact[key]}
+                onChange={(e) =>
+                  setSettings((prev) => ({
+                    ...prev,
+                    contact: { ...prev.contact, [key]: e.target.value },
+                  }))
+                }
+              />
+            </Field>
+          ))}
+        </div>
+        <div className="space-y-3 rounded-lg border border-border p-4">
+          <SectionTitle title="Social links" />
+          <CmsLinksField
+            label="One per line: Label|URL|enabled|order"
+            value={settings.socialLinks}
+            onChange={(socialLinks) => setSettings((prev) => ({ ...prev, socialLinks }))}
+          />
+        </div>
+      </div>
+
+      <SaveBar saving={saving} onSave={() => void save(settings)} />
+    </Card>
+  );
+}
+
 function FooterEditor({ initial }: { initial: FooterContent }) {
   const [footer, setFooter] = useState(initial);
   const { saving, save } = useSaveSection("footer");
@@ -551,6 +843,48 @@ function FooterColumnEditor({
         />
       </Field>
     </div>
+  );
+}
+
+function CmsLinksField({
+  label,
+  value,
+  onChange,
+}: {
+  label: string;
+  value: CmsLink[];
+  onChange: (links: CmsLink[]) => void;
+}) {
+  return (
+    <Field label={label}>
+      <Textarea
+        value={value
+          .map((link, index) =>
+            [
+              link.label,
+              link.href,
+              link.isEnabled === false ? "false" : "true",
+              String(link.order ?? index + 1),
+            ].join("|"),
+          )
+          .join("\n")}
+        rows={6}
+        onChange={(e) =>
+          onChange(
+            lines(e.target.value).map((line, index): CmsLink => {
+              const [label = "", href = "", enabled = "true", order = String(index + 1)] =
+                line.split("|");
+              return {
+                label: label.trim(),
+                href: href.trim(),
+                isEnabled: enabled.trim().toLowerCase() !== "false",
+                order: Number(order) || index + 1,
+              };
+            }),
+          )
+        }
+      />
+    </Field>
   );
 }
 

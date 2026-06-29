@@ -13,15 +13,15 @@ import {
   Star,
   type LucideIcon,
 } from "lucide-react";
-import { Logo } from "@/components/Logo";
 import { safeHref } from "@/lib/utils";
-import { ThemeToggle } from "@/components/ThemeToggle";
 import { HeroSlider } from "@/components/HeroSlider";
 import { Button } from "@/components/ui/button";
 import { SiteFooter } from "@/components/SiteFooter";
+import { SiteHeader } from "@/components/SiteHeader";
 import { PromoBanner } from "@/components/PromoBanner";
 import { getHomepageContent } from "@/lib/cms.functions";
 import type { HomepageContent } from "@/lib/cms-types";
+import { pageSeo } from "@/lib/seo";
 import heroImage from "@/assets/hero-diverse.jpg";
 import member1 from "@/assets/member-1.jpg";
 import member2 from "@/assets/member-2.jpg";
@@ -34,28 +34,13 @@ const homepageContentQuery = queryOptions({
   staleTime: 60 * 1000,
 });
 
-const SITE_URL = "https://royal-heart.com";
-
 export const Route = createFileRoute("/")({
   loader: ({ context }) => context.queryClient.ensureQueryData(homepageContentQuery),
-  head: () => ({
-    meta: [
-      { title: "HeartConnect — Dating for Serious Relationships" },
-      {
-        name: "description",
-        content:
-          "Meet genuine people from 50+ countries looking for meaningful, lasting relationships. Smart matching, real-time chat, verified profiles, and safety-first design.",
-      },
-      { property: "og:title", content: "HeartConnect — Find Real Connection" },
-      {
-        property: "og:description",
-        content:
-          "A modern, global dating platform built for serious relationships. Join members from over 50 countries.",
-      },
-      { property: "og:url", content: `${SITE_URL}/` },
-    ],
-    links: [{ rel: "canonical", href: `${SITE_URL}/` }],
-  }),
+  head: ({ loaderData }) =>
+    pageSeo({
+      settings: (loaderData as HomepageContent | undefined)?.siteSettings,
+      path: "/",
+    }),
   component: Landing,
   errorComponent: () => <Landing />,
   notFoundComponent: () => <Landing />,
@@ -114,24 +99,7 @@ function Landing() {
 
   return (
     <div className="min-h-dvh bg-background">
-      <header className="absolute inset-x-0 top-0 z-20">
-        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between rounded-b-2xl bg-background/70 px-4 backdrop-blur-md supports-[backdrop-filter]:bg-background/50 md:bg-transparent md:backdrop-blur-none">
-          <Link to="/" aria-label="HeartConnect home">
-            <Logo />
-          </Link>
-          <nav aria-label="Primary" className="flex items-center gap-2">
-            <ThemeToggle />
-            <Button asChild variant="ghost" className="hidden rounded-full sm:inline-flex">
-              <Link to="/auth">Log in</Link>
-            </Button>
-            <Button asChild variant="hero" className="rounded-full">
-              <Link to="/auth" search={{ mode: "signup" }}>
-                Join free
-              </Link>
-            </Button>
-          </nav>
-        </div>
-      </header>
+      <SiteHeader overlay />
 
       {/* Hero */}
       <section className="relative overflow-hidden">
@@ -432,3 +400,5 @@ function Landing() {
     </div>
   );
 }
+
+

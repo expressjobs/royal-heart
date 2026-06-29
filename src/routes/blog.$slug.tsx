@@ -1,11 +1,10 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { createFileRoute, notFound } from "@tanstack/react-router";
 import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
-import { ArrowLeft } from "lucide-react";
-import { Logo } from "@/components/Logo";
-import { ThemeToggle } from "@/components/ThemeToggle";
-import { Button } from "@/components/ui/button";
 import { SiteFooter } from "@/components/SiteFooter";
-import { getPublishedPost, type PublicPost } from "@/lib/blog.functions";
+import { SiteHeader } from "@/components/SiteHeader";
+import { getPublishedPost } from "@/lib/blog.functions";
+import { getSiteSettingsContent } from "@/lib/cms.functions";
+import { pageSeo } from "@/lib/seo";
 
 const postQuery = (slug: string) =>
   queryOptions({
@@ -14,36 +13,39 @@ const postQuery = (slug: string) =>
     staleTime: 60 * 1000,
   });
 
+const siteSettingsQuery = queryOptions({
+  queryKey: ["site-settings"],
+  queryFn: () => getSiteSettingsContent(),
+  staleTime: 60 * 1000,
+});
+
 export const Route = createFileRoute("/blog/$slug")({
   loader: async ({ context, params }) => {
     const post = await context.queryClient.ensureQueryData(postQuery(params.slug));
     if (!post) throw notFound();
-    return post;
+    return {
+      post,
+      siteSettings: await context.queryClient.ensureQueryData(siteSettingsQuery),
+    };
   },
   head: ({ loaderData }) => {
-    const post = loaderData as PublicPost | undefined;
-    if (!post) return { meta: [{ title: "Blog — HeartConnect" }] };
-    const title = post.seoTitle || `${post.title} — HeartConnect`;
+    if (!loaderData?.post) return pageSeo({ path: "/blog" });
+    const { post, siteSettings } = loaderData;
+    const siteName = siteSettings.brand.siteName || "HeartConnect";
+    const title = post.seoTitle || `${post.title} - ${siteName}`;
     const description =
       post.seoDescription || post.excerpt || "Read more on the HeartConnect blog.";
-    const url = `https://royal-heart.com/blog/${post.slug}`;
-    const meta = [
-      { title },
-      { name: "description", content: description },
-      { property: "og:title", content: title },
-      { property: "og:description", content: description },
-      { property: "og:type", content: "article" },
-      { property: "og:url", content: url },
-      { name: "twitter:title", content: title },
-      { name: "twitter:description", content: description },
-    ];
-    if (post.coverUrl) {
-      meta.push(
-        { property: "og:image", content: post.coverUrl },
-        { name: "twitter:image", content: post.coverUrl },
-      );
-    }
-    return { meta, links: [{ rel: "canonical", href: url }] };
+
+    return pageSeo({
+      settings: siteSettings,
+      path: `/blog/${post.slug}`,
+      title,
+      description,
+      ogTitle: title,
+      ogDescription: description,
+      ogImage: post.coverUrl,
+      type: "article",
+    });
   },
   component: BlogPostPage,
   errorComponent: () => (
@@ -63,19 +65,7 @@ export const Route = createFileRoute("/blog/$slug")({
 function PostShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-dvh bg-background">
-      <header className="border-b border-border/60">
-        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
-          <Logo />
-          <div className="flex items-center gap-2">
-            <ThemeToggle />
-            <Button asChild variant="ghost" className="rounded-full">
-              <Link to="/blog">
-                <ArrowLeft aria-hidden="true" className="h-4 w-4" /> All posts
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </header>
+      <SiteHeader />
       <main className="mx-auto max-w-3xl px-4 py-14">{children}</main>
       <SiteFooter />
     </div>
@@ -83,7 +73,7 @@ function PostShell({ children }: { children: React.ReactNode }) {
 }
 
 function BlogPostPage() {
-  const post = Route.useLoaderData();
+  const { post } = Route.useLoaderData();
 
   // Keep the cache warm / consistent on client navigation.
   useSuspenseQuery(postQuery(post.slug));
@@ -116,3 +106,4 @@ function BlogPostPage() {
     </PostShell>
   );
 }
+

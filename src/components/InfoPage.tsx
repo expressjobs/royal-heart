@@ -1,10 +1,8 @@
 import { useState, type ReactNode } from "react";
-import { Link } from "@tanstack/react-router";
 import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
-import { ArrowLeft, LifeBuoy, Mail, ShieldAlert } from "lucide-react";
-import { Logo } from "@/components/Logo";
-import { ThemeToggle } from "@/components/ThemeToggle";
+import { LifeBuoy, Mail, ShieldAlert } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -26,19 +24,7 @@ export function InfoPage({
 }) {
   return (
     <div className="min-h-dvh bg-background">
-      <header className="border-b border-border/60">
-        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
-          <Logo />
-          <div className="flex items-center gap-2">
-            <ThemeToggle />
-            <Button asChild variant="ghost" className="rounded-full">
-              <Link to="/">
-                <ArrowLeft aria-hidden="true" className="h-4 w-4" /> Home
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </header>
+      <SiteHeader />
 
       <section className="bg-gradient-warm">
         <div className="mx-auto max-w-3xl px-4 py-16 text-center md:py-20">
@@ -157,19 +143,7 @@ function CmsReportAbusePage({ page }: { page: InfoPageContent }) {
 
   return (
     <div className="min-h-dvh bg-background">
-      <header className="border-b border-border/60">
-        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
-          <Logo />
-          <div className="flex items-center gap-2">
-            <ThemeToggle />
-            <Button asChild variant="ghost" className="rounded-full">
-              <Link to="/">
-                <ArrowLeft aria-hidden="true" className="h-4 w-4" /> Home
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </header>
+      <SiteHeader />
 
       <section className="bg-gradient-warm">
         <div className="mx-auto max-w-3xl px-4 py-16 text-center md:py-20">
