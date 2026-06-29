@@ -493,6 +493,24 @@ export type Database = {
         };
         Relationships: [];
       };
+      site_content: {
+        Row: {
+          data: Json;
+          section: string;
+          updated_at: string;
+        };
+        Insert: {
+          data?: Json;
+          section: string;
+          updated_at?: string;
+        };
+        Update: {
+          data?: Json;
+          section?: string;
+          updated_at?: string;
+        };
+        Relationships: [];
+      };
       messages: {
         Row: {
           content: string;
@@ -868,6 +886,7 @@ export type Database = {
           id: string;
           is_private: boolean;
           is_primary: boolean;
+          moderation_status: string;
           position: number;
           storage_path: string | null;
           url: string;
@@ -878,6 +897,7 @@ export type Database = {
           id?: string;
           is_private?: boolean;
           is_primary?: boolean;
+          moderation_status?: string;
           position?: number;
           storage_path?: string | null;
           url: string;
@@ -888,6 +908,7 @@ export type Database = {
           id?: string;
           is_private?: boolean;
           is_primary?: boolean;
+          moderation_status?: string;
           position?: number;
           storage_path?: string | null;
           url?: string;

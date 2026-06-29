@@ -30,9 +30,16 @@ import {
   Trash2,
 } from "lucide-react";
 import { toast } from "sonner";
-import { supabase } from "@/integrations/supabase/client";
+import { useServerFn } from "@tanstack/react-start";
 import { MediaPicker } from "@/components/cms/MediaPicker";
 import { HeroSlider } from "@/components/HeroSlider";
+import {
+  createCmsRecord,
+  deleteCmsRecord,
+  getSuperAdminCmsSnapshot,
+  reorderCmsRecords,
+  updateCmsRecord,
+} from "@/lib/cms.functions";
 import { getMediaUrls } from "@/lib/site-media";
 import type { HeroSlide } from "@/lib/cms-types";
 import { safeHref } from "@/lib/utils";
@@ -85,6 +92,11 @@ function scheduleStatus(row: SlideRow): { label: string; tone: string } {
 }
 
 export function SlidesEditor() {
+  const snapshotFn = useServerFn(getSuperAdminCmsSnapshot);
+  const createRecordFn = useServerFn(createCmsRecord);
+  const updateRecordFn = useServerFn(updateCmsRecord);
+  const deleteRecordFn = useServerFn(deleteCmsRecord);
+  const reorderRecordsFn = useServerFn(reorderCmsRecords);
   const [rows, setRows] = useState<SlideRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [savingId, setSavingId] = useState<string | null>(null);
@@ -97,17 +109,15 @@ export function SlidesEditor() {
 
   const load = useCallback(async () => {
     setLoading(true);
-    const { data, error } = await supabase
-      .from("hero_slides")
-      .select(
-        "id, image_path, headline, subheadline, cta_label, cta_href, sort_order, is_published, starts_at, ends_at",
-      )
-      .order("sort_order", { ascending: true })
-      .order("created_at", { ascending: true });
-    if (error) toast.error("Could not load slides.");
-    setRows((data ?? []) as SlideRow[]);
-    setLoading(false);
-  }, []);
+    try {
+      const snapshot = await snapshotFn();
+      setRows(snapshot.slides as SlideRow[]);
+    } catch {
+      toast.error("Could not load slides.");
+    } finally {
+      setLoading(false);
+    }
+  }, [snapshotFn]);
 
   useEffect(() => {
     load();
@@ -117,11 +127,8 @@ export function SlidesEditor() {
     setRows((p) => p.map((r) => (r.id === id ? { ...r, ...changes } : r)));
 
   const add = async () => {
-    const { error } = await supabase.from("hero_slides").insert({
-      headline: "New slide",
-      sort_order: rows.length,
-    });
-    if (error) return toast.error("Could not add slide.");
+    const result = await createRecordFn({ data: { kind: "hero_slides" } });
+    if (!result.ok) return toast.error(result.error ?? "Could not add slide.");
     toast.success("Slide added");
     load();
   };
@@ -134,27 +141,30 @@ export function SlidesEditor() {
       return toast.error("Button link must be a valid http(s) or relative URL.");
     }
     setSavingId(row.id);
-    const { error } = await supabase
-      .from("hero_slides")
-      .update({
-        image_path: row.image_path,
-        headline: row.headline,
-        subheadline: row.subheadline,
-        cta_label: row.cta_label,
-        cta_href: row.cta_href,
-        is_published: row.is_published,
-        starts_at: row.starts_at,
-        ends_at: row.ends_at,
-      })
-      .eq("id", row.id);
+    const result = await updateRecordFn({
+      data: {
+        kind: "hero_slides",
+        id: row.id,
+        patch: {
+          image_path: row.image_path,
+          headline: row.headline,
+          subheadline: row.subheadline,
+          cta_label: row.cta_label,
+          cta_href: row.cta_href,
+          is_published: row.is_published,
+          starts_at: row.starts_at,
+          ends_at: row.ends_at,
+        },
+      },
+    });
     setSavingId(null);
-    if (error) return toast.error("Could not save slide.");
+    if (!result.ok) return toast.error(result.error ?? "Could not save slide.");
     toast.success("Slide saved");
   };
 
   const remove = async (id: string) => {
-    const { error } = await supabase.from("hero_slides").delete().eq("id", id);
-    if (error) return toast.error("Could not delete slide.");
+    const result = await deleteRecordFn({ data: { kind: "hero_slides", id } });
+    if (!result.ok) return toast.error(result.error ?? "Could not delete slide.");
     setRows((p) => p.filter((r) => r.id !== id));
   };
 
@@ -166,15 +176,13 @@ export function SlidesEditor() {
     if (oldIndex < 0 || newIndex < 0) return;
     const reordered = arrayMove(rows, oldIndex, newIndex);
     setRows(reordered);
-    try {
-      await Promise.all(
-        reordered.map((r, i) =>
-          supabase.from("hero_slides").update({ sort_order: i }).eq("id", r.id),
-        ),
-      );
+    const result = await reorderRecordsFn({
+      data: { kind: "hero_slides", ids: reordered.map((row) => row.id) },
+    });
+    if (result.ok) {
       toast.success("Order updated");
-    } catch {
-      toast.error("Could not save the new order.");
+    } else {
+      toast.error(result.error ?? "Could not save the new order.");
     }
   };
 

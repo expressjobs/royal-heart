@@ -32,3 +32,10 @@ export async function requireServerAdmin(
 ): Promise<AppRole[]> {
   return requireServerRole(supabase, userId, "admin");
 }
+
+export async function requireServerSuperAdmin(
+  supabase: Pick<SupabaseClient<Database>, "from">,
+  userId: string,
+): Promise<AppRole[]> {
+  return requireServerRole(supabase, userId, "super_admin");
+}

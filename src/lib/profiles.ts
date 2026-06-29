@@ -19,18 +19,22 @@ export type ProfileWithPhotos = Profile & {
 export type PhotoSource = Pick<PhotoRow, "url" | "storage_path" | "is_primary">;
 
 const DISCOVER_CACHE_TTL_MS = 45_000;
+const PLACEHOLDER_PHOTO_RE = /^\/?(?:placeholder\.svg|seed-profiles\/avatar-[^/?#]+)(?:[?#].*)?$/i;
 const discoverCache = new Map<
   string,
   { expiresAt: number; promise: Promise<ProfileWithPhotos[]> }
 >();
 
+export function isPlaceholderPhotoPath(path: string | null | undefined): boolean {
+  return Boolean(path?.trim() && PLACEHOLDER_PHOTO_RE.test(path.trim()));
+}
+
 export function photoPath(photo: Pick<PhotoRow, "url" | "storage_path"> | null | undefined) {
   if (!photo) return null;
-  const directUrl =
-    photo.url?.startsWith("/") ||
-    photo.url?.startsWith("http://") ||
-    photo.url?.startsWith("https://");
-  return (directUrl ? photo.url : photo.storage_path || photo.url) || null;
+  const storagePath = photo.storage_path?.trim();
+  if (storagePath && !isPlaceholderPhotoPath(storagePath)) return storagePath;
+  const fallbackUrl = photo.url?.trim();
+  return fallbackUrl && !isPlaceholderPhotoPath(fallbackUrl) ? fallbackUrl : null;
 }
 
 export function primaryPhotoPath(p: ProfileWithPhotos): string | null {
@@ -51,7 +55,8 @@ async function attachPhotos(profiles: Profile[]): Promise<ProfileWithPhotos[]> {
     .from("profile_photos")
     .select("user_id, url, storage_path, is_primary, position")
     .in("user_id", ids)
-    .eq("is_private", false)
+    .eq("moderation_status", "approved")
+    .or("is_private.eq.false,is_private.is.null")
     .order("is_primary", { ascending: false })
     .order("position", { ascending: true });
   if (error) {

@@ -70,38 +70,16 @@ const MEMBER_FALLBACKS = [
   { src: member4, alt: "Smiling man from our global community", name: "Rohan", place: "Mumbai" },
 ];
 
-const FEATURES = [
-  {
-    icon: Search,
-    title: "Discover with intention",
-    desc: "Browse and search profiles by age, location, and shared interests — built for real compatibility, not endless swiping.",
-  },
-  {
-    icon: Heart,
-    title: "Mutual matches",
-    desc: "Like the people who catch your eye. When the feeling is mutual, it's a match — and the conversation can begin.",
-  },
-  {
-    icon: MessagesSquare,
-    title: "Real-time chat",
-    desc: "Message your matches instantly with live, private conversations and read receipts on Platinum.",
-  },
-  {
-    icon: BadgeCheck,
-    title: "Verified profiles",
-    desc: "Profile verification badges help you know you're talking to real, genuine people.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Safety first",
-    desc: "Block, report, and privacy controls keep you in charge of who can reach you.",
-  },
-  {
-    icon: Sparkles,
-    title: "Membership perks",
-    desc: "Unlock unlimited likes, see who liked you, advanced filters, and featured placement.",
-  },
-];
+const FEATURE_ICONS: Record<string, LucideIcon> = {
+  search: Search,
+  heart: Heart,
+  messages: MessagesSquare,
+  badge: BadgeCheck,
+  shield: ShieldCheck,
+  sparkles: Sparkles,
+  globe: Globe,
+  users: Users,
+};
 
 const STEPS = [
   {
@@ -132,7 +110,7 @@ function resolveImg(
 
 function Landing() {
   const { data } = useSuspenseQuery(homepageContentQuery);
-  const { hero, slides, stats, about, testimonials, stories, media } = data;
+  const { hero, slides, stats, about, features, testimonials, stories, media } = data;
 
   return (
     <div className="min-h-dvh bg-background">
@@ -286,26 +264,34 @@ function Landing() {
       <section className="bg-gradient-warm py-16 md:py-24">
         <div className="mx-auto max-w-6xl px-4">
           <div className="mx-auto max-w-2xl text-center">
+            {features.eyebrow && (
+              <span className="text-sm font-semibold uppercase tracking-wide text-primary">
+                {features.eyebrow}
+              </span>
+            )}
             <h2 className="font-display text-3xl font-semibold tracking-tight md:text-4xl">
-              Built for real connection
+              {features.title}
             </h2>
-            <p className="mt-3 text-muted-foreground">
-              Everything you need to meet the right person — and nothing that gets in the way.
-            </p>
+            {features.subtitle && <p className="mt-3 text-muted-foreground">{features.subtitle}</p>}
           </div>
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {FEATURES.map((f) => (
-              <div
-                key={f.title}
-                className="rounded-3xl border border-border/60 bg-card p-6 shadow-soft transition-shadow hover:shadow-card"
-              >
-                <span className="grid h-12 w-12 place-items-center rounded-2xl bg-accent text-primary">
-                  <f.icon className="h-6 w-6" />
-                </span>
-                <h3 className="mt-4 text-lg font-semibold">{f.title}</h3>
-                <p className="mt-2 text-sm text-muted-foreground">{f.desc}</p>
-              </div>
-            ))}
+            {features.items
+              .filter((feature) => feature.isEnabled)
+              .map((feature) => {
+                const Icon = FEATURE_ICONS[feature.icon] ?? Heart;
+                return (
+                  <div
+                    key={feature.title}
+                    className="rounded-3xl border border-border/60 bg-card p-6 shadow-soft transition-shadow hover:shadow-card"
+                  >
+                    <span className="grid h-12 w-12 place-items-center rounded-2xl bg-accent text-primary">
+                      <Icon className="h-6 w-6" />
+                    </span>
+                    <h3 className="mt-4 text-lg font-semibold">{feature.title}</h3>
+                    <p className="mt-2 text-sm text-muted-foreground">{feature.description}</p>
+                  </div>
+                );
+              })}
           </div>
         </div>
       </section>

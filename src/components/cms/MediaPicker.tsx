@@ -2,8 +2,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { useServerFn } from "@tanstack/react-start";
 import { toast } from "sonner";
 import { ImagePlus, Loader2, Trash2, UploadCloud, X } from "lucide-react";
-import { supabase } from "@/integrations/supabase/client";
-import { uploadSiteMedia } from "@/lib/cms.functions";
+import { deleteSiteMedia, listSuperAdminMediaLibrary, uploadSiteMedia } from "@/lib/cms.functions";
 import { getMediaUrl } from "@/lib/site-media";
 import { Button } from "@/components/ui/button";
 import {
@@ -109,6 +108,8 @@ interface MediaBrowserProps {
 /** Reusable upload + library browser. Also used standalone in the Media Library tab. */
 export function MediaBrowser({ folder = "general", onSelect }: MediaBrowserProps) {
   const uploadFn = useServerFn(uploadSiteMedia);
+  const listMediaFn = useServerFn(listSuperAdminMediaLibrary);
+  const deleteMediaFn = useServerFn(deleteSiteMedia);
   const fileInput = useRef<HTMLInputElement>(null);
   const [uploading, setUploading] = useState(false);
   const [items, setItems] = useState<LibraryItem[]>([]);
@@ -116,18 +117,18 @@ export function MediaBrowser({ folder = "general", onSelect }: MediaBrowserProps
 
   const loadLibrary = useCallback(async () => {
     setLoading(true);
-    const { data } = await supabase
-      .from("media_library")
-      .select("path, file_name, alt_text")
-      .order("created_at", { ascending: false })
-      .limit(60);
-    const rows = (data ?? []) as LibraryItem[];
-    const withUrls = await Promise.all(
-      rows.map(async (r) => ({ ...r, url: (await getMediaUrl(r.path)) ?? undefined })),
-    );
-    setItems(withUrls);
-    setLoading(false);
-  }, []);
+    try {
+      const rows = await listMediaFn();
+      const withUrls = await Promise.all(
+        rows.map(async (r) => ({ ...r, url: (await getMediaUrl(r.path)) ?? undefined })),
+      );
+      setItems(withUrls);
+    } catch {
+      toast.error("Could not load media library.");
+    } finally {
+      setLoading(false);
+    }
+  }, [listMediaFn]);
 
   useEffect(() => {
     loadLibrary();
@@ -155,12 +156,11 @@ export function MediaBrowser({ folder = "general", onSelect }: MediaBrowserProps
   };
 
   const handleDelete = async (path: string) => {
-    const { error } = await supabase.from("media_library").delete().eq("path", path);
-    if (error) {
+    const result = await deleteMediaFn({ data: { path } });
+    if (!result.ok) {
       toast.error("Could not delete this image.");
       return;
     }
-    await supabase.storage.from("site-media").remove([path]);
     setItems((prev) => prev.filter((i) => i.path !== path));
     toast.success("Image deleted");
   };

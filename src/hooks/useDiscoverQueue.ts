@@ -46,6 +46,8 @@ export function useDiscoverQueue({
           .from("profile_photos")
           .select("url, storage_path, is_primary")
           .eq("user_id", userId)
+          .eq("moderation_status", "approved")
+          .or("is_private.eq.false,is_private.is.null")
           .order("is_primary", { ascending: false })
           .order("position", { ascending: true }),
       ]);

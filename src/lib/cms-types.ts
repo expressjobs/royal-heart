@@ -31,6 +31,20 @@ export interface AboutContent {
   imagePath: string | null;
 }
 
+export interface FeatureCard {
+  icon: string;
+  title: string;
+  description: string;
+  isEnabled: boolean;
+}
+
+export interface FeaturesContent {
+  eyebrow: string;
+  title: string;
+  subtitle: string;
+  items: FeatureCard[];
+}
+
 export interface Testimonial {
   id: string;
   name: string;
@@ -57,11 +71,57 @@ export interface HeroSlide {
   ctaHref: string | null;
 }
 
+export interface FooterLink {
+  label: string;
+  href: string;
+}
+
+export interface FooterColumn {
+  title: string;
+  links: FooterLink[];
+}
+
+export interface FooterContent {
+  description: string;
+  installNote: string;
+  columns: FooterColumn[];
+  copyright: string;
+  tagline: string;
+}
+
+export interface InfoPageSection {
+  title: string;
+  body: string;
+  bullets: string[];
+}
+
+export interface ContactChannel {
+  title: string;
+  description: string;
+  contact: string;
+}
+
+export interface ReportAbuseContent {
+  safetyEmail: string;
+  formIntro: string;
+  emergencyNote: string;
+}
+
+export interface InfoPageContent {
+  eyebrow: string;
+  title: string;
+  intro: string;
+  sections: InfoPageSection[];
+  contactChannels?: ContactChannel[];
+  reportAbuse?: ReportAbuseContent;
+}
+
 export interface HomepageContent {
   hero: HeroContent;
   slides: HeroSlide[];
   stats: StatsContent;
   about: AboutContent;
+  features: FeaturesContent;
   testimonials: Testimonial[];
   stories: SuccessStory[];
   /** Resolved signed image URLs keyed by storage path. */

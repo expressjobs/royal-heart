@@ -1,15 +1,13 @@
 import { useCallback, useEffect, useState } from "react";
+import { useServerFn } from "@tanstack/react-start";
 import { Loader2, Plus, Trash2 } from "lucide-react";
 import { toast } from "sonner";
 import {
-  createPost,
-  deletePost,
-  listAllPosts,
-  slugify,
-  updatePost,
-  type BlogPost,
-} from "@/lib/blog";
-import { audit } from "@/lib/admin.functions";
+  createCmsRecord,
+  deleteCmsRecord,
+  getSuperAdminCmsSnapshot,
+  updateCmsRecord,
+} from "@/lib/cms.functions";
 import { MediaPicker } from "@/components/cms/MediaPicker";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -17,21 +15,39 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
 import { Textarea } from "@/components/ui/textarea";
+import type { Database } from "@/integrations/supabase/types";
+
+type BlogPost = Database["public"]["Tables"]["blog_posts"]["Row"];
+
+function slugify(input: string): string {
+  return input
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-")
+    .slice(0, 80);
+}
 
 export function BlogManager() {
+  const snapshotFn = useServerFn(getSuperAdminCmsSnapshot);
+  const createRecordFn = useServerFn(createCmsRecord);
+  const updateRecordFn = useServerFn(updateCmsRecord);
+  const deleteRecordFn = useServerFn(deleteCmsRecord);
   const [posts, setPosts] = useState<BlogPost[]>([]);
   const [loading, setLoading] = useState(true);
   const [editing, setEditing] = useState<BlogPost | null>(null);
 
   const load = useCallback(async () => {
     try {
-      setPosts(await listAllPosts());
+      const snapshot = await snapshotFn();
+      setPosts(snapshot.posts);
     } catch {
       toast.error("Could not load blog posts.");
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [snapshotFn]);
 
   useEffect(() => {
     load();
@@ -39,15 +55,10 @@ export function BlogManager() {
 
   const add = async () => {
     try {
-      const title = "Untitled post";
-      const created = await createPost({
-        title,
-        slug: `${slugify(title)}-${Date.now().toString(36)}`,
-        status: "draft",
-      });
-      audit({ action: "blog.create", entityType: "blog_post", entityId: created.id });
-      setPosts((p) => [created, ...p]);
-      setEditing(created);
+      const result = await createRecordFn({ data: { kind: "blog_posts" } });
+      if (!result.ok) throw new Error(result.error);
+      await load();
+      toast.success("Draft created");
     } catch {
       toast.error("Could not create post.");
     }
@@ -63,23 +74,24 @@ export function BlogManager() {
           : editing.status === "draft"
             ? null
             : editing.published_at;
-      await updatePost(editing.id, {
-        title: editing.title,
-        slug,
-        excerpt: editing.excerpt,
-        body: editing.body,
-        cover_path: editing.cover_path,
-        status: editing.status,
-        published_at: publishedAt,
-        seo_title: editing.seo_title,
-        seo_description: editing.seo_description,
+      const result = await updateRecordFn({
+        data: {
+          kind: "blog_posts",
+          id: editing.id,
+          patch: {
+            title: editing.title,
+            slug,
+            excerpt: editing.excerpt,
+            body: editing.body,
+            cover_path: editing.cover_path,
+            status: editing.status,
+            published_at: publishedAt,
+            seo_title: editing.seo_title,
+            seo_description: editing.seo_description,
+          },
+        },
       });
-      audit({
-        action: "blog.update",
-        entityType: "blog_post",
-        entityId: editing.id,
-        details: { status: editing.status },
-      });
+      if (!result.ok) throw new Error(result.error);
       toast.success(editing.status === "published" ? "Post published" : "Draft saved");
       setEditing(null);
       load();
@@ -94,9 +106,9 @@ export function BlogManager() {
 
   const remove = async (id: string) => {
     try {
-      await deletePost(id);
+      const result = await deleteRecordFn({ data: { kind: "blog_posts", id } });
+      if (!result.ok) throw new Error(result.error);
       setPosts((p) => p.filter((x) => x.id !== id));
-      audit({ action: "blog.delete", entityType: "blog_post", entityId: id });
       if (editing?.id === id) setEditing(null);
     } catch {
       toast.error("Could not delete post.");

@@ -117,7 +117,7 @@ function Admin() {
             Install from browser using Add to Home Screen.
           </p>
         </div>
-        {isAdmin && (
+        {isSuperAdmin && (
           <Button asChild variant="outline" size="sm" className="gap-2">
             <Link to="/admin/content">
               <Settings className="h-4 w-4" /> Website content
