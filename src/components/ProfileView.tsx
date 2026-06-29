@@ -17,7 +17,6 @@ import { photoPath, type ProfileWithPhotos } from "@/lib/profiles";
 import type { CompatBreakdown } from "@/lib/compatibility";
 import { CompatibilityBreakdown } from "@/components/CompatibilityBreakdown";
 import { ageFromBirthDate } from "@/contexts/AuthContext";
-import { useSignedUrls } from "@/hooks/useSignedUrls";
 import { usePresence, presenceLabel } from "@/contexts/PresenceContext";
 import { PresenceDot } from "@/components/PresenceIndicator";
 import { ProfilePhoto } from "@/components/ProfilePhoto";
@@ -52,7 +51,6 @@ export function ProfileView({
   className?: string;
 }) {
   const paths = profile.photos.map((p) => photoPath(p)).filter((p): p is string => !!p);
-  const urls = useSignedUrls(paths);
   const [idx, setIdx] = useState(0);
   const ordered = paths;
   const current = ordered[idx];
@@ -89,20 +87,13 @@ export function ProfileView({
   return (
     <div className={cn("overflow-hidden rounded-3xl bg-card", className)}>
       <div className="relative aspect-[4/5] w-full bg-muted">
-        {current && urls[current] ? (
-          <img
-            src={urls[current]}
-            alt={profile.display_name ?? "Profile"}
-            className="h-full w-full object-cover"
-          />
-        ) : (
-          <ProfilePhoto
-            path={null}
-            alt={profile.display_name ?? "Profile"}
-            rounded="rounded-none"
-            className="h-full w-full"
-          />
-        )}
+        <ProfilePhoto
+          path={current ?? null}
+          alt={profile.display_name ?? "Profile"}
+          rounded="rounded-none"
+          loading="eager"
+          className="h-full w-full"
+        />
 
         {/* photo indicators */}
         {ordered.length > 1 && (
