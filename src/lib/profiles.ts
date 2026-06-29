@@ -25,7 +25,12 @@ const discoverCache = new Map<
 >();
 
 export function photoPath(photo: Pick<PhotoRow, "url" | "storage_path"> | null | undefined) {
-  return photo?.storage_path || photo?.url || null;
+  if (!photo) return null;
+  const directUrl =
+    photo.url?.startsWith("/") ||
+    photo.url?.startsWith("http://") ||
+    photo.url?.startsWith("https://");
+  return (directUrl ? photo.url : photo.storage_path || photo.url) || null;
 }
 
 export function primaryPhotoPath(p: ProfileWithPhotos): string | null {
@@ -42,13 +47,20 @@ export function primaryPhotoFromRows<T extends PhotoSource>(photos: T[] | null |
 async function attachPhotos(profiles: Profile[]): Promise<ProfileWithPhotos[]> {
   if (profiles.length === 0) return [];
   const ids = profiles.map((p) => p.id);
-  const { data: photos } = await supabase
+  const { data: photos, error } = await supabase
     .from("profile_photos")
     .select("user_id, url, storage_path, is_primary, position")
     .in("user_id", ids)
     .eq("is_private", false)
     .order("is_primary", { ascending: false })
     .order("position", { ascending: true });
+  if (error) {
+    console.warn("[discover-photos] Approved photo rows could not be loaded", {
+      profileCount: ids.length,
+      errorCode: error.code ?? null,
+    });
+    throw error;
+  }
 
   const byUser = new Map<string, PhotoRow[]>();
   for (const ph of photos ?? []) {

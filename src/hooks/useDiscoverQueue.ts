@@ -38,25 +38,33 @@ export function useDiscoverQueue({
   const load = useCallback(async () => {
     if (!userId) return;
     setLoading(true);
-    const [nextSettings, list, myPhotos] = await Promise.all([
-      loadDiscoverAccessSettings(supabase),
-      fetchDiscoverDeck(userId, null, effectiveFilters, DISCOVER_BATCH_SIZE),
-      supabase
-        .from("profile_photos")
-        .select("url, storage_path, is_primary")
-        .eq("user_id", userId)
-        .order("is_primary", { ascending: false })
-        .order("position", { ascending: true }),
-    ]);
-    const nearbyPhotoPaths = list
-      .slice(0, 5)
-      .map(primaryPhotoPath)
-      .filter((path): path is string => Boolean(path));
-    if (nearbyPhotoPaths.length) await getSignedUrls(nearbyPhotoPaths);
-    setSettings(nextSettings);
-    setDeck(list);
-    setMyPhoto(primaryPhotoFromRows(myPhotos.data));
-    setLoading(false);
+    try {
+      const [nextSettings, list, myPhotos] = await Promise.all([
+        loadDiscoverAccessSettings(supabase),
+        fetchDiscoverDeck(userId, null, effectiveFilters, DISCOVER_BATCH_SIZE),
+        supabase
+          .from("profile_photos")
+          .select("url, storage_path, is_primary")
+          .eq("user_id", userId)
+          .order("is_primary", { ascending: false })
+          .order("position", { ascending: true }),
+      ]);
+      const nearbyPhotoPaths = list
+        .slice(0, 5)
+        .map(primaryPhotoPath)
+        .filter((path): path is string => Boolean(path));
+      if (nearbyPhotoPaths.length) await getSignedUrls(nearbyPhotoPaths);
+      setSettings(nextSettings);
+      setDeck(list);
+      setMyPhoto(primaryPhotoFromRows(myPhotos.data));
+    } catch (error) {
+      console.warn("[discover-queue] Profile deck could not be hydrated", {
+        errorName: error instanceof Error ? error.name : "unknown",
+      });
+      setDeck([]);
+    } finally {
+      setLoading(false);
+    }
   }, [effectiveFilters, userId]);
 
   useEffect(() => {
