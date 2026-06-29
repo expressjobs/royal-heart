@@ -123,10 +123,27 @@ function mergeInfoPage(slug: string, value: unknown): InfoPageContent {
     fallback as unknown as JsonObject,
     value,
   ) as unknown as InfoPageContent;
+  const fallbackSections =
+    Array.isArray(merged.sections) && merged.sections.length > 0
+      ? merged.sections.map((section, index) => {
+          const fallbackSection = fallback.sections[index];
+          return {
+            title: section.title?.trim() || fallbackSection?.title || "Information",
+            body: section.body?.trim() || fallbackSection?.body || "",
+            bullets:
+              Array.isArray(section.bullets) && section.bullets.length > 0
+                ? section.bullets
+                : (fallbackSection?.bullets ?? []),
+          };
+        })
+      : fallback.sections;
   return {
     ...fallback,
     ...merged,
-    sections: Array.isArray(merged.sections) ? merged.sections : fallback.sections,
+    eyebrow: merged.eyebrow?.trim() || fallback.eyebrow,
+    title: merged.title?.trim() || fallback.title,
+    intro: merged.intro?.trim() || fallback.intro,
+    sections: fallbackSections,
     contactChannels: Array.isArray(merged.contactChannels)
       ? merged.contactChannels
       : fallback.contactChannels,

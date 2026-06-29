@@ -73,10 +73,18 @@ type StoryRow = Database["public"]["Tables"]["success_stories"]["Row"];
 const PAGE_LABELS: Record<string, string> = {
   about: "About Us",
   safety: "Safety Center",
+  "community-guidelines": "Community Guidelines",
+  "verification-policy": "Verification Policy",
+  "blocking-reporting": "Blocking & Reporting",
   "report-abuse": "Report Abuse",
   privacy: "Privacy Policy",
-  terms: "Terms",
-  contact: "Contact",
+  terms: "Terms of Service",
+  "cookie-policy": "Cookie Policy",
+  "refund-policy": "Refund Policy",
+  "subscription-billing-policy": "Subscription & Billing Policy",
+  "data-deletion": "Data Deletion / Account Deletion",
+  contact: "Contact Us",
+  help: "Help Center / FAQ",
 };
 
 const FEATURE_ICONS = [

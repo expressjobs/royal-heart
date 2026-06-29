@@ -9,14 +9,22 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as VerificationPolicyRouteImport } from './routes/verification-policy'
 import { Route as TermsRouteImport } from './routes/terms'
+import { Route as SubscriptionBillingPolicyRouteImport } from './routes/subscription-billing-policy'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as SafetyRouteImport } from './routes/safety'
 import { Route as ResetPasswordRouteImport } from './routes/reset-password'
 import { Route as ReportAbuseRouteImport } from './routes/report-abuse'
+import { Route as RefundPolicyRouteImport } from './routes/refund-policy'
 import { Route as PrivacyRouteImport } from './routes/privacy'
+import { Route as HelpRouteImport } from './routes/help'
+import { Route as DataDeletionRouteImport } from './routes/data-deletion'
+import { Route as CookiePolicyRouteImport } from './routes/cookie-policy'
 import { Route as ContactRouteImport } from './routes/contact'
+import { Route as CommunityGuidelinesRouteImport } from './routes/community-guidelines'
 import { Route as BlogRouteImport } from './routes/blog'
+import { Route as BlockingReportingRouteImport } from './routes/blocking-reporting'
 import { Route as AuthRouteImport } from './routes/auth'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/route'
@@ -47,11 +55,22 @@ import { Route as AuthenticatedMessagesMatchIdRouteImport } from './routes/_auth
 import { Route as AuthenticatedAdminPreviewRouteImport } from './routes/_authenticated/admin_.preview'
 import { Route as AuthenticatedAdminContentRouteImport } from './routes/_authenticated/admin_.content'
 
+const VerificationPolicyRoute = VerificationPolicyRouteImport.update({
+  id: '/verification-policy',
+  path: '/verification-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const TermsRoute = TermsRouteImport.update({
   id: '/terms',
   path: '/terms',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SubscriptionBillingPolicyRoute =
+  SubscriptionBillingPolicyRouteImport.update({
+    id: '/subscription-billing-policy',
+    path: '/subscription-billing-policy',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   id: '/sitemap.xml',
   path: '/sitemap.xml',
@@ -72,9 +91,29 @@ const ReportAbuseRoute = ReportAbuseRouteImport.update({
   path: '/report-abuse',
   getParentRoute: () => rootRouteImport,
 } as any)
+const RefundPolicyRoute = RefundPolicyRouteImport.update({
+  id: '/refund-policy',
+  path: '/refund-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const PrivacyRoute = PrivacyRouteImport.update({
   id: '/privacy',
   path: '/privacy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HelpRoute = HelpRouteImport.update({
+  id: '/help',
+  path: '/help',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DataDeletionRoute = DataDeletionRouteImport.update({
+  id: '/data-deletion',
+  path: '/data-deletion',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CookiePolicyRoute = CookiePolicyRouteImport.update({
+  id: '/cookie-policy',
+  path: '/cookie-policy',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ContactRoute = ContactRouteImport.update({
@@ -82,9 +121,19 @@ const ContactRoute = ContactRouteImport.update({
   path: '/contact',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CommunityGuidelinesRoute = CommunityGuidelinesRouteImport.update({
+  id: '/community-guidelines',
+  path: '/community-guidelines',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BlogRoute = BlogRouteImport.update({
   id: '/blog',
   path: '/blog',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlockingReportingRoute = BlockingReportingRouteImport.update({
+  id: '/blocking-reporting',
+  path: '/blocking-reporting',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AuthRoute = AuthRouteImport.update({
@@ -246,14 +295,22 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/auth': typeof AuthRoute
+  '/blocking-reporting': typeof BlockingReportingRoute
   '/blog': typeof BlogRouteWithChildren
+  '/community-guidelines': typeof CommunityGuidelinesRoute
   '/contact': typeof ContactRoute
+  '/cookie-policy': typeof CookiePolicyRoute
+  '/data-deletion': typeof DataDeletionRoute
+  '/help': typeof HelpRoute
   '/privacy': typeof PrivacyRoute
+  '/refund-policy': typeof RefundPolicyRoute
   '/report-abuse': typeof ReportAbuseRoute
   '/reset-password': typeof ResetPasswordRoute
   '/safety': typeof SafetyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/subscription-billing-policy': typeof SubscriptionBillingPolicyRoute
   '/terms': typeof TermsRoute
+  '/verification-policy': typeof VerificationPolicyRoute
   '/admin': typeof AuthenticatedAdminRoute
   '/affiliate': typeof AuthenticatedAffiliateRoute
   '/billing': typeof AuthenticatedBillingRoute
@@ -284,14 +341,22 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/auth': typeof AuthRoute
+  '/blocking-reporting': typeof BlockingReportingRoute
   '/blog': typeof BlogRouteWithChildren
+  '/community-guidelines': typeof CommunityGuidelinesRoute
   '/contact': typeof ContactRoute
+  '/cookie-policy': typeof CookiePolicyRoute
+  '/data-deletion': typeof DataDeletionRoute
+  '/help': typeof HelpRoute
   '/privacy': typeof PrivacyRoute
+  '/refund-policy': typeof RefundPolicyRoute
   '/report-abuse': typeof ReportAbuseRoute
   '/reset-password': typeof ResetPasswordRoute
   '/safety': typeof SafetyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/subscription-billing-policy': typeof SubscriptionBillingPolicyRoute
   '/terms': typeof TermsRoute
+  '/verification-policy': typeof VerificationPolicyRoute
   '/admin': typeof AuthenticatedAdminRoute
   '/affiliate': typeof AuthenticatedAffiliateRoute
   '/billing': typeof AuthenticatedBillingRoute
@@ -324,14 +389,22 @@ export interface FileRoutesById {
   '/_authenticated': typeof AuthenticatedRouteRouteWithChildren
   '/about': typeof AboutRoute
   '/auth': typeof AuthRoute
+  '/blocking-reporting': typeof BlockingReportingRoute
   '/blog': typeof BlogRouteWithChildren
+  '/community-guidelines': typeof CommunityGuidelinesRoute
   '/contact': typeof ContactRoute
+  '/cookie-policy': typeof CookiePolicyRoute
+  '/data-deletion': typeof DataDeletionRoute
+  '/help': typeof HelpRoute
   '/privacy': typeof PrivacyRoute
+  '/refund-policy': typeof RefundPolicyRoute
   '/report-abuse': typeof ReportAbuseRoute
   '/reset-password': typeof ResetPasswordRoute
   '/safety': typeof SafetyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/subscription-billing-policy': typeof SubscriptionBillingPolicyRoute
   '/terms': typeof TermsRoute
+  '/verification-policy': typeof VerificationPolicyRoute
   '/_authenticated/admin': typeof AuthenticatedAdminRoute
   '/_authenticated/affiliate': typeof AuthenticatedAffiliateRoute
   '/_authenticated/billing': typeof AuthenticatedBillingRoute
@@ -364,14 +437,22 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/auth'
+    | '/blocking-reporting'
     | '/blog'
+    | '/community-guidelines'
     | '/contact'
+    | '/cookie-policy'
+    | '/data-deletion'
+    | '/help'
     | '/privacy'
+    | '/refund-policy'
     | '/report-abuse'
     | '/reset-password'
     | '/safety'
     | '/sitemap.xml'
+    | '/subscription-billing-policy'
     | '/terms'
+    | '/verification-policy'
     | '/admin'
     | '/affiliate'
     | '/billing'
@@ -402,14 +483,22 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/auth'
+    | '/blocking-reporting'
     | '/blog'
+    | '/community-guidelines'
     | '/contact'
+    | '/cookie-policy'
+    | '/data-deletion'
+    | '/help'
     | '/privacy'
+    | '/refund-policy'
     | '/report-abuse'
     | '/reset-password'
     | '/safety'
     | '/sitemap.xml'
+    | '/subscription-billing-policy'
     | '/terms'
+    | '/verification-policy'
     | '/admin'
     | '/affiliate'
     | '/billing'
@@ -441,14 +530,22 @@ export interface FileRouteTypes {
     | '/_authenticated'
     | '/about'
     | '/auth'
+    | '/blocking-reporting'
     | '/blog'
+    | '/community-guidelines'
     | '/contact'
+    | '/cookie-policy'
+    | '/data-deletion'
+    | '/help'
     | '/privacy'
+    | '/refund-policy'
     | '/report-abuse'
     | '/reset-password'
     | '/safety'
     | '/sitemap.xml'
+    | '/subscription-billing-policy'
     | '/terms'
+    | '/verification-policy'
     | '/_authenticated/admin'
     | '/_authenticated/affiliate'
     | '/_authenticated/billing'
@@ -481,14 +578,22 @@ export interface RootRouteChildren {
   AuthenticatedRouteRoute: typeof AuthenticatedRouteRouteWithChildren
   AboutRoute: typeof AboutRoute
   AuthRoute: typeof AuthRoute
+  BlockingReportingRoute: typeof BlockingReportingRoute
   BlogRoute: typeof BlogRouteWithChildren
+  CommunityGuidelinesRoute: typeof CommunityGuidelinesRoute
   ContactRoute: typeof ContactRoute
+  CookiePolicyRoute: typeof CookiePolicyRoute
+  DataDeletionRoute: typeof DataDeletionRoute
+  HelpRoute: typeof HelpRoute
   PrivacyRoute: typeof PrivacyRoute
+  RefundPolicyRoute: typeof RefundPolicyRoute
   ReportAbuseRoute: typeof ReportAbuseRoute
   ResetPasswordRoute: typeof ResetPasswordRoute
   SafetyRoute: typeof SafetyRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
+  SubscriptionBillingPolicyRoute: typeof SubscriptionBillingPolicyRoute
   TermsRoute: typeof TermsRoute
+  VerificationPolicyRoute: typeof VerificationPolicyRoute
   MCodeRoute: typeof MCodeRoute
   ApiPublicInstallmentRemindersRoute: typeof ApiPublicInstallmentRemindersRoute
   ApiPublicPaystackWebhookRoute: typeof ApiPublicPaystackWebhookRoute
@@ -496,11 +601,25 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/verification-policy': {
+      id: '/verification-policy'
+      path: '/verification-policy'
+      fullPath: '/verification-policy'
+      preLoaderRoute: typeof VerificationPolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/terms': {
       id: '/terms'
       path: '/terms'
       fullPath: '/terms'
       preLoaderRoute: typeof TermsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/subscription-billing-policy': {
+      id: '/subscription-billing-policy'
+      path: '/subscription-billing-policy'
+      fullPath: '/subscription-billing-policy'
+      preLoaderRoute: typeof SubscriptionBillingPolicyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sitemap.xml': {
@@ -531,11 +650,39 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ReportAbuseRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/refund-policy': {
+      id: '/refund-policy'
+      path: '/refund-policy'
+      fullPath: '/refund-policy'
+      preLoaderRoute: typeof RefundPolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/privacy': {
       id: '/privacy'
       path: '/privacy'
       fullPath: '/privacy'
       preLoaderRoute: typeof PrivacyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/help': {
+      id: '/help'
+      path: '/help'
+      fullPath: '/help'
+      preLoaderRoute: typeof HelpRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/data-deletion': {
+      id: '/data-deletion'
+      path: '/data-deletion'
+      fullPath: '/data-deletion'
+      preLoaderRoute: typeof DataDeletionRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/cookie-policy': {
+      id: '/cookie-policy'
+      path: '/cookie-policy'
+      fullPath: '/cookie-policy'
+      preLoaderRoute: typeof CookiePolicyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/contact': {
@@ -545,11 +692,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ContactRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/community-guidelines': {
+      id: '/community-guidelines'
+      path: '/community-guidelines'
+      fullPath: '/community-guidelines'
+      preLoaderRoute: typeof CommunityGuidelinesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog': {
       id: '/blog'
       path: '/blog'
       fullPath: '/blog'
       preLoaderRoute: typeof BlogRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blocking-reporting': {
+      id: '/blocking-reporting'
+      path: '/blocking-reporting'
+      fullPath: '/blocking-reporting'
+      preLoaderRoute: typeof BlockingReportingRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/auth': {
@@ -824,14 +985,22 @@ const rootRouteChildren: RootRouteChildren = {
   AuthenticatedRouteRoute: AuthenticatedRouteRouteWithChildren,
   AboutRoute: AboutRoute,
   AuthRoute: AuthRoute,
+  BlockingReportingRoute: BlockingReportingRoute,
   BlogRoute: BlogRouteWithChildren,
+  CommunityGuidelinesRoute: CommunityGuidelinesRoute,
   ContactRoute: ContactRoute,
+  CookiePolicyRoute: CookiePolicyRoute,
+  DataDeletionRoute: DataDeletionRoute,
+  HelpRoute: HelpRoute,
   PrivacyRoute: PrivacyRoute,
+  RefundPolicyRoute: RefundPolicyRoute,
   ReportAbuseRoute: ReportAbuseRoute,
   ResetPasswordRoute: ResetPasswordRoute,
   SafetyRoute: SafetyRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
+  SubscriptionBillingPolicyRoute: SubscriptionBillingPolicyRoute,
   TermsRoute: TermsRoute,
+  VerificationPolicyRoute: VerificationPolicyRoute,
   MCodeRoute: MCodeRoute,
   ApiPublicInstallmentRemindersRoute: ApiPublicInstallmentRemindersRoute,
   ApiPublicPaystackWebhookRoute: ApiPublicPaystackWebhookRoute,
